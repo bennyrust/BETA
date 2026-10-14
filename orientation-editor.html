@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" data-site-loading data-loading-mode="page">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Preview orientation editor</title>
+  <link rel="stylesheet" href="./orientation-editor.css">
+  <script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.152.2/build/three.module.js","three/addons/":"https://unpkg.com/three@0.152.2/examples/jsm/"}}</script>
+  <link rel="stylesheet" href="./loading.css">
+  <script defer src="./js/loading.js"></script>
+</head>
+<body>
+  <header>
+    <div><p class="eyebrow">3D ROOM / STUDIO</p><h1>Preview orientations</h1></div>
+    <a href="./index.html" target="_blank" rel="noopener">Open room ↗</a>
+    <p>Drag a piece to turn it. Use the buttons for precise 30° steps. Changes save automatically and update open room previews within two seconds.</p>
+    <p class="muted">Only preview poses change. Room placement stays the same. GTA uses the model without a stand, as it does in the preview menu.</p>
+    <p><a href="./content-editor.html">Edit descriptions and dates →</a></p>
+    <label>Find a piece <input id="search" type="search" placeholder="Name…"></label>
+    <span id="progress" role="status">Loading editor…</span>
+    <p id="error" role="alert" hidden></p>
+  </header>
+  <main id="gallery" aria-label="Object orientations"></main>
+  <script type="module">
+    import('./js/orientation-editor.js').catch(error => {
+      document.getElementById('error').hidden = false;
+      document.getElementById('error').textContent = `Editor could not start: ${error.message}. Reload to retry.`;
+    });
+  </script>
+</body>
+</html>

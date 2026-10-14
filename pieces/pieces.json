@@ -1,0 +1,660 @@
+[
+  {
+    "id": "cabinet",
+    "name": "Cabinet",
+    "aliases": [],
+    "assets": [
+      "pieces/cabinet/shelf-light-2048.glb",
+      "pieces/cabinet/Cabinet good-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "coke",
+    "name": "Coke",
+    "aliases": [],
+    "assets": [
+      "pieces/coke/Can ok-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "can-tower",
+    "name": "Totem Pole",
+    "aliases": [],
+    "assets": [
+      "pieces/can-tower/Coke cans-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2024-10-06",
+    "status": "Draft",
+    "sceneName": "Can tower",
+    "liveVersion": "V3"
+  },
+  {
+    "id": "crooks",
+    "name": "Thomas Matthew Crooks ",
+    "aliases": [],
+    "assets": [
+      "pieces/crooks/Crooks good-2048.glb"
+    ],
+    "description": "Did you know this chud was in a BlackRock commercial? \nLike straight up on camera two years before he tried to KILL Trump\nThis shit isn't random\n//\nDo you think Aladdin factored for that? \nI'm sure they found a way to make money off of this.\nIt can't be a coincidence \n//\nPoggers!\nMy favorite part is The Clues they leave behind for us.",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-02-17",
+    "status": "Draft",
+    "sceneName": "Crooks",
+    "pageId": "Buddyologies"
+  },
+  {
+    "id": "rittenhouse",
+    "name": "Kyle Rittenhouse",
+    "aliases": [],
+    "assets": [
+      "pieces/rittenhouse/Kyle good-2048.glb"
+    ],
+    "description": "This dude slimed out a bunch of libs in Kenosha, WI\nSomeone tried to hit him with a skateboard and so he point blank shot them with an AR\n//\nShe looks like she run that McDonalds like the Navy",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-03-30",
+    "status": "Draft",
+    "sceneName": "Rittenhouse",
+    "pageId": "Buddyologies"
+  },
+  {
+    "id": "luigi",
+    "name": "Luigi Mangione",
+    "aliases": [],
+    "assets": [
+      "pieces/luigi/Luigi good-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-02-21",
+    "status": "Draft",
+    "sceneName": "Luigi",
+    "pageId": "Buddyologies"
+  },
+  {
+    "id": "room",
+    "name": "Room",
+    "aliases": [],
+    "assets": [
+      "pieces/room/Floor-2048.glb",
+      "pieces/room/Floor 1-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-04-21",
+    "status": "Draft"
+  },
+  {
+    "id": "fortnite",
+    "name": "Fortnite x Zyns",
+    "aliases": [],
+    "assets": [
+      "pieces/fortnite/Fortnite good-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-04-14",
+    "status": "Draft",
+    "sceneName": "Fortnite"
+  },
+  {
+    "id": "3dprinter",
+    "name": "3D printer",
+    "aliases": [],
+    "assets": [
+      "pieces/3dprinter/Good print table-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-04-04",
+    "status": "Draft",
+    "sceneName": "3Dprinter"
+  },
+  {
+    "id": "laptop",
+    "name": "Laptop",
+    "aliases": [],
+    "assets": [
+      "pieces/laptop/Laptop better-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-04-12",
+    "status": "Draft"
+  },
+  {
+    "id": "mtg",
+    "name": "Magic: The Gathering x Zyns",
+    "aliases": [],
+    "assets": [
+      "pieces/mtg/Magic good-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-04-14",
+    "status": "Draft",
+    "sceneName": "MTG"
+  },
+  {
+    "id": "print",
+    "name": "Doomscroll",
+    "aliases": [],
+    "assets": [
+      "pieces/print/Print good-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-03-15",
+    "status": "Draft",
+    "sceneName": "Print"
+  },
+  {
+    "id": "tetsuya",
+    "name": "Tetsuya Yamagami",
+    "aliases": [],
+    "assets": [
+      "pieces/tetsuya/Tetsuya good-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-03-31",
+    "status": "Draft",
+    "sceneName": "Tetsuya",
+    "pageId": "Buddyologies"
+  },
+  {
+    "id": "tissues",
+    "name": "Tissues",
+    "aliases": [],
+    "assets": [
+      "pieces/tissues/Tissues good-2048.glb"
+    ],
+    "description": "For jerking off into",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-04-21",
+    "status": "Draft"
+  },
+  {
+    "id": "toilet",
+    "name": "TV Dinner #1 (Toilet)",
+    "aliases": [],
+    "assets": [
+      "pieces/toilet/Toilet2-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-02-06",
+    "status": "Draft",
+    "sceneName": "Toilet",
+    "pageId": "white-tv"
+  },
+  {
+    "id": "trashcan",
+    "name": "Trashcan",
+    "aliases": [],
+    "assets": [
+      "pieces/trashcan/Trashcan fine-2048.glb"
+    ],
+    "description": "For throwing the cummy tissues in",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "trump",
+    "name": "Profilo Continuo (Testa d'il Dunce)",
+    "aliases": [],
+    "assets": [
+      "pieces/trump/Trump-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-01-22",
+    "notes": "",
+    "status": "Draft",
+    "sceneName": "Trump"
+  },
+  {
+    "id": "window",
+    "name": "OUTSIDE MY BEDROOM WINDOW",
+    "aliases": [],
+    "assets": [
+      "pieces/window/Window okay-2048.glb",
+      "pieces/window/CSGO.mp4"
+    ],
+    "description": "Fuck I wanted to sleep.\nOdessa bro here. I woke up because I heard a cuple of distant explosions like 40 minutes ago.\nDoes anybody know what happened?\n//\nyou are under attack retard",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-03-31",
+    "status": "Draft",
+    "sceneName": "Window"
+  },
+  {
+    "id": "gold-tv",
+    "name": "Gold TV",
+    "aliases": [],
+    "assets": [
+      "pieces/gold-tv/Gold2-2048.glb",
+      "pieces/gold-tv/gold1-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-03-12",
+    "status": "Draft",
+    "notes": "march 12th the earliest photo i can find so far. keep looking"
+  },
+  {
+    "id": "gta-with-stand",
+    "name": "TV Dinner #1 (Tray)",
+    "aliases": [
+      "GTA TV (no stand)"
+    ],
+    "assets": [
+      "pieces/gta-with-stand/GTA with Stand-2048.glb",
+      "pieces/gta-with-stand/GTA TV (no stand)-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-03-11",
+    "status": "Draft",
+    "sceneName": "GTA with Stand",
+    "pageId": "white-tv"
+  },
+  {
+    "id": "white-tv",
+    "name": "TV Dinner #1 (TV)",
+    "aliases": [],
+    "assets": [
+      "pieces/white-tv/White TV-2048.glb",
+      "pieces/white-tv/TV Dinner.mp4"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-03-17",
+    "status": "Draft",
+    "notes": "This is page for TV dinner performance\nadd separate / branch for white TV (3/14/25)",
+    "sceneName": "White TV",
+    "pageId": "white-tv"
+  },
+  {
+    "id": "side-table",
+    "name": "Autokrafts",
+    "aliases": [],
+    "assets": [
+      "pieces/side-table/sidetable-2048.glb",
+      "pieces/side-table/Toaster good-2048.glb",
+      "pieces/side-table/Table-2048.glb",
+      "pieces/side-table/table.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-04-17",
+    "notes": "on piece page, use date of creation for each .ai file to date the individual pieces ",
+    "status": "Draft",
+    "sceneName": "Side Table"
+  },
+  {
+    "id": "gun",
+    "name": "Gun",
+    "aliases": [],
+    "assets": [
+      "pieces/gun/gun-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-03-15",
+    "status": "Draft"
+  },
+  {
+    "id": "american-spirit",
+    "name": "American Spirit",
+    "aliases": [],
+    "assets": [
+      "pieces/american-spirit/american spirit.png"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-04-07",
+    "status": "Draft"
+  },
+  {
+    "id": "jd",
+    "name": "Aphex Twink",
+    "aliases": [],
+    "assets": [
+      "pieces/jd/JD.png"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-03-26",
+    "status": "Draft",
+    "sceneName": "JD"
+  },
+  {
+    "id": "trotsky",
+    "name": "A Quote From Leon Trotsky",
+    "aliases": [],
+    "assets": [
+      "pieces/trotsky/Trotsky.png"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "2025-04-07",
+    "status": "Draft",
+    "sceneName": "Trotsky"
+  },
+  {
+    "id": "nyan-cat",
+    "name": "Nyan Cat",
+    "aliases": [],
+    "assets": [
+      "pieces/nyan-cat/nyan_cat.gif",
+      "pieces/nyan-cat/nyan_cat.mp4"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "",
+    "notes": "",
+    "status": "Not started"
+  },
+  {
+    "id": "cheese",
+    "name": "Plate of Cheese",
+    "sceneName": "Cheese",
+    "aliases": [],
+    "assets": [
+      "pieces/Autokrafts/Cheese okay-2048.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": "",
+    "status": "Not started",
+    "repositoryId": "Autokrafts",
+    "pageId": "Autokrafts"
+  },
+  {
+    "id": "vapes",
+    "name": "Vapes",
+    "sceneName": "Vapes",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Breeze good.glb",
+      "pieces/vapes/woke breezes 2.png",
+      "pieces/vapes/woke breezes.psd.zip",
+      "pieces/vapes/Vapes.blend.zip"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "ontology-vape",
+    "name": "Ontology vape",
+    "sceneName": "Ontology vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Ontology vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "I'm smokin on some ontological shit anon\nI don't even know what it means\nI say it in sentences when I otherwise would say \"literally\" \nIt makes me sound smart on Twitter when I argue with Indian engagement bots",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "monarchism-vape",
+    "name": "Monarchism vape",
+    "sceneName": "Monarchism vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Monarchism vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "colonialism-vape",
+    "name": "Colonialism vape",
+    "sceneName": "Colonialism vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Colonialism vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "fascists-vape",
+    "name": "Fascists vape",
+    "sceneName": "Fascists vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Fascists vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "orientalism-vape",
+    "name": "Orientalism vape",
+    "sceneName": "Orientalism vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Orientalism vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "hauntology-vape",
+    "name": "Hauntology vape",
+    "sceneName": "Hauntology vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Hauntology vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "neoliberalism-vape",
+    "name": "Neoliberalism vape",
+    "sceneName": "Neoliberalism vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Neoliberalism vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "post-modernism-vape",
+    "name": "Post-Modernism vape",
+    "sceneName": "Post-Modernism vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Post-Modernism vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "anti-racism-vape",
+    "name": "Anti-Racism vape",
+    "sceneName": "Anti-Racism vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Anti-Racism vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "liberation-vape",
+    "name": "Liberation vape",
+    "sceneName": "Liberation vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Liberation vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "american-empire-vape",
+    "name": "American Empire vape",
+    "sceneName": "American Empire vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/American Empire vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "bourgeoisie-vape",
+    "name": "Bourgeoisie vape",
+    "sceneName": "Bourgeoisie vape",
+    "aliases": [],
+    "assets": [
+      "pieces/vapes/Bourgeoisie vape.glb"
+    ],
+    "pageId": "vapes",
+    "repositoryId": "vapes",
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "buddyologies",
+    "name": "Buddyologies",
+    "sceneName": "Buddyologies",
+    "repositoryId": "Buddyologies",
+    "pageId": "Buddyologies",
+    "aliases": [],
+    "assets": [
+      "pieces/Buddyologies/Buddyologies box.glb"
+    ],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "self-portraits",
+    "name": "self portraits",
+    "sceneName": "self portraits",
+    "repositoryId": "self portraits",
+    "pageId": "self portraits",
+    "aliases": [],
+    "assets": [],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "consumption-log",
+    "name": "consumption log",
+    "sceneName": "consumption log",
+    "repositoryId": "consumption log",
+    "pageId": "consumption log",
+    "aliases": [],
+    "assets": [],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  },
+  {
+    "id": "vape-machine",
+    "name": "vape machine",
+    "sceneName": "vape machine",
+    "repositoryId": "vape machine",
+    "pageId": "vape machine",
+    "aliases": [],
+    "assets": [],
+    "description": "",
+    "documentation": "",
+    "sources": "",
+    "createdAt": ""
+  }
+]

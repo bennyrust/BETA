@@ -1,0 +1,5287 @@
+{
+  "changed": {
+    "tv-dinner-reconstruction/evidence/browser-overview.png": {
+      "before": 897511,
+      "after": 365887,
+      "palette_colors": 256
+    },
+    "tv-dinner-reconstruction/evidence/camera-comparison.jpg": {
+      "before": 360695,
+      "after": 293939
+    },
+    "tv-dinner-reconstruction/assets/toilet.glb": {
+      "before": 1913316,
+      "after": 1867016
+    },
+    "tv-dinner-reconstruction/evidence/full-res/top-016.jpg": {
+      "before": 213877,
+      "after": 174357
+    },
+    "tv-dinner-reconstruction/evidence/full-res/front-032.jpg": {
+      "before": 207957,
+      "after": 170138
+    },
+    "tv-dinner-reconstruction/evidence/full-res/front-016.jpg": {
+      "before": 211905,
+      "after": 173103
+    },
+    "tv-dinner-reconstruction/evidence/full-res/front-000.jpg": {
+      "before": 210531,
+      "after": 172100
+    },
+    "tv-dinner-reconstruction/evidence/full-res/top-032.jpg": {
+      "before": 212800,
+      "after": 173961
+    },
+    "pieces/side-table/Toaster good-2048.glb": {
+      "before": 2028720,
+      "after": 1216672
+    },
+    "pieces/side-table/table.glb": {
+      "before": 10552272,
+      "after": 1515624
+    },
+    "pieces/side-table/Table-2048.glb": {
+      "before": 11311448,
+      "after": 1515576
+    },
+    "pieces/side-table/sidetable-2048.glb": {
+      "before": 42070076,
+      "after": 22985720
+    },
+    "pieces/room/Floor-2048.glb": {
+      "before": 1680440,
+      "after": 1545724
+    },
+    "pieces/trotsky/Trotsky.png": {
+      "before": 697304,
+      "after": 65323,
+      "palette_colors": 256
+    },
+    "pieces/vapes/Breeze good.glb": {
+      "before": 19927260,
+      "after": 2193472
+    },
+    "pieces/vapes/Bourgeoisie vape.glb": {
+      "before": 20319600,
+      "after": 2580904
+    },
+    "pieces/vapes/Vapes.blend.zip": {
+      "before": 21585026,
+      "after": 19955083
+    },
+    "pieces/vapes/Neoliberalism vape.glb": {
+      "before": 20320552,
+      "after": 2580728
+    },
+    "pieces/vapes/Orientalism vape.glb": {
+      "before": 20321192,
+      "after": 2581204
+    },
+    "pieces/vapes/Vapes.blend1.zip": {
+      "before": 21583750,
+      "after": 19859736
+    },
+    "pieces/vapes/Breeze1 editable.blend.zip": {
+      "before": 9229554,
+      "after": 7683155
+    },
+    "pieces/vapes/Ontology vape.glb": {
+      "before": 20324428,
+      "after": 2585756
+    },
+    "pieces/vapes/Breeze1 editable.blend1.zip": {
+      "before": 19075154,
+      "after": 12071338
+    },
+    "pieces/vapes/Fascists vape.glb": {
+      "before": 20324372,
+      "after": 2587456
+    },
+    "pieces/vapes/Anti-Racism vape.glb": {
+      "before": 20321192,
+      "after": 2584572
+    },
+    "pieces/can-tower/DSC_6900LG.jpg": {
+      "before": 7068291,
+      "after": 109876
+    },
+    "pieces/can-tower/DSC_6881LG.jpg": {
+      "before": 5241226,
+      "after": 79353
+    },
+    "pieces/can-tower/DSC_6883LG.jpg": {
+      "before": 5635919,
+      "after": 134585
+    },
+    "pieces/can-tower/Coke cans-2048.glb": {
+      "before": 1550212,
+      "after": 704048
+    },
+    "pieces/can-tower/IMG_1251.jpg": {
+      "before": 3193899,
+      "after": 54682
+    },
+    "pieces/can-tower/DSC_6885LG.jpg": {
+      "before": 5452739,
+      "after": 112124
+    },
+    "pieces/can-tower/DSC_6878LG.jpg": {
+      "before": 5320488,
+      "after": 108518
+    },
+    "pieces/can-tower/IMG_1236-2.jpg": {
+      "before": 3912932,
+      "after": 67283
+    },
+    "pieces/can-tower/DSC_6904LG.jpg": {
+      "before": 4876406,
+      "after": 63313
+    },
+    "pieces/can-tower/DSC_6903LG.jpg": {
+      "before": 5043285,
+      "after": 64010
+    },
+    "pieces/can-tower/DSC_6899LG.jpg": {
+      "before": 7046578,
+      "after": 118505
+    },
+    "pieces/can-tower/IMG_1236.jpg": {
+      "before": 3911372,
+      "after": 67258
+    },
+    "pieces/can-tower/DSC_6879LG.jpg": {
+      "before": 5461778,
+      "after": 117403
+    },
+    "pieces/can-tower/DSC_6877LG.jpg": {
+      "before": 7102896,
+      "after": 196779
+    },
+    "pieces/can-tower/DSC_6893LG.jpg": {
+      "before": 6110056,
+      "after": 98208
+    },
+    "pieces/can-tower/DSC_6888LG.jpg": {
+      "before": 6811973,
+      "after": 137895
+    },
+    "pieces/can-tower/IMG_1247-2.jpg": {
+      "before": 4307641,
+      "after": 85486
+    },
+    "pieces/can-tower/DSC_6897LG.jpg": {
+      "before": 5529949,
+      "after": 101930
+    },
+    "pieces/can-tower/DSC_6870LG.jpg": {
+      "before": 6137555,
+      "after": 95395
+    },
+    "pieces/can-tower/DSC_6894LG.jpg": {
+      "before": 6435162,
+      "after": 101323
+    },
+    "pieces/white-tv/DSC_6865LG.jpg": {
+      "before": 5469356,
+      "after": 76001
+    },
+    "pieces/white-tv/DSC_6843LG.jpg": {
+      "before": 6800125,
+      "after": 140752
+    },
+    "pieces/white-tv/DSC_6863LG.jpg": {
+      "before": 5493176,
+      "after": 81731
+    },
+    "pieces/white-tv/DSC_6847LG.jpg": {
+      "before": 5645592,
+      "after": 72763
+    },
+    "pieces/white-tv/DSC_6868LG.jpg": {
+      "before": 7546276,
+      "after": 195559
+    },
+    "pieces/white-tv/DSC_6857LG.jpg": {
+      "before": 6710555,
+      "after": 120171
+    },
+    "pieces/white-tv/DSC_6856LG.jpg": {
+      "before": 6933318,
+      "after": 154972
+    },
+    "pieces/white-tv/loading-frame.png": {
+      "before": 484544,
+      "after": 41486,
+      "palette_colors": 256
+    },
+    "pieces/luigi/Luigi good-2048.glb": {
+      "before": 1546052,
+      "after": 923900
+    },
+    "pieces/luigi/Mangione_3part_print_FINAL.blend.zip": {
+      "before": 78092468,
+      "after": 29129147
+    },
+    "pieces/cabinet/Cabinet good-2048.glb": {
+      "before": 2968844,
+      "after": 2048028
+    },
+    "pieces/mtg/mtg + fortnite.ai.zip": {
+      "before": 21151415,
+      "after": 20885041
+    },
+    "pieces/mtg/Magic good-2048.glb": {
+      "before": 1564656,
+      "after": 854192
+    },
+    "pieces/mtg/mtg + fortnite.png": {
+      "before": 738300,
+      "after": 109140,
+      "palette_colors": 256
+    },
+    "pieces/rittenhouse/Kyle good-2048.glb": {
+      "before": 1682212,
+      "after": 1033744
+    },
+    "pieces/print/DSC_6841LG.jpg": {
+      "before": 4728903,
+      "after": 94480
+    },
+    "pieces/print/IMG_1287.jpg": {
+      "before": 10515192,
+      "after": 86044
+    },
+    "pieces/print/IMG_1284.jpg": {
+      "before": 13823037,
+      "after": 164089
+    },
+    "pieces/print/DSC_6840LG.jpg": {
+      "before": 5378679,
+      "after": 55166
+    },
+    "pieces/print/DSC_6838LG.jpg": {
+      "before": 7035774,
+      "after": 241520
+    },
+    "pieces/print/DSC_6829LG.jpg": {
+      "before": 5958029,
+      "after": 73841
+    },
+    "pieces/print/DSC_6834LG.jpg": {
+      "before": 6562037,
+      "after": 241040
+    },
+    "pieces/print/Print good-2048.glb": {
+      "before": 2318776,
+      "after": 1303316
+    },
+    "pieces/print/IMG_1275.jpg": {
+      "before": 11002829,
+      "after": 61480
+    },
+    "pieces/white-tv/TV Dinner.mp4": {
+      "before": 2462478859,
+      "after": 21013609
+    },
+    "pieces/print/DSC_6837LG.jpg": {
+      "before": 6411852,
+      "after": 133820
+    },
+    "pieces/nyan-cat/nyan_cat.mp4": {
+      "before": 512855,
+      "after": 143986
+    },
+    "pieces/print/DSC_6835LG.jpg": {
+      "before": 5628381,
+      "after": 80711
+    },
+    "pieces/toilet/Toilet2-2048.glb": {
+      "before": 6501036,
+      "after": 2776724
+    },
+    "pieces/gold-tv/gold1-2048.glb": {
+      "before": 2501284,
+      "after": 840252
+    },
+    "pieces/gold-tv/Gold2-2048.glb": {
+      "before": 2341064,
+      "after": 611640
+    },
+    "pieces/self portraits/DSC_6824LG.jpg": {
+      "before": 6539460,
+      "after": 112121
+    },
+    "pieces/self portraits/DSC_6823LG.jpg": {
+      "before": 6179579,
+      "after": 125952
+    },
+    "pieces/self portraits/DSC_6818LG.jpg": {
+      "before": 6537343,
+      "after": 159624
+    },
+    "pieces/self portraits/DSC_6814LG.jpg": {
+      "before": 6894193,
+      "after": 172106
+    },
+    "pieces/self portraits/DSC_6810LG.jpg": {
+      "before": 6292951,
+      "after": 98206
+    },
+    "pieces/window/CSGO.mp4": {
+      "before": 2349921219,
+      "after": 5978695
+    },
+    "pieces/window/Window okay-2048.glb": {
+      "before": 6636316,
+      "after": 3321100
+    },
+    "pieces/gta-with-stand/711061CE-244F-49EC-A68D-90AEA4F84A38_1_105_c.jpg": {
+      "before": 614634,
+      "after": 151989
+    },
+    "pieces/gta-with-stand/12E8A431-F7FD-469A-AE51-E15ED6E2A332_1_105_c.jpg": {
+      "before": 718914,
+      "after": 179841
+    },
+    "pieces/gta-with-stand/GTA with Stand-2048.glb": {
+      "before": 2946288,
+      "after": 915556
+    },
+    "pieces/gta-with-stand/IMG_8523.jpg": {
+      "before": 5434263,
+      "after": 306944
+    },
+    "pieces/gta-with-stand/7409E4E1-F837-422E-B974-F04744F2D1A9_1_105_c.jpg": {
+      "before": 505035,
+      "after": 125752
+    },
+    "pieces/gta-with-stand/IMG_8518.jpg": {
+      "before": 5270987,
+      "after": 322344
+    },
+    "pieces/american-spirit/american spirit.png": {
+      "before": 2204609,
+      "after": 50965,
+      "palette_colors": 256
+    },
+    "pieces/Buddyologies/Buddyologies box.glb": {
+      "before": 4424076,
+      "after": 420960
+    },
+    "pieces/Buddyologies/package_rescale copy.ai.zip": {
+      "before": 41238070,
+      "after": 41028303
+    },
+    "pieces/Buddyologies/package_rescale copy.png": {
+      "before": 3966324,
+      "after": 143126,
+      "palette_colors": 256
+    },
+    "pieces/Buddyologies/print final copy.ai.zip": {
+      "before": 24522691,
+      "after": 24382379
+    },
+    "pieces/Buddyologies/print final copy.png": {
+      "before": 2636618,
+      "after": 121964,
+      "palette_colors": 256
+    },
+    "pieces/tetsuya/Tetsuya_1part_print_FINAL.blend.zip": {
+      "before": 147827292,
+      "after": 43315945
+    },
+    "pieces/laptop/Laptop better-2048.glb": {
+      "before": 1535552,
+      "after": 694960
+    },
+    "pieces/jd/JD.png": {
+      "before": 42050071,
+      "after": 621454,
+      "palette_colors": 256
+    },
+    "pieces/3dprinter/Good print table-2048.glb": {
+      "before": 2180360,
+      "after": 1211876
+    },
+    "pieces/trump/Trump-2048.glb": {
+      "before": 20867496,
+      "after": 18255048
+    },
+    "pieces/trump/dunce_var6 copy.STL.zip": {
+      "before": 185040084,
+      "after": 67668698
+    },
+    "pieces/Autokrafts/63270601-2F6A-4184-B70A-A35DA4E746F9_1_201_a.jpg": {
+      "before": 6429789,
+      "after": 220141
+    },
+    "pieces/Autokrafts/6F633DA4-014B-45AD-9B33-9E3D698B2643_1_201_a.jpg": {
+      "before": 5535192,
+      "after": 194759
+    },
+    "pieces/Autokrafts/6205049A-41CD-451E-BBBE-4C092079E96B_1_201_a.jpg": {
+      "before": 6375088,
+      "after": 240679
+    },
+    "pieces/Autokrafts/52049136-479F-4B64-8A06-28504A1DEAAC.jpg": {
+      "before": 6672059,
+      "after": 223440
+    },
+    "pieces/Autokrafts/89FF644C-3C37-4B81-915A-875E0255ABB9_1_201_a.jpg": {
+      "before": 6647419,
+      "after": 254224
+    },
+    "pieces/Autokrafts/A2FEB734-4F70-4CDC-84AD-55FADB059E81_1_201_a.jpg": {
+      "before": 4907873,
+      "after": 159470
+    },
+    "pieces/Autokrafts/161F9E37-A259-4995-9B02-EEA213761DB0_1_201_a.jpg": {
+      "before": 5888045,
+      "after": 211978
+    },
+    "pieces/Autokrafts/Berlusconi copy.ai.zip": {
+      "before": 9271471,
+      "after": 9228932
+    },
+    "pieces/Autokrafts/CBF90248-4C78-437A-B94A-7830CA3ECAAF_1_201_a.jpg": {
+      "before": 5664320,
+      "after": 223382
+    },
+    "pieces/Autokrafts/DBD529F1-D3E5-43D9-AD22-533BD7F1668B_1_201_a.jpg": {
+      "before": 7102753,
+      "after": 235922
+    },
+    "pieces/Autokrafts/80F4FDAD-3EEB-4DEA-B8E6-BE833AE81962_1_201_a.jpg": {
+      "before": 6549752,
+      "after": 232955
+    },
+    "pieces/Autokrafts/553E489D-E08F-49BE-B831-1A556DBC9EA9_1_201_a.jpg": {
+      "before": 6371894,
+      "after": 231658
+    },
+    "pieces/Autokrafts/A110BB49-DF38-4E2A-AF98-8813DCB9114D_1_201_a.jpg": {
+      "before": 4417843,
+      "after": 193984
+    },
+    "pieces/Autokrafts/Netanyahu copy.ai.zip": {
+      "before": 2864603,
+      "after": 2820405
+    },
+    "pieces/Autokrafts/DB6BCA0A-09E6-4845-9DBA-40822A6EA5A8_1_201_a.jpg": {
+      "before": 7914999,
+      "after": 255138
+    },
+    "pieces/Autokrafts/39F86D30-8562-485D-A26A-E079292617C8_1_201_a.jpg": {
+      "before": 6375284,
+      "after": 275421
+    },
+    "pieces/Autokrafts/gadaffi copy 2.ai.zip": {
+      "before": 12113439,
+      "after": 12073708
+    },
+    "pieces/Autokrafts/7379EE98-5CDD-4BAC-B7C8-875107D88944_1_201_a.jpg": {
+      "before": 6091024,
+      "after": 199267
+    },
+    "pieces/Autokrafts/EDDAB45C-BF07-4132-9CC7-C394BA8B337B_1_201_a.jpg": {
+      "before": 6768170,
+      "after": 255437
+    },
+    "pieces/Autokrafts/putin copy.ai.zip": {
+      "before": 8885677,
+      "after": 8846434
+    },
+    "pieces/Autokrafts/53F76BDE-B711-48D4-814E-83B1D6F30CF8_1_201_a.jpg": {
+      "before": 6504131,
+      "after": 238920
+    },
+    "pieces/Autokrafts/1E220512-9C12-4345-83E2-BB2DA9F7D1AB_1_201_a.jpg": {
+      "before": 6538688,
+      "after": 236847
+    },
+    "pieces/Autokrafts/Trump copy.ai.zip": {
+      "before": 7523195,
+      "after": 7474588
+    },
+    "pieces/Autokrafts/Erdogan copy.ai.zip": {
+      "before": 8537219,
+      "after": 8494595
+    },
+    "pieces/consumption log/DSC_6797LG.jpg": {
+      "before": 9983196,
+      "after": 572689
+    },
+    "pieces/consumption log/DSC_6804LG.jpg": {
+      "before": 5605393,
+      "after": 170780
+    },
+    "pieces/consumption log/log 25-32 copy.jpg": {
+      "before": 4894712,
+      "after": 823866
+    },
+    "pieces/consumption log/DSC_6806LG.jpg": {
+      "before": 7041534,
+      "after": 371346
+    },
+    "pieces/consumption log/log 17-24 copy.jpg": {
+      "before": 3540370,
+      "after": 696871
+    },
+    "pieces/consumption log/log 73-80 copy.jpg": {
+      "before": 4597664,
+      "after": 681944
+    },
+    "pieces/consumption log/DSC_6802LG.jpg": {
+      "before": 8732005,
+      "after": 452549
+    },
+    "pieces/consumption log/DSC_6800LG.jpg": {
+      "before": 8394569,
+      "after": 546627
+    },
+    "pieces/consumption log/DSC_6794LG.jpg": {
+      "before": 9195010,
+      "after": 394308
+    },
+    "pieces/consumption log/log 57-64 copy.jpg": {
+      "before": 4993505,
+      "after": 726631
+    },
+    "pieces/consumption log/log 1-8 copy.jpg": {
+      "before": 4037784,
+      "after": 788740
+    },
+    "pieces/consumption log/log 65-72 copy.jpg": {
+      "before": 4811780,
+      "after": 713634
+    },
+    "pieces/consumption log/log 33-40 copy.jpg": {
+      "before": 4926687,
+      "after": 803458
+    },
+    "pieces/consumption log/log 9-16 copy.jpg": {
+      "before": 4413034,
+      "after": 866297
+    },
+    "pieces/consumption log/log 41-48 copy.jpg": {
+      "before": 4790026,
+      "after": 718842
+    },
+    "pieces/consumption log/DSC_6799LG.jpg": {
+      "before": 5484735,
+      "after": 121175
+    },
+    "pieces/consumption log/log 49-56 copy.jpg": {
+      "before": 4715595,
+      "after": 709142
+    },
+    "pieces/trashcan/Trashcan fine-2048.glb": {
+      "before": 2826952,
+      "after": 1617212
+    },
+    "pieces/fortnite/Fortnite good-2048.glb": {
+      "before": 1468508,
+      "after": 733524
+    },
+    "pieces/fortnite/mtg + fortnite.ai.zip": {
+      "before": 21151415,
+      "after": 20885041
+    },
+    "pieces/fortnite/mtg + fortnite.png": {
+      "before": 738300,
+      "after": 109140,
+      "palette_colors": 256
+    },
+    "pieces/vape machine/DSC_6924LG.jpg": {
+      "before": 5470456,
+      "after": 73617
+    },
+    "pieces/vape machine/DSC_6919LG.jpg": {
+      "before": 4464581,
+      "after": 20303
+    },
+    "pieces/vape machine/DSC_6922LG.jpg": {
+      "before": 5686603,
+      "after": 77263
+    },
+    "pieces/vape machine/DSC_6920LG.jpg": {
+      "before": 5056123,
+      "after": 53212
+    },
+    "pieces/vape machine/DSC_6927LG.jpg": {
+      "before": 5286656,
+      "after": 43096
+    },
+    "pieces/vape machine/DSC_6925LG.jpg": {
+      "before": 4715887,
+      "after": 27839
+    },
+    "pieces/vape machine/DSC_6923LG.jpg": {
+      "before": 5816306,
+      "after": 108091
+    },
+    "pieces/vape machine/DSC_6912LG.jpg": {
+      "before": 4829826,
+      "after": 55721
+    },
+    "pieces/vape machine/DSC_6909LG.jpg": {
+      "before": 5397567,
+      "after": 73616
+    },
+    "pieces/vape machine/DSC_6929LG.jpg": {
+      "before": 5475608,
+      "after": 44426
+    },
+    "pieces/vape machine/DSC_6932LG.jpg": {
+      "before": 5421612,
+      "after": 68695
+    },
+    "pieces/vape machine/DSC_6935LG.jpg": {
+      "before": 5162659,
+      "after": 59596
+    },
+    "pieces/vape machine/DSC_6911LG.jpg": {
+      "before": 5689486,
+      "after": 85869
+    },
+    "pieces/vape machine/DSC_6917LG.jpg": {
+      "before": 4657093,
+      "after": 60785
+    },
+    "pieces/vape machine/DSC_6915LG.jpg": {
+      "before": 5292195,
+      "after": 70846
+    },
+    "pieces/consumption log/extracted-pages/page-27.webp": {
+      "before": 1790840,
+      "after": 319650
+    },
+    "pieces/consumption log/extracted-pages/page-70.webp": {
+      "before": 2514090,
+      "after": 319036
+    },
+    "pieces/consumption log/extracted-pages/page-66.webp": {
+      "before": 1844336,
+      "after": 316796
+    },
+    "pieces/consumption log/extracted-pages/page-31.webp": {
+      "before": 2560766,
+      "after": 342952
+    },
+    "pieces/consumption log/extracted-pages/page-46.webp": {
+      "before": 2419472,
+      "after": 307868
+    },
+    "pieces/consumption log/extracted-pages/page-11.webp": {
+      "before": 1538342,
+      "after": 275890
+    },
+    "pieces/consumption log/extracted-pages/page-07.webp": {
+      "before": 2550100,
+      "after": 333500
+    },
+    "pieces/consumption log/extracted-pages/page-50.webp": {
+      "before": 1747468,
+      "after": 301640
+    },
+    "pieces/consumption log/extracted-pages/page-51.webp": {
+      "before": 1738298,
+      "after": 303490
+    },
+    "pieces/consumption log/extracted-pages/page-06.webp": {
+      "before": 2368924,
+      "after": 298498
+    },
+    "pieces/consumption log/extracted-pages/page-10.webp": {
+      "before": 1541702,
+      "after": 283546
+    },
+    "pieces/consumption log/extracted-pages/page-47.webp": {
+      "before": 2425578,
+      "after": 309552
+    },
+    "pieces/consumption log/extracted-pages/page-30.webp": {
+      "before": 2615752,
+      "after": 354642
+    },
+    "pieces/consumption log/extracted-pages/page-67.webp": {
+      "before": 1840142,
+      "after": 322328
+    },
+    "pieces/consumption log/extracted-pages/page-71.webp": {
+      "before": 2351990,
+      "after": 295318
+    },
+    "pieces/consumption log/extracted-pages/page-26.webp": {
+      "before": 1748266,
+      "after": 304864
+    },
+    "pieces/consumption log/extracted-pages/page-40.webp": {
+      "before": 2669722,
+      "after": 346486
+    },
+    "pieces/consumption log/extracted-pages/page-17.webp": {
+      "before": 1209170,
+      "after": 203184
+    },
+    "pieces/consumption log/extracted-pages/page-01.webp": {
+      "before": 1611288,
+      "after": 259428
+    },
+    "pieces/consumption log/extracted-pages/page-56.webp": {
+      "before": 2488014,
+      "after": 319486
+    },
+    "pieces/consumption log/extracted-pages/page-21.webp": {
+      "before": 2064610,
+      "after": 273286
+    },
+    "pieces/consumption log/extracted-pages/page-76.webp": {
+      "before": 1695632,
+      "after": 299086
+    },
+    "pieces/consumption log/extracted-pages/page-60.webp": {
+      "before": 1791628,
+      "after": 315162
+    },
+    "pieces/consumption log/extracted-pages/page-37.webp": {
+      "before": 2614682,
+      "after": 332036
+    },
+    "pieces/consumption log/extracted-pages/page-36.webp": {
+      "before": 1802630,
+      "after": 320514
+    },
+    "pieces/consumption log/extracted-pages/page-61.webp": {
+      "before": 2792246,
+      "after": 380558
+    },
+    "pieces/consumption log/extracted-pages/page-77.webp": {
+      "before": 1707128,
+      "after": 204896
+    },
+    "pieces/consumption log/extracted-pages/page-20.webp": {
+      "before": 1610912,
+      "after": 272080
+    },
+    "pieces/consumption log/extracted-pages/page-57.webp": {
+      "before": 1886240,
+      "after": 335252
+    },
+    "pieces/consumption log/extracted-pages/page-16.webp": {
+      "before": 2363826,
+      "after": 296216
+    },
+    "pieces/consumption log/extracted-pages/page-41.webp": {
+      "before": 1849246,
+      "after": 332528
+    },
+    "pieces/consumption log/extracted-pages/page-54.webp": {
+      "before": 2471308,
+      "after": 319616
+    },
+    "pieces/consumption log/extracted-pages/page-03.webp": {
+      "before": 1496344,
+      "after": 211454
+    },
+    "pieces/consumption log/extracted-pages/page-15.webp": {
+      "before": 2470386,
+      "after": 330836
+    },
+    "pieces/consumption log/extracted-pages/page-42.webp": {
+      "before": 1786960,
+      "after": 313876
+    },
+    "pieces/consumption log/extracted-pages/page-39.webp": {
+      "before": 2733708,
+      "after": 354526
+    },
+    "pieces/consumption log/extracted-pages/page-78.webp": {
+      "before": 2636372,
+      "after": 344574
+    },
+    "pieces/consumption log/extracted-pages/page-58.webp": {
+      "before": 1820044,
+      "after": 312810
+    },
+    "pieces/consumption log/extracted-pages/page-19.webp": {
+      "before": 1463380,
+      "after": 265776
+    },
+    "pieces/consumption log/extracted-pages/page-35.webp": {
+      "before": 1872952,
+      "after": 333894
+    },
+    "pieces/consumption log/extracted-pages/page-62.webp": {
+      "before": 2721902,
+      "after": 359588
+    },
+    "pieces/consumption log/extracted-pages/page-74.webp": {
+      "before": 1693824,
+      "after": 288854
+    },
+    "pieces/consumption log/extracted-pages/page-23.webp": {
+      "before": 1503322,
+      "after": 192664
+    },
+    "pieces/consumption log/extracted-pages/page-22.webp": {
+      "before": 1429984,
+      "after": 170142
+    },
+    "pieces/consumption log/extracted-pages/page-75.webp": {
+      "before": 1708884,
+      "after": 299590
+    },
+    "pieces/consumption log/extracted-pages/page-63.webp": {
+      "before": 2663936,
+      "after": 346774
+    },
+    "pieces/consumption log/extracted-pages/page-34.webp": {
+      "before": 1861170,
+      "after": 330782
+    },
+    "pieces/consumption log/extracted-pages/page-18.webp": {
+      "before": 1282662,
+      "after": 207568
+    },
+    "pieces/consumption log/extracted-pages/page-59.webp": {
+      "before": 1854516,
+      "after": 324244
+    },
+    "pieces/consumption log/extracted-pages/page-79.webp": {
+      "before": 2505804,
+      "after": 310842
+    },
+    "pieces/consumption log/extracted-pages/page-80.webp": {
+      "before": 2458366,
+      "after": 313758
+    },
+    "pieces/consumption log/extracted-pages/page-38.webp": {
+      "before": 2655610,
+      "after": 342302
+    },
+    "pieces/consumption log/extracted-pages/page-43.webp": {
+      "before": 1817146,
+      "after": 315340
+    },
+    "pieces/consumption log/extracted-pages/page-14.webp": {
+      "before": 2509124,
+      "after": 328340
+    },
+    "pieces/consumption log/extracted-pages/page-02.webp": {
+      "before": 1448530,
+      "after": 207604
+    },
+    "pieces/consumption log/extracted-pages/page-55.webp": {
+      "before": 2476226,
+      "after": 314250
+    },
+    "pieces/consumption log/extracted-pages/page-09.webp": {
+      "before": 1650468,
+      "after": 282396
+    },
+    "pieces/consumption log/extracted-pages/page-48.webp": {
+      "before": 2453858,
+      "after": 324192
+    },
+    "pieces/consumption log/extracted-pages/page-33.webp": {
+      "before": 1849526,
+      "after": 329668
+    },
+    "pieces/consumption log/extracted-pages/page-64.webp": {
+      "before": 2702136,
+      "after": 361400
+    },
+    "pieces/consumption log/extracted-pages/page-72.webp": {
+      "before": 2452092,
+      "after": 329896
+    },
+    "pieces/consumption log/extracted-pages/page-25.webp": {
+      "before": 1782896,
+      "after": 308780
+    },
+    "pieces/consumption log/extracted-pages/page-52.webp": {
+      "before": 1744136,
+      "after": 308754
+    },
+    "pieces/consumption log/extracted-pages/page-05.webp": {
+      "before": 2404558,
+      "after": 314738
+    },
+    "pieces/consumption log/extracted-pages/page-13.webp": {
+      "before": 2473522,
+      "after": 325276
+    },
+    "pieces/consumption log/extracted-pages/page-44.webp": {
+      "before": 1803782,
+      "after": 318000
+    },
+    "pieces/consumption log/extracted-pages/page-68.webp": {
+      "before": 1833638,
+      "after": 310744
+    },
+    "pieces/consumption log/extracted-pages/page-29.webp": {
+      "before": 2635882,
+      "after": 363572
+    },
+    "pieces/consumption log/extracted-pages/page-28.webp": {
+      "before": 1786182,
+      "after": 310168
+    },
+    "pieces/consumption log/extracted-pages/page-69.webp": {
+      "before": 2511340,
+      "after": 307526
+    },
+    "pieces/consumption log/extracted-pages/page-45.webp": {
+      "before": 2387336,
+      "after": 305262
+    },
+    "pieces/consumption log/extracted-pages/page-12.webp": {
+      "before": 1522778,
+      "after": 276728
+    },
+    "pieces/consumption log/extracted-pages/page-04.webp": {
+      "before": 1307730,
+      "after": 183848
+    },
+    "pieces/consumption log/extracted-pages/page-53.webp": {
+      "before": 2459820,
+      "after": 316652
+    },
+    "pieces/consumption log/extracted-pages/page-24.webp": {
+      "before": 1469952,
+      "after": 201632
+    },
+    "pieces/consumption log/extracted-pages/page-73.webp": {
+      "before": 1712822,
+      "after": 280818
+    },
+    "pieces/consumption log/extracted-pages/page-65.webp": {
+      "before": 1801870,
+      "after": 312200
+    },
+    "pieces/consumption log/extracted-pages/page-32.webp": {
+      "before": 2595410,
+      "after": 362196
+    },
+    "pieces/consumption log/extracted-pages/page-49.webp": {
+      "before": 1710956,
+      "after": 291972
+    },
+    "pieces/consumption log/extracted-pages/page-08.webp": {
+      "before": 2506908,
+      "after": 334516
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/V3_0_marked.png": {
+      "before": 288567,
+      "after": 133513,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/Grip_marked.stl.zip": {
+      "before": 6376084,
+      "after": 2932850
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/V3_0_marked.stl.zip": {
+      "before": 4233084,
+      "after": 1358139
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/ar15_lower_s_full_markings.stl.zip": {
+      "before": 4463784,
+      "after": 1806714
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/ar15_upper_s.stl.zip": {
+      "before": 2891584,
+      "after": 1218792
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/base_plate.stl.zip": {
+      "before": 3322150,
+      "after": 548841
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/PAAR_v4_screw_instructions_sharper.jpg": {
+      "before": 163723,
+      "after": 142527
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/2bbc548f-54f1-4b30-8b90-c1ad9eb4d87e.png": {
+      "before": 708867,
+      "after": 261011,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/44d678a3-5b35-4921-929b-6a7e4dd897c8.png": {
+      "before": 2919493,
+      "after": 286978,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/a1fd5e5f-df01-49a2-9ca9-a41d501bc507.png": {
+      "before": 1129439,
+      "after": 466374,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/normal_pistol_grip.stl.zip": {
+      "before": 6489084,
+      "after": 2778054
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/beav_tail_pistol_grip.stl.zip": {
+      "before": 7013784,
+      "after": 3000558
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/Lower_with_working_selector_detents_and_some_texturing.stl.zip": {
+      "before": 2419784,
+      "after": 737628
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/Beav_tail_pistol_grip_textured.stl.zip": {
+      "before": 70317773,
+      "after": 18318589
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/barrel.stl.zip": {
+      "before": 2981084,
+      "after": 771542
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/normal_pistol_grip_texxx.stl.zip": {
+      "before": 42020041,
+      "after": 10330452
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/files/the_grip_base.stl.zip": {
+      "before": 3083584,
+      "after": 989910
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/files/Mid_barrel_for_12mm_tube.stl.zip": {
+      "before": 3211284,
+      "after": 1100026
+    },
+    "pieces/print/segments/Segment 1532.png": {
+      "before": 157280,
+      "after": 33902,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1687.png": {
+      "before": 163202,
+      "after": 38308,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1693.png": {
+      "before": 164383,
+      "after": 39998,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1334.png": {
+      "before": 175104,
+      "after": 41236,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 128.png": {
+      "before": 163859,
+      "after": 35899,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 100.png": {
+      "before": 152147,
+      "after": 32127,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 101.png": {
+      "before": 157379,
+      "after": 34453,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 129.png": {
+      "before": 163224,
+      "after": 36608,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1692.png": {
+      "before": 162228,
+      "after": 39124,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1686.png": {
+      "before": 159109,
+      "after": 37109,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1725.png": {
+      "before": 157545,
+      "after": 33824,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1731.png": {
+      "before": 176497,
+      "after": 42078,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1533.png": {
+      "before": 151856,
+      "after": 32223,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1531.png": {
+      "before": 151981,
+      "after": 32354,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1733.png": {
+      "before": 168671,
+      "after": 41103,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1055.png": {
+      "before": 161260,
+      "after": 36858,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1690.png": {
+      "before": 164537,
+      "after": 40457,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1684.png": {
+      "before": 151401,
+      "after": 33960,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1337.png": {
+      "before": 172442,
+      "after": 39677,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 102.png": {
+      "before": 157711,
+      "after": 34736,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1336.png": {
+      "before": 173419,
+      "after": 40402,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1685.png": {
+      "before": 156417,
+      "after": 36119,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1691.png": {
+      "before": 163936,
+      "after": 39503,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1732.png": {
+      "before": 165383,
+      "after": 39580,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1054.png": {
+      "before": 160836,
+      "after": 37455,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1726.png": {
+      "before": 163795,
+      "after": 36068,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1508.png": {
+      "before": 161090,
+      "after": 34684,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1534.png": {
+      "before": 155259,
+      "after": 33344,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1044.png": {
+      "before": 155309,
+      "after": 32788,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1050.png": {
+      "before": 152178,
+      "after": 33343,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1736.png": {
+      "before": 169163,
+      "after": 41200,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1681.png": {
+      "before": 159363,
+      "after": 36097,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 106.png": {
+      "before": 153909,
+      "after": 34246,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 107.png": {
+      "before": 162522,
+      "after": 37934,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1333.png": {
+      "before": 165504,
+      "after": 37320,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1051.png": {
+      "before": 157370,
+      "after": 35004,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1737.png": {
+      "before": 173930,
+      "after": 43747,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1535.png": {
+      "before": 156810,
+      "after": 34692,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1509.png": {
+      "before": 156078,
+      "after": 32528,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1537.png": {
+      "before": 152405,
+      "after": 33465,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1709.png": {
+      "before": 151913,
+      "after": 36702,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1735.png": {
+      "before": 163712,
+      "after": 39104,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1053.png": {
+      "before": 159757,
+      "after": 35372,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1047.png": {
+      "before": 162973,
+      "after": 35523,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 105.png": {
+      "before": 158451,
+      "after": 34457,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 104.png": {
+      "before": 173867,
+      "after": 39545,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1683.png": {
+      "before": 151865,
+      "after": 34220,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1046.png": {
+      "before": 160373,
+      "after": 34525,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1734.png": {
+      "before": 164993,
+      "after": 39277,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1052.png": {
+      "before": 152108,
+      "after": 33496,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1708.png": {
+      "before": 158367,
+      "after": 39393,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1223.png": {
+      "before": 163497,
+      "after": 35177,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1579.png": {
+      "before": 165384,
+      "after": 43243,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1009.png": {
+      "before": 158768,
+      "after": 34567,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1155.png": {
+      "before": 160510,
+      "after": 33459,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1182.png": {
+      "before": 162714,
+      "after": 35129,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1357.png": {
+      "before": 171011,
+      "after": 39011,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1380.png": {
+      "before": 175018,
+      "after": 42300,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1381.png": {
+      "before": 176955,
+      "after": 42240,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1356.png": {
+      "before": 166643,
+      "after": 37522,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1183.png": {
+      "before": 165819,
+      "after": 37049,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1154.png": {
+      "before": 154131,
+      "after": 30932,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1008.png": {
+      "before": 160025,
+      "after": 34787,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1578.png": {
+      "before": 157581,
+      "after": 40493,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1222.png": {
+      "before": 163286,
+      "after": 35891,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1552.png": {
+      "before": 157793,
+      "after": 34248,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1208.png": {
+      "before": 164393,
+      "after": 37330,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1022.png": {
+      "before": 154475,
+      "after": 31526,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1750.png": {
+      "before": 165072,
+      "after": 39877,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1156.png": {
+      "before": 163489,
+      "after": 35766,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1181.png": {
+      "before": 160213,
+      "after": 34676,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1354.png": {
+      "before": 171188,
+      "after": 38304,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1340.png": {
+      "before": 162810,
+      "after": 37139,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 148.png": {
+      "before": 152371,
+      "after": 33260,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1383.png": {
+      "before": 168082,
+      "after": 39311,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 174.png": {
+      "before": 153758,
+      "after": 37653,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 175.png": {
+      "before": 165611,
+      "after": 40965,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1382.png": {
+      "before": 179106,
+      "after": 43912,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1341.png": {
+      "before": 176846,
+      "after": 42602,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1355.png": {
+      "before": 169090,
+      "after": 37411,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1180.png": {
+      "before": 160337,
+      "after": 35198,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1157.png": {
+      "before": 154806,
+      "after": 32684,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1023.png": {
+      "before": 159573,
+      "after": 33090,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1209.png": {
+      "before": 165244,
+      "after": 38231,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1553.png": {
+      "before": 161070,
+      "after": 35504,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1221.png": {
+      "before": 154261,
+      "after": 32370,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1225.png": {
+      "before": 163399,
+      "after": 35142,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1231.png": {
+      "before": 175948,
+      "after": 40682,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1557.png": {
+      "before": 168062,
+      "after": 40241,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1580.png": {
+      "before": 158912,
+      "after": 41712,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1027.png": {
+      "before": 160753,
+      "after": 34773,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1033.png": {
+      "before": 165958,
+      "after": 37282,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1184.png": {
+      "before": 171655,
+      "after": 39189,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1379.png": {
+      "before": 165275,
+      "after": 36958,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 171.png": {
+      "before": 157152,
+      "after": 35868,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1378.png": {
+      "before": 167730,
+      "after": 38767,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1185.png": {
+      "before": 167960,
+      "after": 38705,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1032.png": {
+      "before": 157940,
+      "after": 34609,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1026.png": {
+      "before": 170057,
+      "after": 37157,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1581.png": {
+      "before": 160469,
+      "after": 43305,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1230.png": {
+      "before": 161519,
+      "after": 34749,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1556.png": {
+      "before": 163876,
+      "after": 38069,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1224.png": {
+      "before": 162422,
+      "after": 35649,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1554.png": {
+      "before": 160164,
+      "after": 35413,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1226.png": {
+      "before": 158009,
+      "after": 33438,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1583.png": {
+      "before": 166570,
+      "after": 43229,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1030.png": {
+      "before": 154884,
+      "after": 32784,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1024.png": {
+      "before": 162428,
+      "after": 34424,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1178.png": {
+      "before": 166546,
+      "after": 36226,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1187.png": {
+      "before": 172035,
+      "after": 41284,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1385.png": {
+      "before": 170890,
+      "after": 40435,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1384.png": {
+      "before": 175796,
+      "after": 42784,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1353.png": {
+      "before": 168742,
+      "after": 37330,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1186.png": {
+      "before": 167590,
+      "after": 38803,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1025.png": {
+      "before": 154907,
+      "after": 32165,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1031.png": {
+      "before": 164365,
+      "after": 36893,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1582.png": {
+      "before": 161247,
+      "after": 42824,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1227.png": {
+      "before": 154915,
+      "after": 32314,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1555.png": {
+      "before": 157919,
+      "after": 36251,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1202.png": {
+      "before": 166553,
+      "after": 36191,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1558.png": {
+      "before": 169846,
+      "after": 40801,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1000.png": {
+      "before": 158620,
+      "after": 32338,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1028.png": {
+      "before": 164553,
+      "after": 36002,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1160.png": {
+      "before": 155209,
+      "after": 33226,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1362.png": {
+      "before": 172182,
+      "after": 40334,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1404.png": {
+      "before": 184102,
+      "after": 44349,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1363.png": {
+      "before": 177077,
+      "after": 42228,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1405.png": {
+      "before": 184287,
+      "after": 45227,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1175.png": {
+      "before": 153727,
+      "after": 32050,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1161.png": {
+      "before": 156802,
+      "after": 33503,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1029.png": {
+      "before": 165553,
+      "after": 36810,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1001.png": {
+      "before": 159345,
+      "after": 32522,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1559.png": {
+      "before": 161324,
+      "after": 39351,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1203.png": {
+      "before": 161920,
+      "after": 35559,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1201.png": {
+      "before": 165181,
+      "after": 35654,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1229.png": {
+      "before": 162165,
+      "after": 35953,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1003.png": {
+      "before": 156246,
+      "after": 32969,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1177.png": {
+      "before": 160265,
+      "after": 33420,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1163.png": {
+      "before": 167522,
+      "after": 36560,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1375.png": {
+      "before": 171311,
+      "after": 39153,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1407.png": {
+      "before": 177746,
+      "after": 43331,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1361.png": {
+      "before": 166634,
+      "after": 37300,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1406.png": {
+      "before": 176690,
+      "after": 42398,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1360.png": {
+      "before": 173671,
+      "after": 40511,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1162.png": {
+      "before": 165078,
+      "after": 37010,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1176.png": {
+      "before": 158549,
+      "after": 33690,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1002.png": {
+      "before": 164141,
+      "after": 34816,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1228.png": {
+      "before": 154076,
+      "after": 32462,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1572.png": {
+      "before": 159620,
+      "after": 38075,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1204.png": {
+      "before": 157725,
+      "after": 34012,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1576.png": {
+      "before": 154081,
+      "after": 39450,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1006.png": {
+      "before": 162186,
+      "after": 35142,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1358.png": {
+      "before": 160407,
+      "after": 34510,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1402.png": {
+      "before": 181661,
+      "after": 42293,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 150.png": {
+      "before": 155982,
+      "after": 35194,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 144.png": {
+      "before": 150409,
+      "after": 32121,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 151.png": {
+      "before": 158084,
+      "after": 38562,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1403.png": {
+      "before": 181133,
+      "after": 43940,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1359.png": {
+      "before": 169116,
+      "after": 38998,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1007.png": {
+      "before": 158935,
+      "after": 33707,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1749.png": {
+      "before": 174214,
+      "after": 43496,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1577.png": {
+      "before": 163725,
+      "after": 41354,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1205.png": {
+      "before": 171909,
+      "after": 39287,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1549.png": {
+      "before": 157705,
+      "after": 32733,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1575.png": {
+      "before": 151003,
+      "after": 38449,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1207.png": {
+      "before": 166048,
+      "after": 37408,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1561.png": {
+      "before": 165193,
+      "after": 42081,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1011.png": {
+      "before": 163472,
+      "after": 36885,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1005.png": {
+      "before": 164369,
+      "after": 34733,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1159.png": {
+      "before": 151868,
+      "after": 32173,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1165.png": {
+      "before": 171395,
+      "after": 38999,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 147.png": {
+      "before": 158035,
+      "after": 34902,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 153.png": {
+      "before": 157480,
+      "after": 36912,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 152.png": {
+      "before": 157158,
+      "after": 35559,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 146.png": {
+      "before": 154585,
+      "after": 34231,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1164.png": {
+      "before": 156953,
+      "after": 33859,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1158.png": {
+      "before": 161195,
+      "after": 35013,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1004.png": {
+      "before": 163614,
+      "after": 35041,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1010.png": {
+      "before": 155514,
+      "after": 33344,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1206.png": {
+      "before": 162838,
+      "after": 36292,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1560.png": {
+      "before": 162305,
+      "after": 39855,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1574.png": {
+      "before": 161057,
+      "after": 40080,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1513.png": {
+      "before": 163913,
+      "after": 36949,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1507.png": {
+      "before": 159521,
+      "after": 33443,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1711.png": {
+      "before": 156839,
+      "after": 38575,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1705.png": {
+      "before": 156915,
+      "after": 37489,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 109.png": {
+      "before": 174172,
+      "after": 41727,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 108.png": {
+      "before": 173547,
+      "after": 41392,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1710.png": {
+      "before": 155811,
+      "after": 36377,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1512.png": {
+      "before": 161821,
+      "after": 35342,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1538.png": {
+      "before": 164106,
+      "after": 37914,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1706.png": {
+      "before": 158669,
+      "after": 37813,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1712.png": {
+      "before": 161278,
+      "after": 38998,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1048.png": {
+      "before": 152007,
+      "after": 32846,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 123.png": {
+      "before": 163031,
+      "after": 35868,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1713.png": {
+      "before": 154972,
+      "after": 36952,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1707.png": {
+      "before": 155874,
+      "after": 38117,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1539.png": {
+      "before": 154939,
+      "after": 35101,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1511.png": {
+      "before": 166409,
+      "after": 37218,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1529.png": {
+      "before": 151967,
+      "after": 31950,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1515.png": {
+      "before": 161397,
+      "after": 37402,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1703.png": {
+      "before": 153799,
+      "after": 35297,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1688.png": {
+      "before": 157732,
+      "after": 36958,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 127.png": {
+      "before": 167568,
+      "after": 38520,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1689.png": {
+      "before": 158232,
+      "after": 37229,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1514.png": {
+      "before": 170419,
+      "after": 39479,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1516.png": {
+      "before": 169673,
+      "after": 39507,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1714.png": {
+      "before": 159906,
+      "after": 38128,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1338.png": {
+      "before": 171660,
+      "after": 38925,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 124.png": {
+      "before": 165329,
+      "after": 36321,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 130.png": {
+      "before": 166140,
+      "after": 37692,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 119.png": {
+      "before": 150809,
+      "after": 31706,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 131.png": {
+      "before": 166700,
+      "after": 40274,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1339.png": {
+      "before": 166855,
+      "after": 38159,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1715.png": {
+      "before": 169059,
+      "after": 41877,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1517.png": {
+      "before": 162916,
+      "after": 38016,
+      "palette_colors": 256
+    },
+    "pieces/can-tower/versions/V3/crushing-3.png": {
+      "before": 1214841,
+      "after": 198882,
+      "palette_colors": 256
+    },
+    "pieces/can-tower/versions/V3/crushing-2.png": {
+      "before": 1299725,
+      "after": 212767,
+      "palette_colors": 256
+    },
+    "pieces/can-tower/versions/V3/crushing-0.png": {
+      "before": 1483689,
+      "after": 240330,
+      "palette_colors": 256
+    },
+    "pieces/can-tower/versions/V3/crushing-1.png": {
+      "before": 1508837,
+      "after": 264555,
+      "palette_colors": 256
+    },
+    "pieces/can-tower/versions/V3/crushing-photo-v3.png": {
+      "before": 1321280,
+      "after": 142486,
+      "palette_colors": 256
+    },
+    "pieces/can-tower/versions/V3/crushing-gloss-v2.png": {
+      "before": 1044407,
+      "after": 105588,
+      "palette_colors": 256
+    },
+    "tv-dinner-reconstruction/evidence/browser-mobile.png": {
+      "before": 354619,
+      "after": 138337,
+      "palette_colors": 256
+    },
+    "tv-dinner-reconstruction/evidence/render-front.jpg": {
+      "before": 155616,
+      "after": 128305
+    },
+    "tv-dinner-reconstruction/assets/tv-dinner-8s.glb": {
+      "before": 6102480,
+      "after": 5325028
+    },
+    "tv-dinner-reconstruction/evidence/full-res/top-000.jpg": {
+      "before": 207072,
+      "after": 168966
+    },
+    "pieces/room/Floor 1-2048.glb": {
+      "before": 1646360,
+      "after": 1511644
+    },
+    "pieces/vapes/woke breezes.psd.zip": {
+      "before": 6111190,
+      "after": 4269121
+    },
+    "pieces/vapes/Hauntology vape.glb": {
+      "before": 20320892,
+      "after": 2579716
+    },
+    "pieces/vapes/Breeze1 bad.glb": {
+      "before": 9086448,
+      "after": 2191192
+    },
+    "pieces/vapes/woke breezes 2.png": {
+      "before": 1196583,
+      "after": 203187,
+      "palette_colors": 256
+    },
+    "pieces/vapes/Liberation vape.glb": {
+      "before": 20316900,
+      "after": 2577092
+    },
+    "pieces/vapes/Monarchism vape.glb": {
+      "before": 20309444,
+      "after": 2569212
+    },
+    "pieces/vapes/Post-Modernism vape.glb": {
+      "before": 20318004,
+      "after": 2579000
+    },
+    "pieces/vapes/American Empire vape.glb": {
+      "before": 20310468,
+      "after": 2569828
+    },
+    "pieces/vapes/Colonialism vape.glb": {
+      "before": 20320000,
+      "after": 2579324
+    },
+    "pieces/can-tower/DSC_6906LG.jpg": {
+      "before": 6591454,
+      "after": 159008
+    },
+    "pieces/can-tower/IMG_1247.jpg": {
+      "before": 4307727,
+      "after": 85474
+    },
+    "pieces/can-tower/IMG_1246.jpg": {
+      "before": 2066515,
+      "after": 50986
+    },
+    "pieces/can-tower/DSC_6882LG.jpg": {
+      "before": 5228039,
+      "after": 105165
+    },
+    "pieces/can-tower/DSC_6880LG.jpg": {
+      "before": 5740587,
+      "after": 114045
+    },
+    "pieces/can-tower/DSC_6891LG.jpg": {
+      "before": 5863984,
+      "after": 118331
+    },
+    "pieces/can-tower/DSC_6889LG.jpg": {
+      "before": 6796691,
+      "after": 159069
+    },
+    "pieces/can-tower/DSC_6876LG.jpg": {
+      "before": 5909225,
+      "after": 112227
+    },
+    "pieces/can-tower/IMG_1249.jpg": {
+      "before": 2333717,
+      "after": 48771
+    },
+    "pieces/can-tower/DSC_6872LG.jpg": {
+      "before": 6279963,
+      "after": 110483
+    },
+    "pieces/white-tv/DSC_6867LG.jpg": {
+      "before": 7169270,
+      "after": 156283
+    },
+    "pieces/white-tv/DSC_6861LG.jpg": {
+      "before": 8515305,
+      "after": 288206
+    },
+    "pieces/white-tv/DSC_6859LG.jpg": {
+      "before": 6691859,
+      "after": 161485
+    },
+    "pieces/cabinet/shelf-light-2048.glb": {
+      "before": 14721308,
+      "after": 11196180
+    },
+    "pieces/rittenhouse/Rittenhouse_3part_print_FINAL.blend.zip": {
+      "before": 90547668,
+      "after": 27968297
+    },
+    "pieces/crooks/Crooks_3part_print_FINAL.blend.zip": {
+      "before": 134819052,
+      "after": 48197641
+    },
+    "pieces/crooks/Crooks good-2048.glb": {
+      "before": 1727452,
+      "after": 1070444
+    },
+    "pieces/print/IMG_1280.jpg": {
+      "before": 12500205,
+      "after": 124751
+    },
+    "pieces/print/DSC_6839LG.jpg": {
+      "before": 5943717,
+      "after": 110964
+    },
+    "pieces/print/DSC_6832LG.jpg": {
+      "before": 5624817,
+      "after": 98547
+    },
+    "pieces/print/DSC_6836LG.jpg": {
+      "before": 4900920,
+      "after": 78067
+    },
+    "pieces/print/DSC_6833LG.jpg": {
+      "before": 5913358,
+      "after": 170438
+    },
+    "pieces/print/IMG_1270.jpg": {
+      "before": 11759409,
+      "after": 247333
+    },
+    "pieces/self portraits/DSC_6820LG.jpg": {
+      "before": 7250572,
+      "after": 158933
+    },
+    "pieces/self portraits/DSC_6819LG.jpg": {
+      "before": 6567275,
+      "after": 109745
+    },
+    "pieces/self portraits/DSC_6812LG.jpg": {
+      "before": 6867498,
+      "after": 126110
+    },
+    "pieces/gta-with-stand/GTA TV (no stand)-2048.glb": {
+      "before": 2353048,
+      "after": 706320
+    },
+    "pieces/tissues/Tissues good-2048.glb": {
+      "before": 2438988,
+      "after": 1518400
+    },
+    "pieces/tetsuya/Tetsuya good-2048.glb": {
+      "before": 1801652,
+      "after": 1109012
+    },
+    "pieces/coke/Can ok-2048.glb": {
+      "before": 2024612,
+      "after": 1240632
+    },
+    "pieces/Autokrafts/Cheese okay-2048.glb": {
+      "before": 2535412,
+      "after": 1612148
+    },
+    "pieces/consumption log/individual pages/page 64.png": {
+      "before": 3796814,
+      "after": 816026,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 63.png": {
+      "before": 3673992,
+      "after": 785512,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 29.png": {
+      "before": 3670510,
+      "after": 703988,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 32.png": {
+      "before": 3640788,
+      "after": 708747,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 61.png": {
+      "before": 3630064,
+      "after": 755062,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 31.png": {
+      "before": 3625199,
+      "after": 722225,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 38.png": {
+      "before": 3619202,
+      "after": 751591,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 62.png": {
+      "before": 3588715,
+      "after": 737661,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 37.png": {
+      "before": 3578551,
+      "after": 725047,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 30.png": {
+      "before": 3532116,
+      "after": 694234,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 79.png": {
+      "before": 3526768,
+      "after": 760638,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 39.png": {
+      "before": 3524615,
+      "after": 717466,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 40.png": {
+      "before": 3466961,
+      "after": 702950,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 5.png": {
+      "before": 3456241,
+      "after": 707606,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 6.png": {
+      "before": 3455771,
+      "after": 702750,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 15.png": {
+      "before": 3443194,
+      "after": 664541,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 71.png": {
+      "before": 3429954,
+      "after": 702512,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 14.png": {
+      "before": 3422360,
+      "after": 672780,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 8.png": {
+      "before": 3421785,
+      "after": 737083,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 69.png": {
+      "before": 3391557,
+      "after": 670691,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 45.png": {
+      "before": 3391172,
+      "after": 663528,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 53.png": {
+      "before": 3389419,
+      "after": 652139,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 72.png": {
+      "before": 3384770,
+      "after": 776200,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 55.png": {
+      "before": 3382047,
+      "after": 672022,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 16.png": {
+      "before": 3380377,
+      "after": 711889,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 56.png": {
+      "before": 3369109,
+      "after": 672595,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 54.png": {
+      "before": 3368117,
+      "after": 664951,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 78.png": {
+      "before": 3367234,
+      "after": 740031,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 46.png": {
+      "before": 3358838,
+      "after": 652348,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 77.png": {
+      "before": 3355268,
+      "after": 731743,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 7.png": {
+      "before": 3310728,
+      "after": 678822,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 47.png": {
+      "before": 3304409,
+      "after": 641687,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 48.png": {
+      "before": 3274158,
+      "after": 672916,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 60.png": {
+      "before": 3235217,
+      "after": 575127,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 13.png": {
+      "before": 3234381,
+      "after": 630510,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 70.png": {
+      "before": 3209018,
+      "after": 621227,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 34.png": {
+      "before": 3182291,
+      "after": 535116,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 35.png": {
+      "before": 3163413,
+      "after": 552463,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 58.png": {
+      "before": 3149606,
+      "after": 536709,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 36.png": {
+      "before": 3144871,
+      "after": 549970,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 33.png": {
+      "before": 3127659,
+      "after": 532457,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 59.png": {
+      "before": 3117780,
+      "after": 552928,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 65.png": {
+      "before": 3115899,
+      "after": 494876,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 67.png": {
+      "before": 3104803,
+      "after": 493606,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 25.png": {
+      "before": 3103035,
+      "after": 512527,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 66.png": {
+      "before": 3102803,
+      "after": 499965,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 26.png": {
+      "before": 3088858,
+      "after": 525193,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 42.png": {
+      "before": 3085422,
+      "after": 510109,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 57.png": {
+      "before": 3054592,
+      "after": 539100,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 68.png": {
+      "before": 3050892,
+      "after": 510487,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 44.png": {
+      "before": 3046107,
+      "after": 522502,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 41.png": {
+      "before": 3046107,
+      "after": 522502,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 43.png": {
+      "before": 3037763,
+      "after": 540142,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 28.png": {
+      "before": 3032306,
+      "after": 496721,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 74.png": {
+      "before": 3021497,
+      "after": 577973,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 27.png": {
+      "before": 2997233,
+      "after": 498621,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 49.png": {
+      "before": 2977687,
+      "after": 511333,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 73.png": {
+      "before": 2973652,
+      "after": 532819,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 50.png": {
+      "before": 2964941,
+      "after": 481645,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 75.png": {
+      "before": 2952624,
+      "after": 601728,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 51.png": {
+      "before": 2951116,
+      "after": 498832,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 24.png": {
+      "before": 2950246,
+      "after": 642546,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 76.png": {
+      "before": 2926133,
+      "after": 558756,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 52.png": {
+      "before": 2907609,
+      "after": 509672,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 12.png": {
+      "before": 2906473,
+      "after": 569616,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 11.png": {
+      "before": 2823554,
+      "after": 548938,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 17.png": {
+      "before": 2803994,
+      "after": 541410,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 10.png": {
+      "before": 2776798,
+      "after": 531550,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 9.png": {
+      "before": 2774954,
+      "after": 561726,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 4.png": {
+      "before": 2697103,
+      "after": 544350,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 18.png": {
+      "before": 2650878,
+      "after": 522503,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 2.png": {
+      "before": 2481463,
+      "after": 424883,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 80.png": {
+      "before": 2466041,
+      "after": 495433,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 3.png": {
+      "before": 2413600,
+      "after": 436058,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 22.png": {
+      "before": 2409576,
+      "after": 482743,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 21.png": {
+      "before": 2383460,
+      "after": 480411,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 19.png": {
+      "before": 2304911,
+      "after": 473022,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/page 23.png": {
+      "before": 2272656,
+      "after": 468709,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 1.png": {
+      "before": 2205101,
+      "after": 384603,
+      "palette_colors": 256
+    },
+    "pieces/consumption log/individual pages/Page 20.png": {
+      "before": 2160894,
+      "after": 436351,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/ar15_v2_asm.png": {
+      "before": 418128,
+      "after": 348346,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/9459b67b-18b9-45b3-9694-a380739cc99a.png": {
+      "before": 339468,
+      "after": 136422,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/e1670c06-340a-4382-b9b7-ce3a93290656.png": {
+      "before": 335838,
+      "after": 160083,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/5632d169-f3c0-4611-ad9c-c2a6c4828f94.png": {
+      "before": 327013,
+      "after": 145579,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/df34de45-f724-451d-9a63-379241e9c60a.png": {
+      "before": 324501,
+      "after": 134494,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/280805b1-c0c1-4bd6-93c0-05c914bc06c1.png": {
+      "before": 297707,
+      "after": 106113,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/images/4926d068-61b6-4381-bf33-bf0cda977464.png": {
+      "before": 294189,
+      "after": 165604,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/20039e68a6f29d0fe7d8a1cba28f314b.png": {
+      "before": 279854,
+      "after": 121647,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/90d8e290564866fb75b4625601ace3e2.png": {
+      "before": 272270,
+      "after": 117558,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/mag_release_center.png": {
+      "before": 270053,
+      "after": 131572,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/8fe295dd-1051-49f4-95bd-0397cfd80142.png": {
+      "before": 266478,
+      "after": 130043,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/90d67ed2f837fc76b9f410ce5df81b79.png": {
+      "before": 262790,
+      "after": 114266,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/images/90578dc3-595c-4548-89a1-69591b525cc3.png": {
+      "before": 260704,
+      "after": 171017,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/344ee6bd09353c068af081efd9ed0219.png": {
+      "before": 260362,
+      "after": 116285,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/36fadeac3fed74647813e24fd7a1601d.png": {
+      "before": 255687,
+      "after": 116834,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/gasblock_for_extendable_handguard_fix.png": {
+      "before": 254572,
+      "after": 140480,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/e5e141be991c86879b7d6067c2500250.png": {
+      "before": 253419,
+      "after": 114278,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/3c0308ea-a1f1-47f4-83f6-a73ac2a69934.png": {
+      "before": 250995,
+      "after": 104847,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/662c3b54-8f7d-4016-8ce0-8a306c2c5bbc.png": {
+      "before": 246876,
+      "after": 97786,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/eb0f428fc1ff45c631981cc3e71e0639.png": {
+      "before": 245229,
+      "after": 102441,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/721c14bc-b284-4d1b-9379-03694c337b4a.png": {
+      "before": 239985,
+      "after": 116716,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/f784d0f8-540b-4b06-81fb-c8c8f7b3f6c8.png": {
+      "before": 234298,
+      "after": 108334,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/cdecdba9-1ba7-4aa4-844a-aba7877efb0b.png": {
+      "before": 228325,
+      "after": 104105,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/1ffcb1c1-eeaf-48a2-b72a-a82d98caaf6b.png": {
+      "before": 227452,
+      "after": 87493,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/69333b07-de4d-4b2a-8931-344d9f8db3ff.png": {
+      "before": 224808,
+      "after": 118487,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/c4bcc20dad680b038d11829159150f8f.png": {
+      "before": 221672,
+      "after": 82939,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/035db656-d15b-429d-a047-cd0aa683f8a9.png": {
+      "before": 210372,
+      "after": 98708,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/df523e19ab456f7bc08deb72a2979e16.png": {
+      "before": 208551,
+      "after": 95820,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/daf86b820aeeb11876ed7cf029bd2655.png": {
+      "before": 207796,
+      "after": 105958,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/969f9cb9-e215-4fe7-a6f3-774e23051e60.png": {
+      "before": 207218,
+      "after": 129192,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/0a4a8d06-6ade-421d-8cb9-999c56eb4a45.png": {
+      "before": 204670,
+      "after": 114116,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/023ffc7e-dad9-4273-be3a-22da105a956d.png": {
+      "before": 197814,
+      "after": 107150,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/17cbe8021ec0b28e8d00b6459f3dd6bb.png": {
+      "before": 196417,
+      "after": 78724,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/ar15_lower_s_full_markings.png": {
+      "before": 193851,
+      "after": 120658,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/8256187dfce0991a1c52b99ae4f3c4bf.png": {
+      "before": 192466,
+      "after": 106291,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/22c7b22c-8538-412a-83d2-a8acd4a7b260.png": {
+      "before": 189471,
+      "after": 109260,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1396.png": {
+      "before": 185029,
+      "after": 42472,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1399.png": {
+      "before": 184002,
+      "after": 43216,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/af2d00df-ad9b-4b0f-828a-80902b5adb8c.png": {
+      "before": 183126,
+      "after": 107494,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1395.png": {
+      "before": 183107,
+      "after": 41540,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1398.png": {
+      "before": 182793,
+      "after": 42176,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1401.png": {
+      "before": 182702,
+      "after": 42594,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1335.png": {
+      "before": 181198,
+      "after": 42813,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1728.png": {
+      "before": 180299,
+      "after": 41985,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1730.png": {
+      "before": 180254,
+      "after": 43739,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/ar15_upper_ms.png": {
+      "before": 179546,
+      "after": 116192,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1400.png": {
+      "before": 179468,
+      "after": 41789,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/ar15_upper_s.png": {
+      "before": 179372,
+      "after": 117351,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1729.png": {
+      "before": 177799,
+      "after": 41558,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1374.png": {
+      "before": 177754,
+      "after": 41295,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1397.png": {
+      "before": 176927,
+      "after": 40110,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1377.png": {
+      "before": 176839,
+      "after": 42225,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1369.png": {
+      "before": 176550,
+      "after": 38002,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1393.png": {
+      "before": 175699,
+      "after": 38241,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1331.png": {
+      "before": 175352,
+      "after": 40411,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1371.png": {
+      "before": 175120,
+      "after": 39034,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1727.png": {
+      "before": 175094,
+      "after": 40206,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1376.png": {
+      "before": 174969,
+      "after": 40850,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1332.png": {
+      "before": 174246,
+      "after": 40490,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/22334578-fef7-4bf8-8379-e280116f5602.png": {
+      "before": 174089,
+      "after": 92401,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1368.png": {
+      "before": 173976,
+      "after": 36739,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1394.png": {
+      "before": 172792,
+      "after": 38125,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1372.png": {
+      "before": 172491,
+      "after": 38513,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1748.png": {
+      "before": 171573,
+      "after": 42472,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1200.png": {
+      "before": 171257,
+      "after": 38699,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 126.png": {
+      "before": 170820,
+      "after": 38599,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1350.png": {
+      "before": 170429,
+      "after": 37368,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1329.png": {
+      "before": 170028,
+      "after": 37880,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1367.png": {
+      "before": 169867,
+      "after": 35230,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 149.png": {
+      "before": 169592,
+      "after": 39986,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1373.png": {
+      "before": 169259,
+      "after": 38123,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1348.png": {
+      "before": 169197,
+      "after": 34666,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1330.png": {
+      "before": 168838,
+      "after": 38102,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1352.png": {
+      "before": 168724,
+      "after": 37895,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1550.png": {
+      "before": 168031,
+      "after": 35778,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 125.png": {
+      "before": 167188,
+      "after": 37023,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1551.png": {
+      "before": 167086,
+      "after": 36602,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1704.png": {
+      "before": 167032,
+      "after": 39147,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 160.png": {
+      "before": 167028,
+      "after": 37825,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1747.png": {
+      "before": 166965,
+      "after": 41418,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1328.png": {
+      "before": 166760,
+      "after": 35829,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1351.png": {
+      "before": 166268,
+      "after": 36406,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1349.png": {
+      "before": 166242,
+      "after": 34524,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1573.png": {
+      "before": 166063,
+      "after": 41361,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1220.png": {
+      "before": 165814,
+      "after": 35384,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1390.png": {
+      "before": 165655,
+      "after": 35123,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 173.png": {
+      "before": 165543,
+      "after": 40783,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1199.png": {
+      "before": 165424,
+      "after": 35375,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1746.png": {
+      "before": 165379,
+      "after": 40271,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1151.png": {
+      "before": 165343,
+      "after": 32566,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 122.png": {
+      "before": 165132,
+      "after": 36269,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1326.png": {
+      "before": 165094,
+      "after": 34099,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1045.png": {
+      "before": 164933,
+      "after": 36318,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1392.png": {
+      "before": 164741,
+      "after": 34711,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1510.png": {
+      "before": 164657,
+      "after": 36472,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1327.png": {
+      "before": 164190,
+      "after": 34755,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 172.png": {
+      "before": 164003,
+      "after": 38525,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 161.png": {
+      "before": 163973,
+      "after": 37974,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 103.png": {
+      "before": 163503,
+      "after": 37416,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 121.png": {
+      "before": 163413,
+      "after": 36515,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 116.png": {
+      "before": 163089,
+      "after": 33767,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1506.png": {
+      "before": 162713,
+      "after": 34991,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1370.png": {
+      "before": 162640,
+      "after": 33411,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1571.png": {
+      "before": 162453,
+      "after": 38489,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 118.png": {
+      "before": 162373,
+      "after": 35626,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1546.png": {
+      "before": 161894,
+      "after": 31809,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 113.png": {
+      "before": 161848,
+      "after": 32564,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1324.png": {
+      "before": 161493,
+      "after": 32667,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1391.png": {
+      "before": 161196,
+      "after": 33318,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1347.png": {
+      "before": 160658,
+      "after": 32685,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1322.png": {
+      "before": 160117,
+      "after": 31225,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1323.png": {
+      "before": 160007,
+      "after": 31441,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1677.png": {
+      "before": 159574,
+      "after": 36688,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 170.png": {
+      "before": 159572,
+      "after": 36593,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 168.png": {
+      "before": 159471,
+      "after": 36445,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1153.png": {
+      "before": 159229,
+      "after": 33218,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1723.png": {
+      "before": 159141,
+      "after": 32854,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 114.png": {
+      "before": 159077,
+      "after": 30739,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1150.png": {
+      "before": 158272,
+      "after": 29434,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 115.png": {
+      "before": 158208,
+      "after": 30807,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1680.png": {
+      "before": 157993,
+      "after": 35323,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 117.png": {
+      "before": 157874,
+      "after": 32517,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1721.png": {
+      "before": 157741,
+      "after": 33489,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1745.png": {
+      "before": 157619,
+      "after": 37491,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1389.png": {
+      "before": 157551,
+      "after": 33372,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 162.png": {
+      "before": 157349,
+      "after": 35928,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1198.png": {
+      "before": 157307,
+      "after": 34057,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1218.png": {
+      "before": 157285,
+      "after": 32691,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 120.png": {
+      "before": 156875,
+      "after": 34139,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 159.png": {
+      "before": 156810,
+      "after": 36941,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 169.png": {
+      "before": 156766,
+      "after": 35928,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1219.png": {
+      "before": 156531,
+      "after": 32710,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1217.png": {
+      "before": 156454,
+      "after": 32258,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1701.png": {
+      "before": 156452,
+      "after": 34662,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1040.png": {
+      "before": 156108,
+      "after": 33384,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1570.png": {
+      "before": 156058,
+      "after": 35983,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1504.png": {
+      "before": 155834,
+      "after": 32032,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1566.png": {
+      "before": 155824,
+      "after": 33390,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1152.png": {
+      "before": 155822,
+      "after": 31037,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 164.png": {
+      "before": 155683,
+      "after": 35172,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 138.png": {
+      "before": 155660,
+      "after": 32101,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1020.png": {
+      "before": 155416,
+      "after": 29796,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1197.png": {
+      "before": 155393,
+      "after": 32456,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1565.png": {
+      "before": 155313,
+      "after": 34484,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 145.png": {
+      "before": 155221,
+      "after": 34965,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1742.png": {
+      "before": 155184,
+      "after": 36292,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 165.png": {
+      "before": 154533,
+      "after": 35433,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1567.png": {
+      "before": 154327,
+      "after": 34679,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 163.png": {
+      "before": 154179,
+      "after": 34539,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1740.png": {
+      "before": 153843,
+      "after": 35523,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 135.png": {
+      "before": 153595,
+      "after": 34322,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1743.png": {
+      "before": 153431,
+      "after": 35595,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1548.png": {
+      "before": 153334,
+      "after": 31440,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1744.png": {
+      "before": 152962,
+      "after": 35412,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1042.png": {
+      "before": 152648,
+      "after": 32680,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1043.png": {
+      "before": 152495,
+      "after": 32607,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1171.png": {
+      "before": 152250,
+      "after": 28732,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1147.png": {
+      "before": 152104,
+      "after": 27607,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1174.png": {
+      "before": 152089,
+      "after": 31327,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1021.png": {
+      "before": 152042,
+      "after": 29839,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1345.png": {
+      "before": 152037,
+      "after": 29813,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1698.png": {
+      "before": 151506,
+      "after": 33633,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1545.png": {
+      "before": 151320,
+      "after": 28064,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1148.png": {
+      "before": 151271,
+      "after": 27359,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1325.png": {
+      "before": 151135,
+      "after": 30044,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1041.png": {
+      "before": 151096,
+      "after": 32070,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 139.png": {
+      "before": 151061,
+      "after": 30530,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1433.png": {
+      "before": 150720,
+      "after": 29012,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1569.png": {
+      "before": 150665,
+      "after": 33989,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1544.png": {
+      "before": 150644,
+      "after": 28206,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1722.png": {
+      "before": 150536,
+      "after": 30798,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1503.png": {
+      "before": 150328,
+      "after": 29051,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1697.png": {
+      "before": 150083,
+      "after": 33320,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1527.png": {
+      "before": 149978,
+      "after": 31591,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1720.png": {
+      "before": 149851,
+      "after": 31968,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1344.png": {
+      "before": 149842,
+      "after": 28832,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1530.png": {
+      "before": 149799,
+      "after": 30963,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1741.png": {
+      "before": 149757,
+      "after": 35369,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 157.png": {
+      "before": 149739,
+      "after": 36966,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1568.png": {
+      "before": 149706,
+      "after": 33787,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1528.png": {
+      "before": 149692,
+      "after": 30786,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1302.png": {
+      "before": 149663,
+      "after": 34028,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1149.png": {
+      "before": 149661,
+      "after": 28466,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/6368af28afd2646f690487fcf4e09e96.png": {
+      "before": 149590,
+      "after": 71177,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1388.png": {
+      "before": 149298,
+      "after": 33517,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1682.png": {
+      "before": 149294,
+      "after": 33566,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 140.png": {
+      "before": 149275,
+      "after": 30728,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1179.png": {
+      "before": 149214,
+      "after": 30852,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1192.png": {
+      "before": 148953,
+      "after": 28742,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1170.png": {
+      "before": 148909,
+      "after": 26712,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1193.png": {
+      "before": 148748,
+      "after": 28351,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1366.png": {
+      "before": 148740,
+      "after": 30278,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1699.png": {
+      "before": 148484,
+      "after": 33010,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1679.png": {
+      "before": 148374,
+      "after": 33297,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1536.png": {
+      "before": 148319,
+      "after": 32007,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1702.png": {
+      "before": 148292,
+      "after": 33387,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1039.png": {
+      "before": 148122,
+      "after": 32077,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1700.png": {
+      "before": 148102,
+      "after": 32342,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1195.png": {
+      "before": 147941,
+      "after": 29212,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1543.png": {
+      "before": 147938,
+      "after": 28457,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1305.png": {
+      "before": 147902,
+      "after": 30458,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1303.png": {
+      "before": 147598,
+      "after": 33204,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1279.png": {
+      "before": 147581,
+      "after": 33753,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1346.png": {
+      "before": 147410,
+      "after": 28482,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1676.png": {
+      "before": 147084,
+      "after": 34593,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1724.png": {
+      "before": 146918,
+      "after": 30420,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1301.png": {
+      "before": 146850,
+      "after": 34350,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1173.png": {
+      "before": 146817,
+      "after": 28519,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1017.png": {
+      "before": 146799,
+      "after": 27350,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1237.png": {
+      "before": 146744,
+      "after": 29499,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1502.png": {
+      "before": 146432,
+      "after": 27857,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1501.png": {
+      "before": 146402,
+      "after": 27949,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 166.png": {
+      "before": 146328,
+      "after": 31228,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1524.png": {
+      "before": 146073,
+      "after": 28420,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1719.png": {
+      "before": 146018,
+      "after": 33609,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1455.png": {
+      "before": 145875,
+      "after": 28342,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1526.png": {
+      "before": 145731,
+      "after": 28347,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1675.png": {
+      "before": 145645,
+      "after": 35273,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1547.png": {
+      "before": 145643,
+      "after": 27534,
+      "palette_colors": 256
+    },
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/90ede599-ded7-46ad-8beb-7531c714521e.png": {
+      "before": 145629,
+      "after": 78096,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1456.png": {
+      "before": 145544,
+      "after": 27343,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 167.png": {
+      "before": 145404,
+      "after": 30698,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1411.png": {
+      "before": 145147,
+      "after": 27450,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 112.png": {
+      "before": 144635,
+      "after": 29323,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1261.png": {
+      "before": 144616,
+      "after": 27466,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1169.png": {
+      "before": 144552,
+      "after": 25254,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1214.png": {
+      "before": 144482,
+      "after": 29396,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1103.png": {
+      "before": 144474,
+      "after": 28287,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1505.png": {
+      "before": 144353,
+      "after": 28816,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 143.png": {
+      "before": 144247,
+      "after": 30657,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 156.png": {
+      "before": 144175,
+      "after": 33820,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 141.png": {
+      "before": 144140,
+      "after": 30391,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1049.png": {
+      "before": 144131,
+      "after": 31143,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1678.png": {
+      "before": 144118,
+      "after": 33583,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 134.png": {
+      "before": 144035,
+      "after": 32148,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1215.png": {
+      "before": 144034,
+      "after": 29830,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1196.png": {
+      "before": 144005,
+      "after": 28804,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1412.png": {
+      "before": 143967,
+      "after": 26549,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1019.png": {
+      "before": 143689,
+      "after": 26582,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 158.png": {
+      "before": 143655,
+      "after": 35513,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1304.png": {
+      "before": 143587,
+      "after": 31339,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1146.png": {
+      "before": 143196,
+      "after": 24640,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1610.png": {
+      "before": 142922,
+      "after": 33902,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1172.png": {
+      "before": 142738,
+      "after": 26486,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1454.png": {
+      "before": 142447,
+      "after": 29233,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1216.png": {
+      "before": 142402,
+      "after": 29064,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 136.png": {
+      "before": 142160,
+      "after": 30453,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1718.png": {
+      "before": 142032,
+      "after": 33959,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1257.png": {
+      "before": 141897,
+      "after": 30719,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1278.png": {
+      "before": 141812,
+      "after": 33377,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1587.png": {
+      "before": 141642,
+      "after": 31588,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1434.png": {
+      "before": 141413,
+      "after": 25789,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 142.png": {
+      "before": 141352,
+      "after": 29603,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1016.png": {
+      "before": 141030,
+      "after": 26828,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1435.png": {
+      "before": 140950,
+      "after": 25533,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1436.png": {
+      "before": 140849,
+      "after": 25326,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 137.png": {
+      "before": 140764,
+      "after": 28924,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1500.png": {
+      "before": 140731,
+      "after": 27020,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1457.png": {
+      "before": 140638,
+      "after": 26133,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1281.png": {
+      "before": 140448,
+      "after": 30166,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1525.png": {
+      "before": 140122,
+      "after": 26635,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1522.png": {
+      "before": 139580,
+      "after": 25213,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1499.png": {
+      "before": 139547,
+      "after": 26850,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1038.png": {
+      "before": 139500,
+      "after": 30007,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1523.png": {
+      "before": 138998,
+      "after": 25837,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1081.png": {
+      "before": 138997,
+      "after": 25946,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1129.png": {
+      "before": 138546,
+      "after": 27415,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1267.png": {
+      "before": 138501,
+      "after": 28353,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1015.png": {
+      "before": 138275,
+      "after": 26925,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1280.png": {
+      "before": 138190,
+      "after": 30240,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1632.png": {
+      "before": 138175,
+      "after": 32701,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1061.png": {
+      "before": 138031,
+      "after": 27528,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1319.png": {
+      "before": 137802,
+      "after": 28238,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1481.png": {
+      "before": 137641,
+      "after": 26423,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1238.png": {
+      "before": 137593,
+      "after": 26802,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1458.png": {
+      "before": 137579,
+      "after": 25147,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1410.png": {
+      "before": 137485,
+      "after": 26835,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1213.png": {
+      "before": 137471,
+      "after": 28908,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1459.png": {
+      "before": 137404,
+      "after": 25209,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1416.png": {
+      "before": 137297,
+      "after": 25508,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1105.png": {
+      "before": 137296,
+      "after": 26607,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1478.png": {
+      "before": 137117,
+      "after": 25560,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1696.png": {
+      "before": 137111,
+      "after": 31562,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1062.png": {
+      "before": 137098,
+      "after": 27235,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1309.png": {
+      "before": 137096,
+      "after": 28422,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1674.png": {
+      "before": 137068,
+      "after": 32980,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1306.png": {
+      "before": 137029,
+      "after": 28986,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1479.png": {
+      "before": 137013,
+      "after": 25219,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1609.png": {
+      "before": 136957,
+      "after": 32634,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1018.png": {
+      "before": 136933,
+      "after": 25036,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1480.png": {
+      "before": 136860,
+      "after": 25239,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1521.png": {
+      "before": 136757,
+      "after": 25094,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1316.png": {
+      "before": 136729,
+      "after": 26393,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1265.png": {
+      "before": 136626,
+      "after": 26795,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1564.png": {
+      "before": 136535,
+      "after": 30698,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1240.png": {
+      "before": 136513,
+      "after": 27672,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1194.png": {
+      "before": 136478,
+      "after": 25363,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1102.png": {
+      "before": 135844,
+      "after": 29175,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1418.png": {
+      "before": 135650,
+      "after": 24490,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1288.png": {
+      "before": 135623,
+      "after": 27101,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1262.png": {
+      "before": 135566,
+      "after": 25622,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1258.png": {
+      "before": 135566,
+      "after": 28774,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1498.png": {
+      "before": 135558,
+      "after": 26246,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1461.png": {
+      "before": 135474,
+      "after": 24881,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1300.png": {
+      "before": 135449,
+      "after": 32598,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1588.png": {
+      "before": 134944,
+      "after": 29286,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1283.png": {
+      "before": 134698,
+      "after": 27616,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1414.png": {
+      "before": 134631,
+      "after": 25405,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1439.png": {
+      "before": 134598,
+      "after": 24086,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1239.png": {
+      "before": 134597,
+      "after": 26893,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1460.png": {
+      "before": 134536,
+      "after": 23706,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1168.png": {
+      "before": 134141,
+      "after": 24763,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1438.png": {
+      "before": 134010,
+      "after": 24519,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1268.png": {
+      "before": 133725,
+      "after": 27026,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1542.png": {
+      "before": 133633,
+      "after": 28471,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1608.png": {
+      "before": 133517,
+      "after": 30846,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1104.png": {
+      "before": 133355,
+      "after": 25961,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1256.png": {
+      "before": 133259,
+      "after": 32464,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1477.png": {
+      "before": 133103,
+      "after": 25114,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1108.png": {
+      "before": 132938,
+      "after": 25088,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1271.png": {
+      "before": 132923,
+      "after": 26871,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1190.png": {
+      "before": 132903,
+      "after": 26367,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1065.png": {
+      "before": 132789,
+      "after": 27170,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1260.png": {
+      "before": 132767,
+      "after": 24785,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1485.png": {
+      "before": 132758,
+      "after": 26516,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1191.png": {
+      "before": 132734,
+      "after": 25447,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1483.png": {
+      "before": 132633,
+      "after": 26018,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1269.png": {
+      "before": 132584,
+      "after": 25894,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1613.png": {
+      "before": 132568,
+      "after": 29768,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1310.png": {
+      "before": 132504,
+      "after": 27960,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1441.png": {
+      "before": 132470,
+      "after": 24813,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1282.png": {
+      "before": 132438,
+      "after": 27879,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1307.png": {
+      "before": 132337,
+      "after": 28568,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1321.png": {
+      "before": 132272,
+      "after": 25270,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1247.png": {
+      "before": 132219,
+      "after": 28643,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1417.png": {
+      "before": 132209,
+      "after": 23524,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1084.png": {
+      "before": 132177,
+      "after": 23810,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1060.png": {
+      "before": 132024,
+      "after": 25112,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1107.png": {
+      "before": 132006,
+      "after": 24791,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1586.png": {
+      "before": 131908,
+      "after": 32826,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1409.png": {
+      "before": 131833,
+      "after": 27259,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1308.png": {
+      "before": 131757,
+      "after": 26585,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1131.png": {
+      "before": 131649,
+      "after": 25679,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 247.png": {
+      "before": 131482,
+      "after": 30353,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1437.png": {
+      "before": 131381,
+      "after": 23534,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1063.png": {
+      "before": 131321,
+      "after": 26365,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1487.png": {
+      "before": 131210,
+      "after": 25248,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1641.png": {
+      "before": 131193,
+      "after": 31362,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1130.png": {
+      "before": 131182,
+      "after": 26238,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1476.png": {
+      "before": 131115,
+      "after": 27506,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1083.png": {
+      "before": 131029,
+      "after": 24074,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1633.png": {
+      "before": 130992,
+      "after": 31321,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1415.png": {
+      "before": 130985,
+      "after": 24185,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1611.png": {
+      "before": 130931,
+      "after": 31684,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1080.png": {
+      "before": 130749,
+      "after": 25097,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1482.png": {
+      "before": 130654,
+      "after": 26220,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1285.png": {
+      "before": 130545,
+      "after": 25483,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1082.png": {
+      "before": 130368,
+      "after": 23896,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1429.png": {
+      "before": 130169,
+      "after": 24974,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1453.png": {
+      "before": 130115,
+      "after": 27488,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1432.png": {
+      "before": 130061,
+      "after": 27714,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1612.png": {
+      "before": 130049,
+      "after": 30392,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1236.png": {
+      "before": 130007,
+      "after": 25731,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1274.png": {
+      "before": 129986,
+      "after": 26401,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1451.png": {
+      "before": 129901,
+      "after": 25228,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1284.png": {
+      "before": 129857,
+      "after": 26194,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 204.png": {
+      "before": 129831,
+      "after": 30480,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1656.png": {
+      "before": 129810,
+      "after": 29516,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1263.png": {
+      "before": 129757,
+      "after": 23819,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1490.png": {
+      "before": 129677,
+      "after": 24912,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1627.png": {
+      "before": 129648,
+      "after": 30657,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1465.png": {
+      "before": 129531,
+      "after": 23522,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1426.png": {
+      "before": 129522,
+      "after": 24310,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1241.png": {
+      "before": 129433,
+      "after": 26290,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 224.png": {
+      "before": 129378,
+      "after": 32717,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1109.png": {
+      "before": 129357,
+      "after": 25064,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1440.png": {
+      "before": 129256,
+      "after": 23953,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1037.png": {
+      "before": 129233,
+      "after": 28704,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1259.png": {
+      "before": 129116,
+      "after": 25294,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1313.png": {
+      "before": 129078,
+      "after": 25997,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1293.png": {
+      "before": 129076,
+      "after": 26845,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1248.png": {
+      "before": 129017,
+      "after": 27232,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1125.png": {
+      "before": 128984,
+      "after": 30978,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1312.png": {
+      "before": 128977,
+      "after": 26637,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1088.png": {
+      "before": 128798,
+      "after": 24735,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1413.png": {
+      "before": 128724,
+      "after": 23556,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1287.png": {
+      "before": 128719,
+      "after": 25630,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1462.png": {
+      "before": 128680,
+      "after": 23092,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 111.png": {
+      "before": 128596,
+      "after": 27326,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1059.png": {
+      "before": 128362,
+      "after": 22433,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1657.png": {
+      "before": 128343,
+      "after": 29330,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1631.png": {
+      "before": 128298,
+      "after": 29844,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1463.png": {
+      "before": 128271,
+      "after": 23339,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1488.png": {
+      "before": 128247,
+      "after": 24717,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1658.png": {
+      "before": 128146,
+      "after": 30085,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1106.png": {
+      "before": 127999,
+      "after": 24560,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1592.png": {
+      "before": 127943,
+      "after": 25425,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1072.png": {
+      "before": 127871,
+      "after": 27030,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1272.png": {
+      "before": 127846,
+      "after": 26837,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1124.png": {
+      "before": 127845,
+      "after": 31119,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1289.png": {
+      "before": 127793,
+      "after": 25144,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1264.png": {
+      "before": 127664,
+      "after": 23995,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1630.png": {
+      "before": 127663,
+      "after": 28755,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1014.png": {
+      "before": 127214,
+      "after": 27152,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1424.png": {
+      "before": 127188,
+      "after": 24087,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1244.png": {
+      "before": 127089,
+      "after": 26050,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1275.png": {
+      "before": 127082,
+      "after": 25670,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1589.png": {
+      "before": 127025,
+      "after": 27177,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1419.png": {
+      "before": 127001,
+      "after": 23120,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1318.png": {
+      "before": 126915,
+      "after": 25717,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1423.png": {
+      "before": 126882,
+      "after": 23231,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1242.png": {
+      "before": 126757,
+      "after": 26179,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1317.png": {
+      "before": 126683,
+      "after": 23653,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1664.png": {
+      "before": 126610,
+      "after": 25624,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1659.png": {
+      "before": 126577,
+      "after": 27894,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1253.png": {
+      "before": 126532,
+      "after": 28026,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1243.png": {
+      "before": 126433,
+      "after": 26408,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1069.png": {
+      "before": 126376,
+      "after": 26604,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1484.png": {
+      "before": 126307,
+      "after": 24721,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1473.png": {
+      "before": 126307,
+      "after": 23214,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1314.png": {
+      "before": 126288,
+      "after": 24801,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 222.png": {
+      "before": 126231,
+      "after": 32172,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1637.png": {
+      "before": 126204,
+      "after": 31126,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1066.png": {
+      "before": 126184,
+      "after": 25350,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1212.png": {
+      "before": 126179,
+      "after": 27340,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 228.png": {
+      "before": 126042,
+      "after": 29850,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 202.png": {
+      "before": 125913,
+      "after": 31381,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1245.png": {
+      "before": 125903,
+      "after": 26526,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1595.png": {
+      "before": 125894,
+      "after": 24834,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1468.png": {
+      "before": 125883,
+      "after": 23833,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1311.png": {
+      "before": 125831,
+      "after": 25079,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1266.png": {
+      "before": 125774,
+      "after": 23790,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1343.png": {
+      "before": 125503,
+      "after": 24156,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1443.png": {
+      "before": 125474,
+      "after": 23519,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1470.png": {
+      "before": 125400,
+      "after": 23938,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1638.png": {
+      "before": 125357,
+      "after": 29924,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 223.png": {
+      "before": 125328,
+      "after": 32025,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1113.png": {
+      "before": 125321,
+      "after": 24868,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1085.png": {
+      "before": 125273,
+      "after": 23353,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1291.png": {
+      "before": 125236,
+      "after": 25627,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1660.png": {
+      "before": 125096,
+      "after": 27938,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 211.png": {
+      "before": 125049,
+      "after": 28349,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1420.png": {
+      "before": 124980,
+      "after": 22759,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1101.png": {
+      "before": 124931,
+      "after": 29541,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1590.png": {
+      "before": 124848,
+      "after": 25570,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1249.png": {
+      "before": 124818,
+      "after": 25944,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1290.png": {
+      "before": 124814,
+      "after": 24861,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1634.png": {
+      "before": 124736,
+      "after": 30301,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1621.png": {
+      "before": 124702,
+      "after": 27514,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1246.png": {
+      "before": 124589,
+      "after": 26350,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1070.png": {
+      "before": 124536,
+      "after": 26100,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1594.png": {
+      "before": 124483,
+      "after": 24130,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1079.png": {
+      "before": 124455,
+      "after": 26883,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1639.png": {
+      "before": 124407,
+      "after": 30571,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1489.png": {
+      "before": 124363,
+      "after": 24286,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1089.png": {
+      "before": 124277,
+      "after": 24391,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1464.png": {
+      "before": 124219,
+      "after": 22533,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1445.png": {
+      "before": 124165,
+      "after": 23857,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1614.png": {
+      "before": 124141,
+      "after": 28243,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1137.png": {
+      "before": 124039,
+      "after": 24537,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1270.png": {
+      "before": 123975,
+      "after": 24590,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1444.png": {
+      "before": 123917,
+      "after": 23521,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1127.png": {
+      "before": 123912,
+      "after": 28052,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1442.png": {
+      "before": 123911,
+      "after": 23082,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1665.png": {
+      "before": 123887,
+      "after": 26458,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1421.png": {
+      "before": 123786,
+      "after": 22486,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1145.png": {
+      "before": 123769,
+      "after": 25299,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1653.png": {
+      "before": 123672,
+      "after": 28010,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1142.png": {
+      "before": 123643,
+      "after": 24604,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1297.png": {
+      "before": 123620,
+      "after": 25959,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1315.png": {
+      "before": 123611,
+      "after": 24884,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1387.png": {
+      "before": 123607,
+      "after": 27517,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1591.png": {
+      "before": 123577,
+      "after": 24805,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1597.png": {
+      "before": 123492,
+      "after": 23558,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1110.png": {
+      "before": 123470,
+      "after": 24168,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1466.png": {
+      "before": 123398,
+      "after": 22554,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1286.png": {
+      "before": 123329,
+      "after": 24163,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1235.png": {
+      "before": 123257,
+      "after": 23729,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1111.png": {
+      "before": 123095,
+      "after": 23714,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1292.png": {
+      "before": 123033,
+      "after": 24679,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1668.png": {
+      "before": 123025,
+      "after": 31440,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1605.png": {
+      "before": 123011,
+      "after": 29135,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 206.png": {
+      "before": 122956,
+      "after": 26274,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1646.png": {
+      "before": 122951,
+      "after": 30347,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1431.png": {
+      "before": 122887,
+      "after": 26020,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1064.png": {
+      "before": 122865,
+      "after": 24545,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1251.png": {
+      "before": 122838,
+      "after": 27263,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1294.png": {
+      "before": 122566,
+      "after": 25841,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1427.png": {
+      "before": 122561,
+      "after": 23193,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1087.png": {
+      "before": 122558,
+      "after": 22880,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1495.png": {
+      "before": 122453,
+      "after": 26050,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1143.png": {
+      "before": 122453,
+      "after": 25886,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1139.png": {
+      "before": 122439,
+      "after": 24165,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 133.png": {
+      "before": 122435,
+      "after": 22388,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1663.png": {
+      "before": 122329,
+      "after": 23414,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1446.png": {
+      "before": 122113,
+      "after": 23368,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1273.png": {
+      "before": 122111,
+      "after": 24574,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1619.png": {
+      "before": 122108,
+      "after": 27166,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1640.png": {
+      "before": 122100,
+      "after": 30141,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1751.png": {
+      "before": 121951,
+      "after": 25251,
+      "palette_colors": 256
+    },
+    "pieces/print/segments/Segment 1114.png": {
+      "before": 121951,
+      "after": 25372,
+      "palette_colors": 256
+    }
+  },
+  "archives": {
+    "pieces/vapes/Vapes.blend": "pieces/vapes/Vapes.blend.zip",
+    "pieces/vapes/Vapes.blend1": "pieces/vapes/Vapes.blend1.zip",
+    "pieces/vapes/Breeze1 editable.blend": "pieces/vapes/Breeze1 editable.blend.zip",
+    "pieces/vapes/Breeze1 editable.blend1": "pieces/vapes/Breeze1 editable.blend1.zip",
+    "pieces/luigi/Mangione_3part_print_FINAL.blend": "pieces/luigi/Mangione_3part_print_FINAL.blend.zip",
+    "pieces/mtg/mtg + fortnite.ai": "pieces/mtg/mtg + fortnite.ai.zip",
+    "pieces/Buddyologies/package_rescale copy.ai": "pieces/Buddyologies/package_rescale copy.ai.zip",
+    "pieces/Buddyologies/print final copy.ai": "pieces/Buddyologies/print final copy.ai.zip",
+    "pieces/tetsuya/Tetsuya_1part_print_FINAL.blend": "pieces/tetsuya/Tetsuya_1part_print_FINAL.blend.zip",
+    "pieces/trump/dunce_var6 copy.STL": "pieces/trump/dunce_var6 copy.STL.zip",
+    "pieces/Autokrafts/Berlusconi copy.ai": "pieces/Autokrafts/Berlusconi copy.ai.zip",
+    "pieces/Autokrafts/Netanyahu copy.ai": "pieces/Autokrafts/Netanyahu copy.ai.zip",
+    "pieces/Autokrafts/gadaffi copy 2.ai": "pieces/Autokrafts/gadaffi copy 2.ai.zip",
+    "pieces/Autokrafts/putin copy.ai": "pieces/Autokrafts/putin copy.ai.zip",
+    "pieces/Autokrafts/Trump copy.ai": "pieces/Autokrafts/Trump copy.ai.zip",
+    "pieces/Autokrafts/Erdogan copy.ai": "pieces/Autokrafts/Erdogan copy.ai.zip",
+    "pieces/fortnite/mtg + fortnite.ai": "pieces/fortnite/mtg + fortnite.ai.zip",
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/Grip_marked.stl": "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/Grip_marked.stl.zip",
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/V3_0_marked.stl": "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/V3_0_marked.stl.zip",
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/ar15_lower_s_full_markings.stl": "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/ar15_lower_s_full_markings.stl.zip",
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/ar15_upper_s.stl": "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/ar15_upper_s.stl.zip",
+    "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/base_plate.stl": "pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/base_plate.stl.zip",
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/normal_pistol_grip.stl": "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/normal_pistol_grip.stl.zip",
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/beav_tail_pistol_grip.stl": "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/beav_tail_pistol_grip.stl.zip",
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/Lower_with_working_selector_detents_and_some_texturing.stl": "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/Lower_with_working_selector_detents_and_some_texturing.stl.zip",
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/Beav_tail_pistol_grip_textured.stl": "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/Beav_tail_pistol_grip_textured.stl.zip",
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/barrel.stl": "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/barrel.stl.zip",
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/normal_pistol_grip_texxx.stl": "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/normal_pistol_grip_texxx.stl.zip",
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/files/the_grip_base.stl": "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/files/the_grip_base.stl.zip",
+    "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/files/Mid_barrel_for_12mm_tube.stl": "pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/files/Mid_barrel_for_12mm_tube.stl.zip",
+    "pieces/vapes/woke breezes.psd": "pieces/vapes/woke breezes.psd.zip",
+    "pieces/rittenhouse/Rittenhouse_3part_print_FINAL.blend": "pieces/rittenhouse/Rittenhouse_3part_print_FINAL.blend.zip",
+    "pieces/crooks/Crooks_3part_print_FINAL.blend": "pieces/crooks/Crooks_3part_print_FINAL.blend.zip"
+  },
+  "errors": [],
+  "bytes_after": 899964280
+}

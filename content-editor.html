@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-site-loading data-loading-mode="page">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Piece notebook</title>
+  <link rel="stylesheet" href="./content-editor.css">
+  <link rel="stylesheet" href="./loading.css">
+  <script defer src="./js/loading.js"></script>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">3D ROOM / STUDIO</p>
+    <h1>Piece notebook</h1>
+    <p>Edit object names, descriptions, creation dates, and documentation. Changes save automatically and appear in the room and piece pages.</p>
+    <nav><a href="./index.html?view=player" target="_blank" rel="noopener">Open room ↗</a><a href="./orientation-editor.html">Edit orientations</a></nav>
+    <div class="filters"><label>Find a piece <input id="search" type="search" placeholder="Name…"></label><label>Status <select id="filter"><option>All</option><option>Not started</option><option>Draft</option><option>Ready</option></select></label><span id="count" role="status"></span></div>
+    <p id="error" role="alert" hidden></p>
+  </header>
+  <main id="pieces" aria-label="Piece documents"></main>
+  <script type="module" src="./js/content-editor.js"></script>
+</body>
+</html>

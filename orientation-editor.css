@@ -1,0 +1,30 @@
+:root { color-scheme: dark; font: 14px system-ui, sans-serif; background: #151616; color: #eeefeb; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+header { padding: 30px 32px 22px; border-bottom: 1px solid #393b39; }
+h1 { font-size: clamp(26px, 4vw, 38px); margin: 0 0 18px; font-weight: 500; }
+.eyebrow { font-size: 11px; letter-spacing: .16em; color: #e8ca8c; }
+header > a { float: right; margin-top: -52px; }
+a { color: #e8ca8c; }
+p { line-height: 1.6; max-width: 850px; }
+.muted { color: #a8ada7; }
+input { margin: 10px 20px 0 10px; padding: 10px; border: 1px solid #555; border-radius: 5px; background: #222; color: white; }
+#progress { color: #a8ada7; }
+#error, .failed { color: #ffb1a8; }
+#gallery { display: grid; grid-template-columns: repeat(auto-fill,minmax(290px,1fr)); gap: 18px; padding: 24px 32px; }
+article { background: #232524; border: 1px solid #3a3d39; border-radius: 10px; overflow: hidden; }
+article.selected { border-color: #e8ca8c; }
+article[hidden] { display: none; }
+h2 { font-size: 17px; font-weight: 500; margin: 16px 16px 4px; }
+.pose { margin: 0 16px; color: #b8beb6; font-size: 12px; font-variant-numeric: tabular-nums; }
+canvas { width: 100%; aspect-ratio: 360/280; display: block; cursor: grab; touch-action: none; }
+canvas:active { cursor: grabbing; }
+fieldset { border: 0; padding: 0 16px 16px; margin: 0; }
+.axis { display: grid; grid-template-columns: 1fr 64px 64px; align-items: center; gap: 8px; margin-top: 8px; }
+button { border: 1px solid #52574f; background: #30342e; color: #eeefeb; border-radius: 5px; padding: 8px; cursor: pointer; font: inherit; }
+button:hover { background: #464e40; }
+button:disabled { opacity: .4; cursor: wait; }
+button:focus-visible, canvas:focus-visible, input:focus-visible { outline: 2px solid #e8ca8c; outline-offset: 2px; }
+.actions { display: flex; gap: 8px; margin-top: 14px; }
+.status { display: block; min-height: 36px; margin: 0 16px 10px; color: #b8beb6; font-size: 12px; }
+@media(max-width:500px) { header { padding: 20px; } header > a { float: none; margin: 0; } #gallery { padding: 16px; } }

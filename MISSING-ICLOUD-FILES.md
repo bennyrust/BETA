@@ -1,0 +1,369 @@
+# Files awaiting iCloud download
+
+These source files are iCloud placeholders and could not yet be duplicated. Download them in Finder, then copy them from 3D Room/Web-ready into the same relative paths inside BETA before committing. The beta is incomplete until these are restored.
+
+- `pieces/white-tv/TV Dinner.mp4`
+- `pieces/luigi/Mangione_3part_print_FINAL.blend`
+- `pieces/cabinet/Cabinet good-2048.glb`
+- `pieces/print/print.py`
+- `pieces/print/segments/Segment 1532.png`
+- `pieces/print/segments/Segment 1254.png`
+- `pieces/print/segments/Segment 1240.png`
+- `pieces/print/segments/Segment 1724.png`
+- `pieces/print/segments/Segment 1042.png`
+- `pieces/print/segments/Segment 1718.png`
+- `pieces/print/segments/Segment 1095.png`
+- `pieces/print/segments/Segment 1644.png`
+- `pieces/print/segments/Segment 1136.png`
+- `pieces/print/segments/Segment 1678.png`
+- `pieces/print/segments/Segment 1687.png`
+- `pieces/print/segments/Segment 1320.png`
+- `pieces/print/segments/Segment 1452.png`
+- `pieces/print/segments/Segment 1308.png`
+- `pieces/print/segments/Segment 128.png`
+- `pieces/print/segments/Segment 1490.png`
+- `pieces/print/segments/Segment 1484.png`
+- `pieces/print/segments/Segment 1335.png`
+- `pieces/print/segments/Segment 1692.png`
+- `pieces/print/segments/Segment 1686.png`
+- `pieces/print/segments/Segment 1269.png`
+- `pieces/print/segments/Segment 1533.png`
+- `pieces/print/segments/Segment 1525.png`
+- `pieces/print/segments/Segment 1257.png`
+- `pieces/print/segments/Segment 1531.png`
+- `pieces/print/segments/Segment 1519.png`
+- `pieces/print/segments/Segment 1280.png`
+- `pieces/print/segments/Segment 1069.png`
+- `pieces/print/segments/Segment 1690.png`
+- `pieces/print/segments/Segment 1445.png`
+- `pieces/print/segments/Segment 1492.png`
+- `pieces/print/segments/Segment 103.png`
+- `pieces/print/segments/Segment 1487.png`
+- `pieces/print/segments/Segment 1450.png`
+- `pieces/print/segments/Segment 1685.png`
+- `pieces/print/segments/Segment 1646.png`
+- `pieces/print/segments/Segment 1097.png`
+- `pieces/print/segments/Segment 1068.png`
+- `pieces/print/segments/Segment 1732.png`
+- `pieces/print/segments/Segment 1256.png`
+- `pieces/print/segments/Segment 1524.png`
+- `pieces/print/segments/Segment 1246.png`
+- `pieces/print/segments/Segment 1285.png`
+- `pieces/print/segments/Segment 1078.png`
+- `pieces/print/segments/Segment 1722.png`
+- `pieces/print/segments/Segment 1093.png`
+- `pieces/print/segments/Segment 1118.png`
+- `pieces/print/segments/Segment 1130.png`
+- `pieces/print/segments/Segment 1124.png`
+- `pieces/print/segments/Segment 1468.png`
+- `pieces/print/segments/Segment 1440.png`
+- `pieces/print/segments/Segment 1326.png`
+- `pieces/print/segments/Segment 1497.png`
+- `pieces/print/segments/Segment 113.png`
+- `pieces/print/segments/Segment 1643.png`
+- `pieces/print/segments/Segment 1657.png`
+- `pieces/print/segments/Segment 1092.png`
+- `pieces/print/segments/Segment 1086.png`
+- `pieces/print/segments/Segment 1079.png`
+- `pieces/print/segments/Segment 1247.png`
+- `pieces/print/segments/Segment 1509.png`
+- `pieces/print/segments/Segment 1279.png`
+- `pieces/print/segments/Segment 1245.png`
+- `pieces/print/segments/Segment 1047.png`
+- `pieces/print/segments/Segment 1084.png`
+- `pieces/print/segments/Segment 1669.png`
+- `pieces/print/segments/Segment 1127.png`
+- `pieces/print/segments/Segment 1319.png`
+- `pieces/print/segments/Segment 1325.png`
+- `pieces/print/segments/Segment 139.png`
+- `pieces/print/segments/Segment 1495.png`
+- `pieces/print/segments/Segment 1442.png`
+- `pieces/print/segments/Segment 1654.png`
+- `pieces/print/segments/Segment 1085.png`
+- `pieces/print/segments/Segment 1287.png`
+- `pieces/print/segments/Segment 1522.png`
+- `pieces/print/segments/Segment 1551.png`
+- `pieces/print/segments/Segment 1592.png`
+- `pieces/print/segments/Segment 1021.png`
+- `pieces/print/segments/Segment 215.png`
+- `pieces/print/segments/Segment 1627.png`
+- `pieces/print/segments/Segment 1633.png`
+- `pieces/print/segments/Segment 1169.png`
+- `pieces/print/segments/Segment 1431.png`
+- `pieces/print/segments/Segment 188.png`
+- `pieces/print/segments/Segment 176.png`
+- `pieces/print/segments/Segment 162.png`
+- `pieces/print/segments/Segment 1395.png`
+- `pieces/print/segments/Segment 1381.png`
+- `pieces/print/segments/Segment 1418.png`
+- `pieces/print/segments/Segment 1430.png`
+- `pieces/print/segments/Segment 1424.png`
+- `pieces/print/segments/Segment 1626.png`
+- `pieces/print/segments/Segment 1140.png`
+- `pieces/print/segments/Segment 1020.png`
+- `pieces/print/segments/Segment 1034.png`
+- `pieces/print/segments/Segment 1220.png`
+- `pieces/print/segments/Segment 1208.png`
+- `pieces/print/segments/Segment 202.png`
+- `pieces/print/segments/Segment 216.png`
+- `pieces/print/segments/Segment 1630.png`
+- `pieces/print/segments/Segment 1156.png`
+- `pieces/print/segments/Segment 1181.png`
+- `pieces/print/segments/Segment 1432.png`
+- `pieces/print/segments/Segment 1397.png`
+- `pieces/print/segments/Segment 174.png`
+- `pieces/print/segments/Segment 161.png`
+- `pieces/print/segments/Segment 1396.png`
+- `pieces/print/segments/Segment 1369.png`
+- `pieces/print/segments/Segment 1194.png`
+- `pieces/print/segments/Segment 203.png`
+- `pieces/print/segments/Segment 1037.png`
+- `pieces/print/segments/Segment 1221.png`
+- `pieces/print/segments/Segment 1543.png`
+- `pieces/print/segments/Segment 1594.png`
+- `pieces/print/segments/Segment 1027.png`
+- `pieces/print/segments/Segment 207.png`
+- `pieces/print/segments/Segment 1379.png`
+- `pieces/print/segments/Segment 1437.png`
+- `pieces/print/segments/Segment 1392.png`
+- `pieces/print/segments/Segment 1386.png`
+- `pieces/print/segments/Segment 1387.png`
+- `pieces/print/segments/Segment 158.png`
+- `pieces/print/segments/Segment 1344.png`
+- `pieces/print/segments/Segment 1422.png`
+- `pieces/print/segments/Segment 1350.png`
+- `pieces/print/segments/Segment 1185.png`
+- `pieces/print/segments/Segment 1620.png`
+- `pieces/print/segments/Segment 212.png`
+- `pieces/print/segments/Segment 1581.png`
+- `pieces/print/segments/Segment 1230.png`
+- `pieces/print/segments/Segment 1218.png`
+- `pieces/print/segments/Segment 1232.png`
+- `pieces/print/segments/Segment 1742.png`
+- `pieces/print/segments/Segment 204.png`
+- `pieces/print/segments/Segment 1622.png`
+- `pieces/print/segments/Segment 1636.png`
+- `pieces/print/segments/Segment 1187.png`
+- `pieces/print/segments/Segment 1346.png`
+- `pieces/print/segments/Segment 166.png`
+- `pieces/print/segments/Segment 172.png`
+- `pieces/print/segments/Segment 1385.png`
+- `pieces/print/segments/Segment 167.png`
+- `pieces/print/segments/Segment 1623.png`
+- `pieces/print/segments/Segment 239.png`
+- `pieces/print/segments/Segment 1025.png`
+- `pieces/print/segments/Segment 1582.png`
+- `pieces/print/segments/Segment 1569.png`
+- `pieces/print/segments/Segment 234.png`
+- `pieces/print/segments/Segment 220.png`
+- `pieces/print/segments/Segment 1404.png`
+- `pieces/print/segments/Segment 1438.png`
+- `pieces/print/segments/Segment 142.png`
+- `pieces/print/segments/Segment 156.png`
+- `pieces/print/segments/Segment 1439.png`
+- `pieces/print/segments/Segment 1377.png`
+- `pieces/print/segments/Segment 1607.png`
+- `pieces/print/segments/Segment 1161.png`
+- `pieces/print/segments/Segment 221.png`
+- `pieces/print/segments/Segment 1565.png`
+- `pieces/print/segments/Segment 1201.png`
+- `pieces/print/segments/Segment 1598.png`
+- `pieces/print/segments/Segment 1759.png`
+- `pieces/print/segments/Segment 1611.png`
+- `pieces/print/segments/Segment 1177.png`
+- `pieces/print/segments/Segment 1413.png`
+- `pieces/print/segments/Segment 1407.png`
+- `pieces/print/segments/Segment 196.png`
+- `pieces/print/segments/Segment 140.png`
+- `pieces/print/segments/Segment 1406.png`
+- `pieces/print/segments/Segment 1374.png`
+- `pieces/print/segments/Segment 1604.png`
+- `pieces/print/segments/Segment 1610.png`
+- `pieces/print/segments/Segment 1176.png`
+- `pieces/print/segments/Segment 1758.png`
+- `pieces/print/segments/Segment 1016.png`
+- `pieces/print/segments/Segment 1599.png`
+- `pieces/print/segments/Segment 1228.png`
+- `pieces/print/segments/Segment 1200.png`
+- `pieces/print/segments/Segment 1238.png`
+- `pieces/print/segments/Segment 1589.png`
+- `pieces/print/segments/Segment 1012.png`
+- `pieces/print/segments/Segment 232.png`
+- `pieces/print/segments/Segment 1172.png`
+- `pieces/print/segments/Segment 1364.png`
+- `pieces/print/segments/Segment 144.png`
+- `pieces/print/segments/Segment 1417.png`
+- `pieces/print/segments/Segment 12.png`
+- `pieces/print/segments/Segment 192.png`
+- `pieces/print/segments/Segment 1173.png`
+- `pieces/print/segments/Segment 1563.png`
+- `pieces/print/segments/Segment 1239.png`
+- `pieces/print/segments/Segment 1575.png`
+- `pieces/print/segments/Segment 1207.png`
+- `pieces/print/segments/Segment 1039.png`
+- `pieces/print/segments/Segment 231.png`
+- `pieces/print/segments/Segment 219.png`
+- `pieces/print/segments/Segment 1603.png`
+- `pieces/print/segments/Segment 1617.png`
+- `pieces/print/segments/Segment 1401.png`
+- `pieces/print/segments/Segment 1367.png`
+- `pieces/print/segments/Segment 1398.png`
+- `pieces/print/segments/Segment 1399.png`
+- `pieces/print/segments/Segment 146.png`
+- `pieces/print/segments/Segment 1400.png`
+- `pieces/print/segments/Segment 1366.png`
+- `pieces/print/segments/Segment 191.png`
+- `pieces/print/segments/Segment 1428.png`
+- `pieces/print/segments/Segment 11.png`
+- `pieces/print/segments/Segment 1602.png`
+- `pieces/print/segments/Segment 218.png`
+- `pieces/print/segments/Segment 1004.png`
+- `pieces/print/segments/Segment 1261.png`
+- `pieces/print/segments/Segment 1063.png`
+- `pieces/print/segments/Segment 1103.png`
+- `pieces/print/segments/Segment 1671.png`
+- `pieces/print/segments/Segment 1117.png`
+- `pieces/print/segments/Segment 1301.png`
+- `pieces/print/segments/Segment 1315.png`
+- `pieces/print/segments/Segment 1473.png`
+- `pieces/print/segments/Segment 1466.png`
+- `pieces/print/segments/Segment 1116.png`
+- `pieces/print/segments/Segment 1089.png`
+- `pieces/print/segments/Segment 1704.png`
+- `pieces/print/segments/Segment 1248.png`
+- `pieces/print/segments/Segment 1512.png`
+- `pieces/print/segments/Segment 1274.png`
+- `pieces/print/segments/Segment 1504.png`
+- `pieces/print/segments/Segment 1262.png`
+- `pieces/print/segments/Segment 1060.png`
+- `pieces/print/segments/Segment 1672.png`
+- `pieces/print/segments/Segment 1464.png`
+- `pieces/print/segments/Segment 123.png`
+- `pieces/print/segments/Segment 1303.png`
+- `pieces/print/segments/Segment 1667.png`
+- `pieces/print/segments/Segment 1673.png`
+- `pieces/print/segments/Segment 1075.png`
+- `pieces/print/segments/Segment 1505.png`
+- `pieces/print/segments/Segment 1263.png`
+- `pieces/print/segments/Segment 1529.png`
+- `pieces/print/segments/Segment 1501.png`
+- `pieces/print/segments/Segment 1515.png`
+- `pieces/print/segments/Segment 2.png`
+- `pieces/print/segments/Segment 1059.png`
+- `pieces/print/segments/Segment 1717.png`
+- `pieces/print/segments/Segment 1688.png`
+- `pieces/print/segments/Segment 1313.png`
+- `pieces/print/segments/Segment 1460.png`
+- `pieces/print/segments/Segment 1474.png`
+- `pieces/print/segments/Segment 1448.png`
+- `pieces/print/segments/Segment 1676.png`
+- `pieces/print/segments/Segment 1514.png`
+- `pieces/print/segments/Segment 1272.png`
+- `pieces/print/segments/Segment 1266.png`
+- `pieces/print/segments/Segment 1528.png`
+- `pieces/print/segments/Segment 1264.png`
+- `pieces/print/segments/Segment 1728.png`
+- `pieces/print/segments/Segment 1072.png`
+- `pieces/print/segments/Segment 246.png`
+- `pieces/print/segments/Segment 1106.png`
+- `pieces/print/segments/Segment 1674.png`
+- `pieces/print/segments/Segment 1304.png`
+- `pieces/print/segments/Segment 130.png`
+- `pieces/print/segments/Segment 118.png`
+- `pieces/print/segments/Segment 131.png`
+- `pieces/print/segments/Segment 125.png`
+- `pieces/print/segments/Segment 1305.png`
+- `pieces/print/segments/Segment 1113.png`
+- `pieces/print/segments/Segment 1675.png`
+- `pieces/print/segments/Segment 1067.png`
+- `pieces/print/segments/Segment 1073.png`
+- `pieces/print/segments/Segment 1729.png`
+- `pieces/toilet/Toilet2-2048.glb`
+- `pieces/self portraits/DSC_6823LG.jpg`
+- `pieces/self portraits/DSC_6810LG.jpg`
+- `pieces/window/Window okay-2048.glb`
+- `pieces/gta-with-stand/12E8A431-F7FD-469A-AE51-E15ED6E2A332_1_105_c.jpg`
+- `pieces/gta-with-stand/IMG_8523.jpg`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/images/4926d068-61b6-4381-bf33-bf0cda977464.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/files/the_grip_base.stl`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 2 of 3 copy/LICENSE.txt`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/PAAR_v4_screw_instructions_sharper.jpg`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/1ffcb1c1-eeaf-48a2-b72a-a82d98caaf6b.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/cdecdba9-1ba7-4aa4-844a-aba7877efb0b.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/8fe295dd-1051-49f4-95bd-0397cfd80142.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/2bbc548f-54f1-4b30-8b90-c1ad9eb4d87e.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/9459b67b-18b9-45b3-9694-a380739cc99a.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/3c0308ea-a1f1-47f4-83f6-a73ac2a69934.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/69333b07-de4d-4b2a-8931-344d9f8db3ff.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/280805b1-c0c1-4bd6-93c0-05c914bc06c1.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/7b72ce04-5d71-4ab6-a64d-31faeff62a26.jpg`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/90ede599-ded7-46ad-8beb-7531c714521e.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/22c7b22c-8538-412a-83d2-a8acd4a7b260.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/images/a1fd5e5f-df01-49a2-9ca9-a41d501bc507.png`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/mag_catch.stl`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/stock_toob.stl`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/handguard.stl`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/Lower_with_working_selector_detents_and_some_texturing.stl`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/Beav_tail_pistol_grip_textured.stl`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/butt_bit_3.stl`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/left__right_rail.stl`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/files/front_screw_plug.stl`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/README.txt`
+- `pieces/gun/Printable airsoft AR-15 gen4 (V4, aka EVO) - 5550605 - part 3 of 3 copy/LICENSE.txt`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy.zip`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/e5e141be991c86879b7d6067c2500250.png`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/ar15_v2.png`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/17cbe8021ec0b28e8d00b6459f3dd6bb.png`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/ar15_v2_asm.png`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/daf86b820aeeb11876ed7cf029bd2655.png`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/90d67ed2f837fc76b9f410ce5df81b79.png`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/36fadeac3fed74647813e24fd7a1601d.png`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/mag_release_center.png`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/images/8256187dfce0991a1c52b99ae4f3c4bf.png`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/rear_pin.stl`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/mag_release_catch.stl`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/ar15_lower_s_full_markings.stl`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/front_pin.stl`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/ar15_upper_s.stl`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/base_plate.stl`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/files/mag_release_center.stl`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/README.txt`
+- `pieces/gun/Printable Airsoft AR15 (PAAR15) AEG Body kit (08.12.19) - 3728030 copy/LICENSE.txt`
+- `pieces/american-spirit/american spirit.png`
+- `pieces/nyan-cat/nyan_cat.mp4`
+- `pieces/nyan-cat/nyan_cat.gif`
+- `pieces/Buddyologies/package_rescale copy.ai`
+- `pieces/Buddyologies/package_rescale copy.pdf`
+- `pieces/Buddyologies/package_rescale copy.png`
+- `pieces/Buddyologies/print final copy.png`
+- `pieces/tetsuya/Tetsuya_1part_print_FINAL.blend`
+- `pieces/jd/JD.png`
+- `pieces/trump/Trump-2048.glb`
+- `pieces/Autokrafts/Berlusconi copy.ai`
+- `pieces/Autokrafts/Netanyahu copy.ai`
+- `pieces/Autokrafts/gadaffi copy 2.ai`
+- `pieces/Autokrafts/putin copy.ai`
+- `pieces/Autokrafts/Trump copy.ai`
+- `pieces/Autokrafts/Erdogan copy.ai`
+- `pieces/consumption log/log 25-32 copy.jpg`
+- `pieces/consumption log/DSC_6806LG.jpg`
+- `pieces/consumption log/log 17-24 copy.jpg`
+- `pieces/consumption log/log 73-80 copy.jpg`
+- `pieces/consumption log/log 57-64 copy.jpg`
+- `pieces/consumption log/log 1-8 copy.jpg`
+- `pieces/consumption log/log 65-72 copy.jpg`
+- `pieces/consumption log/log 33-40 copy.jpg`
+- `pieces/consumption log/log 9-16 copy.jpg`
+- `pieces/consumption log/log 41-48 copy.jpg`
+- `pieces/consumption log/log 49-56 copy.jpg`
+- `pieces/fortnite/mtg + fortnite.ai`
+- `pieces/fortnite/mtg + fortnite.png`
+- `pieces/vape machine/vapediagram_forbenm2 copy.dxf`
+- `pieces/vape machine/DSC_6919LG.jpg`
+- `pieces/vape machine/vapediagram_forbenm copy.dwg`
+- `pieces/vape machine/DSC_6927LG.jpg`
+- `pieces/vape machine/vapediagram_wallversion copy.pdf`
+- `pieces/vape machine/vapediagram_forbenm2 copy.dwg`
+- `pieces/vape machine/DSC_6929LG.jpg`
+- `pieces/vape machine/vapediagram_forbenm copy.dxf`
+- `pieces/vape machine/vapediagram_forbenm2 copy.ai`

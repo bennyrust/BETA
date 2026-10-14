@@ -1,0 +1,7 @@
+{
+  "version": "V1",
+  "stepPercent": 5,
+  "minimumHeightPercent": 5,
+  "cycles": 10,
+  "reverse": true
+}

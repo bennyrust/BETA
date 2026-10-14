@@ -1,0 +1,18 @@
+<!doctype html><html lang="en" data-site-loading><head><meta charset="utf-8"><base href="../../"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Laptop — 3D Room</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="loading.css"><script defer src="js/loading.js"></script><script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.152.2/build/three.module.js","three/addons/":"https://unpkg.com/three@0.152.2/examples/jsm/"}}</script><style>html,body{margin:0;overflow:hidden;background:#111}canvas{display:block}nav{position:fixed;top:20px;left:20px;z-index:10000;font:14px Arial}nav a{color:white;background:#0008;padding:6px}#laptopSite{position:fixed;left:0;top:0;width:1280px;height:720px;border:0;transform-origin:0 0;z-index:2;background:#111;visibility:hidden}#laptopPrinterLink a{outline:none;-webkit-tap-highlight-color:transparent}#objectMenuOverlay{z-index:10001}html[data-site-loading] body > nav{visibility:visible}</style></head><body><h1 hidden>Laptop</h1><article hidden aria-label="Piece documentation"></article><nav><a href="index.html?view=player" aria-label="Back to the room" title="Back to the room" style="display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;font-size:28px;line-height:1;text-decoration:none">&lt;</a></nav><iframe id="laptopSite" title="3D Room running on the laptop" allow="autoplay; fullscreen"></iframe>  <div id="objectMenuOverlay" hidden>
+    <div id="objectMenuPanel" role="dialog" aria-modal="true" aria-labelledby="objectMenuTitle">
+      <button id="objectMenuClose" type="button" aria-label="Close object menu">×</button>
+      <header id="objectMenuHeader">
+        <span class="postAuthor">Anonymous</span>
+        <h2 id="objectMenuTitle">Object</h2>
+        <time id="objectMenuDate" hidden></time>
+      </header>
+      <div id="objectMenuContent">
+        <div id="objectMenuLeft"><canvas id="objectMenuCanvas" aria-label="Object preview"></canvas></div>
+        <div id="objectMenuRight">
+          <div id="objectMenuBody" hidden></div>
+          <a id="objectMenuDetails" href="./pieces/">More about this piece ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="js/laptop-exit.js"></script><script type="module" src="js/laptop.js"></script></body></html>

@@ -1,0 +1,20 @@
+html,body{margin:0;min-height:100%;font-family:Arial,sans-serif;color:#45443f;background:#e8e8e5}
+body{min-height:100dvh;background:radial-gradient(ellipse at 35% 18%,#f4f4f1 0%,#e9e9e6 65%,#dededb 100%)}
+nav{display:flex;justify-content:space-between;gap:20px;padding:20px 24px;font-size:14px}
+nav a{color:#45443f}
+.pages{--gap:1.25%;display:grid;grid-template-columns:repeat(10,minmax(0,1fr));column-gap:var(--gap);row-gap:0;align-items:start;width:min(88vw,calc((100dvh - 160px)*.8));margin:38px auto 64px;padding:0;position:relative}
+.page{position:relative;display:block;width:100%;margin:0 0 13%;padding:0;border:0;background:transparent;line-height:0;cursor:var(--link-cursor,pointer);transform:translateZ(0) scale(1);transform-origin:center;will-change:transform;transition:transform .38s cubic-bezier(.22,.75,.25,1)}
+.page::before{content:"";position:absolute;inset:2%;pointer-events:none;border-radius:2px;box-shadow:0 0 4px #fff,0 0 10px #ffffffa6;opacity:0;transition:opacity .28s ease-out}
+.page img{filter:drop-shadow(.4px 1.5px 1px #514c3933);display:block;width:100%;height:auto;aspect-ratio:1065/1620;object-fit:contain}
+.page.reacting,.page:focus-visible{transition-duration:.26s;z-index:2;transform:translateZ(0) scale(1.15)}
+.page.reacting::before,.page:focus-visible::before{opacity:1}
+.page:focus-visible{outline:1px solid #fff;outline-offset:3px}
+#preview{position:fixed;inset:0;z-index:100;isolation:isolate;background:transparent}
+#preview[hidden]{display:none}
+#preview::before{content:"";position:absolute;inset:0;background:#e8e8e5ed;animation:wallFade .38s ease-out}
+#expandedSheet{position:fixed;display:block;object-fit:contain;transform-origin:top left;filter:drop-shadow(1px 3px 4px #514c392b);cursor:zoom-out}
+#closePreview{position:absolute;right:16px;top:8px;z-index:1;color:#45443f;font:32px Arial;background:transparent;border:0;cursor:var(--link-cursor,pointer)}
+body.page-expanded{overflow:hidden}
+@keyframes wallFade{from{opacity:0}to{opacity:1}}
+@media(max-width:600px){nav{padding:16px;font-size:12px}.pages{margin-top:48px}}
+@media(prefers-reduced-motion:reduce){.page,.page::before{transition:none}}

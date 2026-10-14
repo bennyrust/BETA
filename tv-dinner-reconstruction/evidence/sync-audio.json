@@ -1,0 +1,202 @@
+{
+  "Front view.mov": [
+    {
+      "edit": 30,
+      "source": 1428.87,
+      "offset": 1398.87,
+      "correlation": 0.6029645567082794
+    },
+    {
+      "edit": 90,
+      "source": 621.7,
+      "offset": 531.7,
+      "correlation": 0.6099013711463129
+    },
+    {
+      "edit": 170,
+      "source": 1610.38,
+      "offset": 1440.38,
+      "correlation": 0.4841583632376194
+    },
+    {
+      "edit": 180,
+      "source": 620.9,
+      "offset": 440.9,
+      "correlation": 0.8927689939942983
+    },
+    {
+      "edit": 190,
+      "source": 630.92,
+      "offset": 440.91999999999996,
+      "correlation": 0.8152721622621598
+    },
+    {
+      "edit": 300,
+      "source": 1353.24,
+      "offset": 1053.24,
+      "correlation": 0.8075557883395204
+    },
+    {
+      "edit": 600,
+      "source": 1041.0,
+      "offset": 441.0,
+      "correlation": 0.899805769885644
+    },
+    {
+      "edit": 850,
+      "source": 1291.0,
+      "offset": 441.0,
+      "correlation": 0.9712141258223551
+    }
+  ],
+  "Profile view.mov": [
+    {
+      "edit": 30,
+      "source": 1438.93,
+      "offset": 1408.93,
+      "correlation": 0.6263811784555605
+    },
+    {
+      "edit": 90,
+      "source": 631.77,
+      "offset": 541.77,
+      "correlation": 0.6045768050382262
+    },
+    {
+      "edit": 170,
+      "source": 1602.75,
+      "offset": 1432.75,
+      "correlation": 0.46972459021802926
+    },
+    {
+      "edit": 180,
+      "source": 630.97,
+      "offset": 450.97,
+      "correlation": 0.94079941617991
+    },
+    {
+      "edit": 190,
+      "source": 640.97,
+      "offset": 450.97,
+      "correlation": 0.7973633474244072
+    },
+    {
+      "edit": 300,
+      "source": 1363.29,
+      "offset": 1063.29,
+      "correlation": 0.812095393048973
+    },
+    {
+      "edit": 600,
+      "source": 1051.06,
+      "offset": 451.05999999999995,
+      "correlation": 0.9078786908705644
+    },
+    {
+      "edit": 850,
+      "source": 1301.05,
+      "offset": 451.04999999999995,
+      "correlation": 0.9479481496286325
+    }
+  ],
+  "Rear view.mov": [
+    {
+      "edit": 30,
+      "source": 64.39,
+      "offset": 34.39,
+      "correlation": 0.6064855748886996
+    },
+    {
+      "edit": 90,
+      "source": 828.05,
+      "offset": 738.05,
+      "correlation": 0.6130073542108074
+    },
+    {
+      "edit": 170,
+      "source": 131.96,
+      "offset": -38.03999999999999,
+      "correlation": 0.4745053958916849
+    },
+    {
+      "edit": 180,
+      "source": 372.42,
+      "offset": 192.42000000000002,
+      "correlation": 0.9109190736480446
+    },
+    {
+      "edit": 190,
+      "source": 382.43,
+      "offset": 192.43,
+      "correlation": 0.8140889147489753
+    },
+    {
+      "edit": 300,
+      "source": 11.26,
+      "offset": -288.74,
+      "correlation": 0.8146535238373275
+    },
+    {
+      "edit": 600,
+      "source": 792.5,
+      "offset": 192.5,
+      "correlation": 0.8733633040478752
+    },
+    {
+      "edit": 850,
+      "source": 1042.51,
+      "offset": 192.51,
+      "correlation": 0.9457824330046307
+    }
+  ],
+  "Top view.mov": [
+    {
+      "edit": 30,
+      "source": 980.93,
+      "offset": 950.93,
+      "correlation": 0.6414368199169219
+    },
+    {
+      "edit": 90,
+      "source": 173.83,
+      "offset": 83.83000000000001,
+      "correlation": 0.6054974678189418
+    },
+    {
+      "edit": 170,
+      "source": 1163.03,
+      "offset": 993.03,
+      "correlation": 0.44317896729006195
+    },
+    {
+      "edit": 180,
+      "source": 173.05,
+      "offset": -6.949999999999989,
+      "correlation": 0.8788767383417969
+    },
+    {
+      "edit": 190,
+      "source": 183.05,
+      "offset": -6.949999999999989,
+      "correlation": 0.7703083433810238
+    },
+    {
+      "edit": 300,
+      "source": 905.33,
+      "offset": 605.33,
+      "correlation": 0.8181067423730444
+    },
+    {
+      "edit": 600,
+      "source": 593.1,
+      "offset": -6.899999999999977,
+      "correlation": 0.8720008463263741
+    },
+    {
+      "edit": 850,
+      "source": 843.1,
+      "offset": -6.899999999999977,
+      "correlation": 0.9205757702362501
+    }
+  ]
+}

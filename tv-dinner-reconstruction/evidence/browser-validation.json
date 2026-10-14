@@ -1,0 +1,46 @@
+{
+  "testedAt": "2026-09-25T04:49:52.461Z",
+  "browser": "153.0.8010.53",
+  "mode": "headless Chrome on local M1 Pro; no CPU throttling",
+  "viewport": [
+    1440,
+    1100
+  ],
+  "devicePixelRatio": 1,
+  "loadMs": 165,
+  "benchmark": {
+    "meanFps": 60.00203396725315,
+    "medianFrameMs": 16.699999999999818,
+    "p95FrameMs": 16.799999999999272,
+    "samples": 590,
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+    "stats": {
+      "triangles": 62518,
+      "drawCalls": 119,
+      "textures": 11,
+      "geometries": 109,
+      "dpr": 1
+    },
+    "canvas": [
+      1140,
+      570
+    ]
+  },
+  "tests": {
+    "scrubEnd": "03:08.00",
+    "scrubStart": "03:00.00",
+    "front": "Front · estimated camera",
+    "profile": "Profile · estimated camera",
+    "rear": "Rear · estimated camera",
+    "top": "Top · estimated camera",
+    "walkDistance": 0.5499999999999993,
+    "pointerLock": false,
+    "firstPersonLookChanged": true,
+    "orbitDistance": 3.5604709094147915,
+    "cameraMarkers": true,
+    "skeleton": true,
+    "mobileOverflow": false
+  },
+  "errors": [],
+  "failed": []
+}

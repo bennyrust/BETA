@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Room regression tests</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <script type="importmap">
+  {"imports": {
+    "three": "https://unpkg.com/three@0.152.2/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.152.2/examples/jsm/"
+  }}
+  </script>
+</head>
+<body>
+  <div id="assetErrors" role="alert" hidden>
+    <strong id="assetErrorTitle">Some assets could not load. The room is incomplete.</strong>
+    <div>Check the listed files or connection, then reload the page.</div>
+    <ul id="assetErrorList"></ul>
+  </div>
+  <div id="objectMenuOverlay" hidden>
+    <div id="objectMenuPanel" role="dialog" aria-modal="true" aria-labelledby="objectMenuTitle">
+      <button id="objectMenuClose" type="button" aria-label="Close object menu">×</button>
+      <header id="objectMenuHeader">
+        <span class="postAuthor">Anonymous</span>
+        <h2 id="objectMenuTitle">Object</h2>
+        <time id="objectMenuDate" hidden></time>
+      </header>
+      <div id="objectMenuContent">
+        <div id="objectMenuLeft"><canvas id="objectMenuCanvas" aria-label="Object preview"></canvas></div>
+        <div id="objectMenuRight">
+          <div id="objectMenuBody" hidden></div>
+          <a id="objectMenuDetails" href="./pieces/">More about this piece ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <pre id="results" style="color:white;position:relative;z-index:20000;background:#111"></pre>
+<script type="module" src="./browser-tests.js"></script>
+</body>
+</html>

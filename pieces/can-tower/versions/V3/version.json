@@ -1,0 +1,19 @@
+{
+  "version": "V3",
+  "rendering": "photo-referenced generated cutouts",
+  "stepPercent": 0.2,
+  "minimumHeightPixels": 1,
+  "canCount": 499,
+  "sources": [
+    "../../DSC_6904LG.jpg",
+    "../../DSC_6883LG.jpg",
+    "../../DSC_6899LG.jpg"
+  ],
+  "images": [
+    {
+      "file": "crushing-photo-v3.png",
+      "width": 2172,
+      "height": 724
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "units": "meters",
+  "room": {
+    "width": 5.55625,
+    "depth": 6.7437,
+    "height": 3.25,
+    "heightStatus": "inferred from photographs"
+  },
+  "segment": {
+    "editStart": 180,
+    "duration": 8,
+    "offsets": {
+      "front": 440.9,
+      "profile": 450.97,
+      "rear": 192.42,
+      "top": -6.95
+    },
+    "accuracy": "local audio envelope correlation plus visual checks; not frame-genlocked"
+  },
+  "cameras": {
+    "front": {
+      "position": [
+        1.5,
+        1.35,
+        -1.6
+      ],
+      "target": [
+        0,
+        0.65,
+        -0.43
+      ],
+      "fov": 23
+    },
+    "profile": {
+      "position": [
+        -5,
+        1.24,
+        -0.25
+      ],
+      "target": [
+        0,
+        0.55,
+        -0.25
+      ],
+      "fov": 17.8
+    },
+    "rear": {
+      "position": [
+        0.48,
+        1.5,
+        1.8
+      ],
+      "target": [
+        0,
+        1.15,
+        -0.3
+      ],
+      "fov": 24
+    },
+    "top": {
+      "position": [
+        0,
+        2.8,
+        -0.7
+      ],
+      "target": [
+        0,
+        0,
+        -0.7
+      ],
+      "fov": 16.8,
+      "up": [
+        0,
+        0,
+        -1
+      ]
+    }
+  },
+  "cameraStatus": "Manually estimated, uncalibrated intrinsics/extrinsics. Camera matching is diagnostic, not a validated photogrammetric solve."
+}

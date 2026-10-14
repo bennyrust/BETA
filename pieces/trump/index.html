@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en" data-site-loading data-loading-mode="content"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Profilo Continuo — Bowling</title><link rel="stylesheet" href="../../loading.css"><link rel="stylesheet" href="../../bowling.css"><script defer src="../../js/loading.js"></script><script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.152.2/build/three.module.js","three/addons/":"https://unpkg.com/three@0.152.2/examples/jsm/"}}</script></head><body>
+<canvas id="lane" aria-label="Bowling lane. Aim with the controls, hold and release to bowl."></canvas>
+<header><a href="../../index.html?view=player" aria-label="Back to the room" title="Back to the room" style="display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;font-size:28px;line-height:1;text-decoration:none">&lt;</a><h1>PROFILO CONTINUO <span>BOWL-O-RAMA</span></h1><button id="restart">New game</button></header>
+<div id="scoreboard" aria-label="Ten-frame scorecard"></div>
+<div id="callout" role="status"></div>
+<section id="controls"><p id="turn" aria-live="polite">Frame 1 · Ball 1</p><label class="aim">LINE UP <input id="aim" type="range" min="-1" max="1" value="0" step="0.01" aria-label="Ball trajectory"></label><div class="power"><span>POWER</span><div class="track"><div id="powerFill"></div><i id="powerNeedle"></i></div><output id="powerValue">0</output></div><button id="bowl">HOLD TO CHARGE · RELEASE TO BOWL</button><p class="hint">Move left / right to aim · Hold left click or Space to charge</p></section>
+<script type="module" src="../../js/bowling.js"></script></body></html>

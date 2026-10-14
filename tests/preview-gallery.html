@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Preview orientation review</title>
+<style>body{margin:0;background:#202020;color:white;font:14px system-ui}#gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:10px}figure{margin:0;background:#303030}img{width:100%;display:block}figcaption{padding:8px}h1{font-size:20px;padding:10px}</style>
+<script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.152.2/build/three.module.js","three/addons/":"https://unpkg.com/three@0.152.2/examples/jsm/"}}</script></head><body><h1>Fixed preview orientations</h1><div id="gallery"></div>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { sceneObjects, selectableNames } from '../js/config.js';
+import { alignPreview } from '../js/preview.js';
+import { refreshOrientations } from '../js/orientation-store.js';
+import { createResourceOwner } from '../js/resources.js';
+const renderer = new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true}); renderer.setSize(360,280); renderer.outputColorSpace=THREE.SRGBColorSpace;
+const scene = new THREE.Scene(); scene.background=new THREE.Color(0x303030); scene.add(new THREE.HemisphereLight(0xffffff,0x777777,1.2));const light=new THREE.DirectionalLight(0xffffff,1.2);light.position.set(2,3,4);scene.add(light);
+const camera=new THREE.PerspectiveCamera(40,360/280,0.001,10000); const loader=new GLTFLoader();
+const variants = new URLSearchParams(location.search).has('variants');
+await refreshOrientations();
+const editorLink = document.createElement('a');
+editorLink.href = '../orientation-editor.html';
+editorLink.textContent = 'Edit preview orientations →';
+editorLink.style.cssText = 'color:#e8ca8c;display:block;padding:10px';
+document.querySelector('h1').after(editorLink);
+const rotations = [[0,Math.PI,0],[Math.PI/2,0,0],[-Math.PI/2,0,0],[Math.PI/2,0,Math.PI],[0,Math.PI/2,Math.PI/2],[0,-Math.PI/2,Math.PI/2],[0,0,Math.PI/2],[Math.PI/2,Math.PI/2,0]];
+for(const config of sceneObjects.filter(c=>variants ? ['Trump','Gold TV','GTA TV (no stand)','Gun'].includes(c.name) : selectableNames.has(c.name)||c.menuOnly)) {
+const model=(await loader.loadAsync('../'+config.file)).scene;model.name=config.name;model.scale.setScalar(config.scale);alignPreview(model,model);
+for (const rotation of (variants ? rotations : [null])) {
+model.position.set(0,0,0);if(rotation) model.rotation.set(...rotation);
+const box=new THREE.Box3().setFromObject(model);model.position.sub(box.getCenter(new THREE.Vector3()));const d=box.getSize(new THREE.Vector3()).length();camera.position.set(0,0,d*1.6);camera.lookAt(0,0,0);camera.near=d/1000;camera.far=d*100;camera.updateProjectionMatrix();scene.add(model);renderer.render(scene,camera);
+const figure=document.createElement('figure'), img=document.createElement('img'),label=document.createElement('figcaption');img.src=renderer.domElement.toDataURL();label.textContent=config.name+(rotation?' '+rotation.map(v=>Math.round(v*180/Math.PI)).join(', '):'');figure.append(img,label);document.getElementById('gallery').append(figure);
+scene.remove(model);}
+const owner=createResourceOwner();owner.track(model);owner.dispose();
+} renderer.dispose();document.querySelector('h1').textContent+=' — complete';
+</script></body></html>

@@ -1,0 +1,24 @@
+:root { color-scheme: dark; font-family: Arial, sans-serif; background: #141414; color: #f1eee8; }
+body { margin: 0; }
+main { max-width: 760px; margin: 0 auto; padding: clamp(24px, 6vw, 80px) 24px; }
+nav { margin-bottom: 64px; }
+a { color: #e8ca8c; text-underline-offset: 4px; }
+a:focus-visible { outline: 2px solid #e8ca8c; outline-offset: 5px; }
+h1 { font-size: clamp(32px, 6vw, 56px); font-weight: 500; }
+p { line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+article { white-space: pre-wrap; line-height: 1.7; overflow-wrap: anywhere; }
+#pieceDate { display: block; margin-bottom: 24px; color: #b8aa91; }
+#pieceDate[hidden] { display: none; }
+
+.pieceFiles { margin-top: 48px; border-top: 1px solid #555; padding-top: 24px; }
+.fileUpload { padding: 16px; background: #242424; border: 1px solid #555; }
+.fileUpload label { display: block; }
+.fileUpload input { display: block; margin: 12px 0; max-width: 100%; }
+.fileUpload button { font: inherit; padding: 8px 16px; }
+.fileUpload p, .fileStatus, .fileCard p { font-size: 14px; color: #b8aa91; }
+.fileGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 20px; }
+.fileCard { border: 1px solid #555; padding: 16px; white-space: normal; min-width: 0; }
+.fileCard img, .fileCard video { display: block; width: 100%; max-height: 320px; object-fit: contain; background: #090909; }
+.fileCard audio { width: 100%; }
+.fileCard h3 { font-size: 17px; overflow-wrap: anywhere; }

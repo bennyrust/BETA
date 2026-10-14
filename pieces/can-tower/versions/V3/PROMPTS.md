@@ -1,0 +1,9 @@
+# V3 photographic assets
+
+Generated with the built-in imagegen tool using DSC_6904LG.jpg as the visual reference, then a generated 12-state atlas as reference for larger three-can strips. These are generated photographic approximations, not a simulated physical crush or untouched source photographs. Native image dimensions are recorded in version.json; the requested 4K-style appearance is not a claim of native 4K output.
+
+## Final strip prompt template
+
+Use case: product-mockup. Create ONE high-detail photographic asset, a horizontal strip containing exactly THREE isolated silver Diet Coke cans, at HEIGHTS% remaining original height, left to right. Reference the provided generated atlas for the exact silver can and red oversized Coke label, and thin-walled aluminum folds. Same full-height original can width and same camera scale for all three. Three equal horizontal cells, one can in each, vertically centered inside each cell, ample transparent margin, no overlap. These are three successive states of axial crushing. Rigid nearly circular rolled rims, complex asymmetric buckling and concertina folds, sharp compressed aluminum ridges, realistic reflections, lettering folds and hides naturally; no uniform rubber scaling, melted metal, texture blur, or rendered polygons. Even nearly flat pucks must retain plausible folded metal and the top and bottom rims. True transparent alpha background, no floor, no shadows outside the cans, no captions. Ultra-detailed 4K-style studio macro photography, maximum output resolution, request 3840x2160 pixels. EXACTLY three objects horizontally, no additional rows. This asset will be displayed at small size but must remain detailed on high-DPI screens.
+
+HEIGHTS: 100/90/80; 70/60/50; 40/30/20; 10/5/1. First group additionally specifies the 100% can must have no dents whatsoever.

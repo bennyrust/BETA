@@ -1,0 +1,14 @@
+{
+  "name": "3d-room-viewer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build:pages": "node scripts/build-piece-pages.mjs",
+    "serve": "python3 scripts/serve.py",
+    "check:publish": "node scripts/check-publish.mjs",
+    "prepublishOnly": "npm run check:publish",
+    "check:pages-size": "node scripts/check-pages-size.mjs",
+    "check:beta-files": "node scripts/check-beta-files.mjs"
+  }
+}

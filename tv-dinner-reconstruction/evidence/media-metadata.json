@@ -1,0 +1,117 @@
+{
+  "Top view.mov": {
+    "duration": 1377.0864777777779,
+    "tracks": [
+      {
+        "height": 0,
+        "start": 0,
+        "width": 0,
+        "fps": 46.875,
+        "duration": 1377.0544777777777,
+        "type": "soun",
+        "transform": "see track"
+      },
+      {
+        "height": 720,
+        "start": 0,
+        "width": 1280,
+        "fps": 23.976024627685547,
+        "duration": 1377.0864777777779,
+        "type": "vide",
+        "transform": "see track"
+      }
+    ]
+  },
+  "Rear view.mov": {
+    "duration": 1444.443,
+    "tracks": [
+      {
+        "height": 0,
+        "start": 0,
+        "width": 0,
+        "fps": 46.875,
+        "duration": 1444.442,
+        "type": "soun",
+        "transform": "see track"
+      },
+      {
+        "height": 1080,
+        "start": 0,
+        "width": 1920,
+        "fps": 29.970029830932617,
+        "duration": 1444.443,
+        "type": "vide",
+        "transform": "see track"
+      }
+    ]
+  },
+  "Profile view.mov": {
+    "duration": 1723.2215,
+    "tracks": [
+      {
+        "height": 0,
+        "start": 0,
+        "width": 0,
+        "fps": 46.875,
+        "duration": 1723.1895222222222,
+        "type": "soun",
+        "transform": "see track"
+      },
+      {
+        "height": 1080,
+        "start": 0,
+        "width": 1920,
+        "fps": 29.970029830932617,
+        "duration": 1723.2215,
+        "type": "vide",
+        "transform": "see track"
+      }
+    ]
+  },
+  "Front view.mov": {
+    "duration": 1702.200488888889,
+    "tracks": [
+      {
+        "height": 0,
+        "start": 0,
+        "width": 0,
+        "fps": 46.875,
+        "duration": 1702.1685,
+        "type": "soun",
+        "transform": "see track"
+      },
+      {
+        "height": 1080,
+        "start": 0,
+        "width": 1920,
+        "fps": 29.970029830932617,
+        "duration": 1702.200488888889,
+        "type": "vide",
+        "transform": "see track"
+      }
+    ]
+  },
+  "TV Dinner.mp4": {
+    "duration": 970.1775444444445,
+    "tracks": [
+      {
+        "height": 1080,
+        "start": 0,
+        "width": 1920,
+        "fps": 23.976024627685547,
+        "duration": 970.1775444444445,
+        "type": "vide",
+        "transform": "see track"
+      },
+      {
+        "height": 0,
+        "start": 0,
+        "width": 0,
+        "fps": 46.875,
+        "duration": 970.1335444444444,
+        "type": "soun",
+        "transform": "see track"
+      }
+    ]
+  }
+}
