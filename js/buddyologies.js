@@ -1,3 +1,6 @@
+import {purchase,cost} from './economy.js';
+import {notify,openInventory,inventoryOpen} from './economy-ui.js';
+let buying=false,purchasedToy;
 import { clone } from 'three/addons/utils/SkeletonUtils.js';
 import { renderCollection } from './buddy-collection.js';
 import * as THREE from 'three';
@@ -20,11 +23,11 @@ let figureRecords=[],menu,hoverToy=false;
 const menuController=new AbortController();
 let disposeCollection=()=>{};
 function updateCollection(){if(collectionDialog.open){disposeCollection();disposeCollection=renderCollection(figureRecords,figures,counts);}}
-collectionButton.addEventListener('click',()=>{menu?.close();collectionDialog.showModal();updateCollection();});
+collectionButton.textContent='Inventory';collectionButton.addEventListener('click',()=>{menu?.close();openInventory();});
 collectionDialog.addEventListener('close',()=>{disposeCollection();disposeCollection=()=>{};});
 document.getElementById('collectionClose').addEventListener('click',()=>collectionDialog.close());
 collectionDialog.addEventListener('click',e=>{if(e.target===collectionDialog){const r=collectionDialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)collectionDialog.close();}});
-function popupOpen(){return collectionDialog.open||menu?.isOpen;}
+function popupOpen(){return inventoryOpen()||collectionDialog.open||menu?.isOpen;}
 
 const scene=new THREE.Scene();scene.background=new THREE.Color('#bdb09c');
 const camera=new THREE.PerspectiveCamera(37,innerWidth/innerHeight,.05,100);
@@ -158,11 +161,12 @@ function animateTransfer(now){
 }
 function beginOpening(now){
  for(const f of figures)f.visible=false;
- active=figures[Math.floor(Math.random()*figures.length)];
+ active=figures.find(f=>f.userData.id===purchasedToy);
  setLidPose(0);state='opening';start=now;
 }
-function open(){
- if(popupOpen()||(state!=='idle'&&state!=='landed'))return;
+async function open(){
+ if(buying||popupOpen()||(state!=='idle'&&state!=='landed'))return;
+ buying=true;try{purchasedToy=(await purchase('toy')).item;}catch(e){notify(e.message);buying=false;return;}buying=false;
  status.textContent='';hover=false;hoverToy=false;canvas.style.cursor='default';
  const now=performance.now()/1000;
  if(state==='landed'){startTransfer(now);state='closing';start=now;}
@@ -206,7 +210,7 @@ function animate(ms){if(stopped)return;const t=ms/1000;updateHover();box.positio
   active.position.set(BOX_X+(TOY_X-BOX_X)*pose.flight,pose.y*.56+boxSeat*(1-pose.flight)+toySeat*pose.flight,pose.z*.12+.4);
   active.rotation.set(pose.wobble,Math.sin(pose.flight*Math.PI)*Math.PI*.8,pose.wobble*.65);
   if(pose.flight===1)toySpotlight.visible=true;
-  if(pose.done){state='landed';active.position.set(TOY_X,toySeat,.562);active.rotation.set(0,0,0);status.textContent='';counts[active.userData.id]++;try{localStorage.setItem(collectionKey,JSON.stringify(counts));}catch{}updateCollection();}
+  if(pose.done){state='landed';active.position.set(TOY_X,toySeat,.562);active.rotation.set(0,0,0);status.textContent='';}
  }
  animateTransfer(t);
  rendering.sceneChanged();rendering.render(camera,popupOpen()?null:hoverToy?active:hover?box:null);menu?.render(false);canvas.dataset.state=state;raf=requestAnimationFrame(animate);
@@ -265,3 +269,5 @@ try{
  state='idle';status.textContent='';window.siteLoading?.finish();raf=requestAnimationFrame(animate);
 }catch(error){console.error(error);status.textContent='Unable to load the box. Reload to try again.';window.siteLoading?.fail(status.textContent);}
 window.addEventListener('pagehide',()=>{stopped=true;cancelAnimationFrame(raf);disposeCollection();menuController.abort();menu?.dispose();rendering.dispose();});
+
+const priceButton=document.createElement('button');priceButton.className='boxPrice';priceButton.textContent='Buy blind box';document.body.append(priceButton);cost('toy').then(n=>priceButton.textContent=`Open blind box · ${n} coins · Space`).catch(e=>notify(e.message));priceButton.onclick=open;

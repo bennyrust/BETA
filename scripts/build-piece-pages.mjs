@@ -6,7 +6,7 @@ const pieces = JSON.parse(await readFile(new URL('pieces/pieces.json', root), 'u
 createPieceCatalog(pieces);
 const escape = value => value.replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 for (const piece of pieces) {
-  if (['consumption log', 'trump', 'vapes', 'white-tv', 'Buddyologies', 'can-tower', 'print', 'laptop', 'vape machine'].includes(piece.pageId ?? piece.repositoryId ?? piece.id)) continue; // Collection has a custom interactive gallery.
+  if (['window', 'consumption log', 'trump', 'vapes', 'white-tv', 'Buddyologies', 'can-tower', 'print', 'laptop', 'vape machine'].includes(piece.pageId ?? piece.repositoryId ?? piece.id)) continue; // Collection has a custom interactive gallery.
   const directory = new URL(`pieces/${encodeURIComponent(piece.pageId ?? piece.repositoryId ?? piece.id)}/`, root);
   await mkdir(directory, { recursive: true });
   await writeFile(new URL('index.html', directory), `<!doctype html>

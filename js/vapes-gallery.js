@@ -1,3 +1,6 @@
+import {purchase,cost} from './economy.js';
+import {notify,inventoryOpen} from './economy-ui.js';
+let buying=false;
 import { varyVape } from './vape-variation.js';
 import * as THREE from 'three';
 import { wrapIndex, loopOffset } from './selector-math.js';
@@ -23,7 +26,7 @@ function select(index){if(!ready)return;target=index;const i=wrap(index),piece=r
 document.getElementById('previousVape').onclick=()=>select(target-1);document.getElementById('nextVape').onclick=()=>select(target+1);
 // Match the on-screen A/B actions, regardless of selector focus.
 document.addEventListener('keydown', event => {
- if (event.defaultPrevented || event.repeat || event.isComposing || event.ctrlKey || event.metaKey || event.altKey) return;
+ if (inventoryOpen() || event.defaultPrevented || event.repeat || event.isComposing || event.ctrlKey || event.metaKey || event.altKey) return;
  if (event.target instanceof Element && (event.target.isContentEditable || event.target.closest('input, textarea, select'))) return;
  const selector = { a: '#buyVape', b: '.backControl' }[event.key.toLowerCase()];
  if (!selector) return;
@@ -59,3 +62,7 @@ mountPieceFiles('vapes','vapes',document.getElementById('vapeLibrary'));
 
 let refreshing=false;
 setInterval(async()=>{if(document.hidden||!ready||refreshing)return;refreshing=true;try{const latest=[...new Set((await loadPieceCatalog()).values())];for(const record of records){const update=latest.find(p=>p.id===record.id);if(update)Object.assign(record,update);}select(target);}catch(error){console.warn('Definitions could not refresh',error);}finally{refreshing=false;}},1500);
+
+const buyButton=document.getElementById('buyVape');
+cost('vape').then(n=>buyButton.textContent=`Buy · ${n} coins · A`).catch(e=>notify(e.message));
+buyButton.addEventListener('click',async e=>{e.preventDefault();if(!ready||buying)return;buying=true;try{const piece=records[wrap(target)];await purchase('vape',piece.id);notify(`${piece.name} added to inventory`);}catch(error){notify(error.message);}finally{buying=false;}});

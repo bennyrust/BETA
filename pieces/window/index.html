@@ -1,21 +1,10 @@
 <!doctype html>
-<html lang="en" data-site-loading data-loading-mode="content">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Window — 3D Room</title>
-  <link rel="stylesheet" href="../piece.css">
-  <link rel="stylesheet" href="../../loading.css">
-  <script defer src="../../js/loading.js"></script>
-</head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HYPERNORMALISATION — Outside My Bedroom Window</title><link rel="stylesheet" href="game.css"><script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.152.2/build/three.module.js","three/addons/":"https://unpkg.com/three@0.152.2/examples/jsm/"}}</script></head>
 <body>
-  <main>
-    <nav aria-label="Room"><a href="../../index.html?view=player" aria-label="Back to the room" title="Back to the room" style="display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;font-size:28px;line-height:1;text-decoration:none">&lt;</a></nav>
-    <h1>Window</h1>
-    <time id="pieceDate" hidden></time>
-    <article aria-label="Piece documentation"></article>
-    
-  </main>
-<script type="module" src="../../js/piece-page.js"></script>
-</body>
-</html>
+<header><a class="back" href="../../index.html?view=player" aria-label="Back to the room">&lt;</a><div><h1>HYPERNORMALISATION</h1><p>OUTSIDE MY BEDROOM WINDOW</p></div><button id="pause" disabled>Pause</button></header>
+<main>
+<section class="hud" aria-label="Game statistics"><div>ROUND <strong id="round">0 / 10</strong></div><div>SCORE <strong id="score">0</strong></div><div>ACCURACY <strong id="accuracy">—</strong></div><div>HITS <strong id="hits">0</strong></div><div>ESCAPED <strong id="escaped">0</strong></div></section>
+<section id="range" aria-label="Shooting gallery"><div class="slots" id="slots"></div><div id="message"><h2 id="messageTitle">READY?</h2><p id="messageText">Shoot both target types: T / terrorist and CT / counter-terrorist. Click when they stand upright. Faster hits earn more points; missed shots lower accuracy and escaped targets cost points.</p><button id="start">Start game</button></div><output id="feedback" aria-live="polite"></output></section>
+<footer><span>CLICK TO SHOOT · P TO PAUSE</span><span>10 RANDOM ROUNDS · SPEED × ACCURACY</span></footer>
+<p class="help">Final score = hit points × accuracy, after a 100-point penalty per escaped target.</p>
+</main><script type="module" src="game.js"></script></body></html>

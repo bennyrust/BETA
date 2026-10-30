@@ -1,0 +1,9 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {BowlingPhysics,DIM} from '../js/bowling-physics.js';
+function shot(settings){const s=new BowlingPhysics();s.launch(settings);let steps=0;while(!s.done&&steps++<4000)s.step();assert(s.done,'roll must finish');assert(s.pins.every(p=>Number.isFinite(p.body.position.x)&&Number.isFinite(p.body.position.y)));return s;}
+test('regulation rack spacing and stable untouched pins',()=>{const s=new BowlingPhysics();assert.equal(DIM.length,18.288);assert.equal(DIM.width,1.0541);assert.equal(s.pins.length,10);assert(Math.abs(s.pins[1].body.position.distanceTo(s.pins[0].body.position)-DIM.spacing)<.001);for(let i=0;i<1200;i++)s.world.step(1/240);assert.equal(s.count(),0);});
+test('wide misses on both sides remain gutters with no pinfall',()=>{for(const angle of [-4,4]){const s=shot({power:75,angle});assert(s.gutter);assert.equal(s.count(),0);}});
+test('center maximum power does not guarantee a strike; a pocket shot can strike',()=>{const center=shot({power:100});assert(center.count()>0&&center.count()<10);assert.equal(shot({power:55,position:.04}).count(),10);});
+test('sweeping fallen pins leaves only standing pins for spare attempt',()=>{const s=shot({power:50});const count=s.count(),removed=s.sweep();assert.equal(removed.length,count);assert.equal(s.pins.length,10-count);s.launch({power:75,position:-.2});while(!s.done)s.step();assert(s.count()<=10-count);});
+test('power controls speed and spin curves in the chosen direction',()=>{const slow=new BowlingPhysics(),fast=new BowlingPhysics();slow.launch({power:0});fast.launch({power:100});assert(fast.ball.velocity.length()>slow.ball.velocity.length());for(const spin of [-.5,.5]){const s=new BowlingPhysics();s.launch({power:75,spin});while(s.ball.position.z>-16&&!s.gutter)s.step();assert(Math.sign(s.ball.position.x)===Math.sign(spin));}});

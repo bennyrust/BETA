@@ -21,7 +21,8 @@ test('every room object resolves to an existing unique piece page', async () => 
     const html = await readFile(new URL('index.html', piecePageUrl(piece)), 'utf8');
     assert.match(html, /<title>[^<]+<\/title>/);
     if (piece.id === 'trump') assert.ok(html.includes('../../js/bowling.js'));
-    const customPage=['laptop','print','trump','consumption-log'].includes(piece.id);
+    if (piece.id === 'window') assert.ok(html.includes('src="game.js"'));
+    const customPage=['window','laptop','print','trump','consumption-log'].includes(piece.id);
     if(customPage){assert.ok(html.includes('Back to the room'));continue;}
     assert.match(html, /<h1(?:\s[^>]*)?>/);
     assert.ok(html.includes('../../js/piece-page.js') || html.includes('../../js/vapes-gallery.js') || html.includes('../../js/totem-entry.js') || html.includes('../../js/buddyologies.js'));
