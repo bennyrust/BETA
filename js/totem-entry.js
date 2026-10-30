@@ -1,5 +1,5 @@
 try {
- const response=await fetch(new URL('../pieces/pieces.json',import.meta.url),{cache:'no-store'});
+ const response=await fetch(new URL('../pieces/pieces.json',import.meta.url),{cache:'no-cache'});
  if(!response.ok)throw Error('Catalog unavailable');
  const records=await response.json(),piece=records.find(p=>p.id==='can-tower');
  const requested=new URLSearchParams(location.search).get('version');

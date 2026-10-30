@@ -2,7 +2,7 @@ import { varyVape } from './vape-variation.js';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { sceneObjects, imageObjects, loadPriority, selectableNames } from './config.js';
-import { prioritize, loadSequentially } from './core.js';
+import { prioritize, loadWithPrefetch } from './core.js';
 import { reportError } from './errors.js';
 
 export function createAssets({ root, resources, signal, onModel, invalidate, onProgress = () => {}, excludeNames = [] }) {
@@ -25,8 +25,9 @@ export function createAssets({ root, resources, signal, onModel, invalidate, onP
     invalidate();
   }
 
-  async function loadModel(config) {
-    const { scene: model } = await loader.loadAsync(config.file);
+  async function loadModel(config, bytes) {
+    const base = new URL('.', new URL(config.file, document.baseURI)).href;
+    const { scene: model } = await loader.parseAsync(bytes, base);
     varyVape(model,config.file);
     // Track immediately so even a failed setup cannot leak GPU resources.
     resources.track(model);
@@ -71,10 +72,15 @@ export function createAssets({ root, resources, signal, onModel, invalidate, onP
   return {
     models, selectable,
     async load() {
-      // Images join the same queue: no simultaneous large image decode and GLB upload.
+      // One GLB network request can run ahead; decoding and uploads remain sequential.
       const queue = [...prioritize(sceneObjects, loadPriority), ...imageObjects].filter(config => !excludeNames.includes(config.name));
       let completed = 0, failed = 0;
-      await loadSequentially(queue, config => config.file.endsWith('.glb') ? loadModel(config) : loadImage(config), {
+      await loadWithPrefetch(queue, async config => {
+        if (!config.file.endsWith('.glb')) return null;
+        const response = await fetch(config.file, { signal });
+        if (!response.ok) throw new Error(`HTTP ${response.status}: ${config.file}`);
+        return response.arrayBuffer();
+      }, (config, bytes) => config.file.endsWith('.glb') ? loadModel(config, bytes) : loadImage(config), {
         signal,
         onLoaded(config, model) { register(config, model); onProgress(++completed, queue.length, config.name); },
         onError(config, error) { failed++; reportError(config.name, config.file, error); onProgress(++completed, queue.length, config.name); },

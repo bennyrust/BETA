@@ -11,7 +11,7 @@ export function mountPieceFiles(id, repository = id, container = document.queryS
   let snapshot = '';
   function size(bytes) { return bytes >= 1024 ** 3 ? `${(bytes / 1024 ** 3).toFixed(2)} GB` : bytes >= 1024 ** 2 ? `${(bytes / 1024 ** 2).toFixed(1)} MB` : `${Math.max(1, Math.round(bytes / 1024))} KB`; }
   async function refresh() {
-    const response = await fetch(new URL('files.json', base), { cache: 'no-store' });
+    const response = await fetch(new URL('files.json', base), { cache: 'no-cache' });
     if (!response.ok) throw new Error('Could not load the file library. Reload to retry.');
     const items = await response.json();
     const serialized = JSON.stringify(items);

@@ -62,14 +62,14 @@ function filter() {
   document.getElementById('count').textContent = `${count} of ${states.length} pieces`;
 }
 async function hasBranchWork(pageId) {
- const response=await fetch(`./pieces/${encodeURIComponent(pageId)}/index.html`,{cache:'no-store'});
+ const response=await fetch(`./pieces/${encodeURIComponent(pageId)}/index.html`,{cache:'no-cache'});
  if(!response.ok)throw new Error(`Could not check branch page: ${pageId}`);
  const doc=new DOMParser().parseFromString(await response.text(),'text/html');
  const customScript=[...doc.querySelectorAll('script')].some(script=>script.src ? !/\/(loading|piece-page)\.js$/.test(script.getAttribute('src')) : script.textContent.trim());
  return Boolean(customScript || doc.querySelector('style, main img, main canvas, main video, main iframe') || doc.querySelector('article')?.textContent.trim() || doc.querySelector('#pieceSources')?.textContent.trim());
 }
 async function start() {
-  const response = await fetch('./pieces/pieces.json', { cache: 'no-store' });
+  const response = await fetch('./pieces/pieces.json', { cache: 'no-cache' });
   if (!response.ok) throw new Error('Could not load the piece notebook. Reload to retry.');
   const records=await response.json();
   const pageId=piece=>piece.pageId??piece.repositoryId??piece.id;

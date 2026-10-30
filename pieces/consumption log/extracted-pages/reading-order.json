@@ -1,0 +1,722 @@
+[
+  {
+    "page": 1,
+    "source": "log 1-8 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 0,
+    "asset": "page-01.webp",
+    "gridRow": 0,
+    "gridColumn": 0
+  },
+  {
+    "page": 2,
+    "source": "log 1-8 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 1,
+    "asset": "page-02.webp",
+    "gridRow": 0,
+    "gridColumn": 1
+  },
+  {
+    "page": 3,
+    "source": "log 1-8 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 2,
+    "asset": "page-03.webp",
+    "gridRow": 0,
+    "gridColumn": 2
+  },
+  {
+    "page": 4,
+    "source": "log 1-8 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 3,
+    "asset": "page-04.webp",
+    "gridRow": 0,
+    "gridColumn": 3
+  },
+  {
+    "page": 5,
+    "source": "log 1-8 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 3,
+    "asset": "page-08.webp",
+    "gridRow": 0,
+    "gridColumn": 4
+  },
+  {
+    "page": 6,
+    "source": "log 1-8 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 2,
+    "asset": "page-07.webp",
+    "gridRow": 0,
+    "gridColumn": 5
+  },
+  {
+    "page": 7,
+    "source": "log 1-8 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 1,
+    "asset": "page-06.webp",
+    "gridRow": 0,
+    "gridColumn": 6
+  },
+  {
+    "page": 8,
+    "source": "log 1-8 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 0,
+    "asset": "page-05.webp",
+    "gridRow": 0,
+    "gridColumn": 7
+  },
+  {
+    "page": 9,
+    "source": "log 9-16 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 0,
+    "asset": "page-09.webp",
+    "gridRow": 0,
+    "gridColumn": 8
+  },
+  {
+    "page": 10,
+    "source": "log 9-16 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 1,
+    "asset": "page-10.webp",
+    "gridRow": 0,
+    "gridColumn": 9
+  },
+  {
+    "page": 11,
+    "source": "log 9-16 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 2,
+    "asset": "page-11.webp",
+    "gridRow": 1,
+    "gridColumn": 0
+  },
+  {
+    "page": 12,
+    "source": "log 9-16 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 3,
+    "asset": "page-12.webp",
+    "gridRow": 1,
+    "gridColumn": 1
+  },
+  {
+    "page": 13,
+    "source": "log 9-16 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 3,
+    "asset": "page-16.webp",
+    "gridRow": 1,
+    "gridColumn": 2
+  },
+  {
+    "page": 14,
+    "source": "log 9-16 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 2,
+    "asset": "page-15.webp",
+    "gridRow": 1,
+    "gridColumn": 3
+  },
+  {
+    "page": 15,
+    "source": "log 9-16 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 1,
+    "asset": "page-14.webp",
+    "gridRow": 1,
+    "gridColumn": 4
+  },
+  {
+    "page": 16,
+    "source": "log 9-16 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 0,
+    "asset": "page-13.webp",
+    "gridRow": 1,
+    "gridColumn": 5
+  },
+  {
+    "page": 17,
+    "source": "log 17-24 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 0,
+    "asset": "page-17.webp",
+    "gridRow": 1,
+    "gridColumn": 6
+  },
+  {
+    "page": 18,
+    "source": "log 17-24 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 1,
+    "asset": "page-18.webp",
+    "gridRow": 1,
+    "gridColumn": 7
+  },
+  {
+    "page": 19,
+    "source": "log 17-24 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 2,
+    "asset": "page-19.webp",
+    "gridRow": 1,
+    "gridColumn": 8
+  },
+  {
+    "page": 20,
+    "source": "log 17-24 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 3,
+    "asset": "page-20.webp",
+    "gridRow": 1,
+    "gridColumn": 9
+  },
+  {
+    "page": 21,
+    "source": "log 17-24 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 3,
+    "asset": "page-24.webp",
+    "gridRow": 2,
+    "gridColumn": 0
+  },
+  {
+    "page": 22,
+    "source": "log 17-24 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 2,
+    "asset": "page-23.webp",
+    "gridRow": 2,
+    "gridColumn": 1
+  },
+  {
+    "page": 23,
+    "source": "log 17-24 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 1,
+    "asset": "page-22.webp",
+    "gridRow": 2,
+    "gridColumn": 2
+  },
+  {
+    "page": 24,
+    "source": "log 17-24 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 0,
+    "asset": "page-21.webp",
+    "gridRow": 2,
+    "gridColumn": 3
+  },
+  {
+    "page": 25,
+    "source": "log 25-32 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 0,
+    "asset": "page-25.webp",
+    "gridRow": 2,
+    "gridColumn": 4
+  },
+  {
+    "page": 26,
+    "source": "log 25-32 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 1,
+    "asset": "page-26.webp",
+    "gridRow": 2,
+    "gridColumn": 5
+  },
+  {
+    "page": 27,
+    "source": "log 25-32 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 2,
+    "asset": "page-27.webp",
+    "gridRow": 2,
+    "gridColumn": 6
+  },
+  {
+    "page": 28,
+    "source": "log 25-32 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 3,
+    "asset": "page-28.webp",
+    "gridRow": 2,
+    "gridColumn": 7
+  },
+  {
+    "page": 29,
+    "source": "log 25-32 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 3,
+    "asset": "page-32.webp",
+    "gridRow": 2,
+    "gridColumn": 8
+  },
+  {
+    "page": 30,
+    "source": "log 25-32 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 2,
+    "asset": "page-31.webp",
+    "gridRow": 2,
+    "gridColumn": 9
+  },
+  {
+    "page": 31,
+    "source": "log 25-32 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 1,
+    "asset": "page-30.webp",
+    "gridRow": 3,
+    "gridColumn": 0
+  },
+  {
+    "page": 32,
+    "source": "log 25-32 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 0,
+    "asset": "page-29.webp",
+    "gridRow": 3,
+    "gridColumn": 1
+  },
+  {
+    "page": 33,
+    "source": "log 33-40 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 0,
+    "asset": "page-33.webp",
+    "gridRow": 3,
+    "gridColumn": 2
+  },
+  {
+    "page": 34,
+    "source": "log 33-40 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 1,
+    "asset": "page-34.webp",
+    "gridRow": 3,
+    "gridColumn": 3
+  },
+  {
+    "page": 35,
+    "source": "log 33-40 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 2,
+    "asset": "page-35.webp",
+    "gridRow": 3,
+    "gridColumn": 4
+  },
+  {
+    "page": 36,
+    "source": "log 33-40 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 3,
+    "asset": "page-36.webp",
+    "gridRow": 3,
+    "gridColumn": 5
+  },
+  {
+    "page": 37,
+    "source": "log 33-40 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 3,
+    "asset": "page-40.webp",
+    "gridRow": 3,
+    "gridColumn": 6
+  },
+  {
+    "page": 38,
+    "source": "log 33-40 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 2,
+    "asset": "page-39.webp",
+    "gridRow": 3,
+    "gridColumn": 7
+  },
+  {
+    "page": 39,
+    "source": "log 33-40 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 1,
+    "asset": "page-38.webp",
+    "gridRow": 3,
+    "gridColumn": 8
+  },
+  {
+    "page": 40,
+    "source": "log 33-40 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 0,
+    "asset": "page-37.webp",
+    "gridRow": 3,
+    "gridColumn": 9
+  },
+  {
+    "page": 41,
+    "source": "log 41-48 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 0,
+    "asset": "page-41.webp",
+    "gridRow": 4,
+    "gridColumn": 0
+  },
+  {
+    "page": 42,
+    "source": "log 41-48 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 1,
+    "asset": "page-42.webp",
+    "gridRow": 4,
+    "gridColumn": 1
+  },
+  {
+    "page": 43,
+    "source": "log 41-48 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 2,
+    "asset": "page-43.webp",
+    "gridRow": 4,
+    "gridColumn": 2
+  },
+  {
+    "page": 44,
+    "source": "log 41-48 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 3,
+    "asset": "page-44.webp",
+    "gridRow": 4,
+    "gridColumn": 3
+  },
+  {
+    "page": 45,
+    "source": "log 41-48 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 3,
+    "asset": "page-48.webp",
+    "gridRow": 4,
+    "gridColumn": 4
+  },
+  {
+    "page": 46,
+    "source": "log 41-48 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 2,
+    "asset": "page-47.webp",
+    "gridRow": 4,
+    "gridColumn": 5
+  },
+  {
+    "page": 47,
+    "source": "log 41-48 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 1,
+    "asset": "page-46.webp",
+    "gridRow": 4,
+    "gridColumn": 6
+  },
+  {
+    "page": 48,
+    "source": "log 41-48 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 0,
+    "asset": "page-45.webp",
+    "gridRow": 4,
+    "gridColumn": 7
+  },
+  {
+    "page": 49,
+    "source": "log 49-56 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 0,
+    "asset": "page-49.webp",
+    "gridRow": 4,
+    "gridColumn": 8
+  },
+  {
+    "page": 50,
+    "source": "log 49-56 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 1,
+    "asset": "page-50.webp",
+    "gridRow": 4,
+    "gridColumn": 9
+  },
+  {
+    "page": 51,
+    "source": "log 49-56 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 2,
+    "asset": "page-51.webp",
+    "gridRow": 5,
+    "gridColumn": 0
+  },
+  {
+    "page": 52,
+    "source": "log 49-56 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 3,
+    "asset": "page-52.webp",
+    "gridRow": 5,
+    "gridColumn": 1
+  },
+  {
+    "page": 53,
+    "source": "log 49-56 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 3,
+    "asset": "page-56.webp",
+    "gridRow": 5,
+    "gridColumn": 2
+  },
+  {
+    "page": 54,
+    "source": "log 49-56 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 2,
+    "asset": "page-55.webp",
+    "gridRow": 5,
+    "gridColumn": 3
+  },
+  {
+    "page": 55,
+    "source": "log 49-56 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 1,
+    "asset": "page-54.webp",
+    "gridRow": 5,
+    "gridColumn": 4
+  },
+  {
+    "page": 56,
+    "source": "log 49-56 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 0,
+    "asset": "page-53.webp",
+    "gridRow": 5,
+    "gridColumn": 5
+  },
+  {
+    "page": 57,
+    "source": "log 57-64 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 0,
+    "asset": "page-57.webp",
+    "gridRow": 5,
+    "gridColumn": 6
+  },
+  {
+    "page": 58,
+    "source": "log 57-64 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 1,
+    "asset": "page-58.webp",
+    "gridRow": 5,
+    "gridColumn": 7
+  },
+  {
+    "page": 59,
+    "source": "log 57-64 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 2,
+    "asset": "page-59.webp",
+    "gridRow": 5,
+    "gridColumn": 8
+  },
+  {
+    "page": 60,
+    "source": "log 57-64 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 3,
+    "asset": "page-60.webp",
+    "gridRow": 5,
+    "gridColumn": 9
+  },
+  {
+    "page": 61,
+    "source": "log 57-64 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 3,
+    "asset": "page-64.webp",
+    "gridRow": 6,
+    "gridColumn": 0
+  },
+  {
+    "page": 62,
+    "source": "log 57-64 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 2,
+    "asset": "page-63.webp",
+    "gridRow": 6,
+    "gridColumn": 1
+  },
+  {
+    "page": 63,
+    "source": "log 57-64 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 1,
+    "asset": "page-62.webp",
+    "gridRow": 6,
+    "gridColumn": 2
+  },
+  {
+    "page": 64,
+    "source": "log 57-64 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 0,
+    "asset": "page-61.webp",
+    "gridRow": 6,
+    "gridColumn": 3
+  },
+  {
+    "page": 65,
+    "source": "log 65-72 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 0,
+    "asset": "page-65.webp",
+    "gridRow": 6,
+    "gridColumn": 4
+  },
+  {
+    "page": 66,
+    "source": "log 65-72 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 1,
+    "asset": "page-66.webp",
+    "gridRow": 6,
+    "gridColumn": 5
+  },
+  {
+    "page": 67,
+    "source": "log 65-72 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 2,
+    "asset": "page-67.webp",
+    "gridRow": 6,
+    "gridColumn": 6
+  },
+  {
+    "page": 68,
+    "source": "log 65-72 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 3,
+    "asset": "page-68.webp",
+    "gridRow": 6,
+    "gridColumn": 7
+  },
+  {
+    "page": 69,
+    "source": "log 65-72 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 3,
+    "asset": "page-72.webp",
+    "gridRow": 6,
+    "gridColumn": 8
+  },
+  {
+    "page": 70,
+    "source": "log 65-72 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 2,
+    "asset": "page-71.webp",
+    "gridRow": 6,
+    "gridColumn": 9
+  },
+  {
+    "page": 71,
+    "source": "log 65-72 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 1,
+    "asset": "page-70.webp",
+    "gridRow": 7,
+    "gridColumn": 0
+  },
+  {
+    "page": 72,
+    "source": "log 65-72 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 0,
+    "asset": "page-69.webp",
+    "gridRow": 7,
+    "gridColumn": 1
+  },
+  {
+    "page": 73,
+    "source": "log 73-80 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 0,
+    "asset": "page-73.webp",
+    "gridRow": 7,
+    "gridColumn": 2
+  },
+  {
+    "page": 74,
+    "source": "log 73-80 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 1,
+    "asset": "page-74.webp",
+    "gridRow": 7,
+    "gridColumn": 3
+  },
+  {
+    "page": 75,
+    "source": "log 73-80 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 2,
+    "asset": "page-75.webp",
+    "gridRow": 7,
+    "gridColumn": 4
+  },
+  {
+    "page": 76,
+    "source": "log 73-80 copy.jpg",
+    "sourceRow": 0,
+    "sourceColumn": 3,
+    "asset": "page-76.webp",
+    "gridRow": 7,
+    "gridColumn": 5
+  },
+  {
+    "page": 77,
+    "source": "log 73-80 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 3,
+    "asset": "page-80.webp",
+    "gridRow": 7,
+    "gridColumn": 6
+  },
+  {
+    "page": 78,
+    "source": "log 73-80 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 2,
+    "asset": "page-79.webp",
+    "gridRow": 7,
+    "gridColumn": 7
+  },
+  {
+    "page": 79,
+    "source": "log 73-80 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 1,
+    "asset": "page-78.webp",
+    "gridRow": 7,
+    "gridColumn": 8
+  },
+  {
+    "page": 80,
+    "source": "log 73-80 copy.jpg",
+    "sourceRow": 1,
+    "sourceColumn": 0,
+    "asset": "page-77.webp",
+    "gridRow": 7,
+    "gridColumn": 9
+  }
+]

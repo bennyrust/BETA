@@ -13,7 +13,7 @@ function invalidate(){if(!frame)frame=requestAnimationFrame(draw);}
 function resize(){const w=host.clientWidth,h=host.clientHeight;renderer.setSize(w,h);camera.left=-w/pixelsPerUnit/2;camera.right=-camera.left;camera.top=h/pixelsPerUnit/2;camera.bottom=-camera.top;camera.updateProjectionMatrix();track.style.height=(total*pixelsPerUnit+h*.3)+'px';invalidate();}
 new ResizeObserver(resize).observe(host);window.addEventListener('scroll',invalidate,{passive:true});
 try{
- const response=await fetch(new URL('../pieces/pieces.json',import.meta.url),{cache:'no-store'});
+ const response=await fetch(new URL('../pieces/pieces.json',import.meta.url),{cache:'no-cache'});
  if(!response.ok)throw Error('Version catalog unavailable');
  const catalog=await response.json(),piece=catalog.find(p=>p.id==='can-tower');
  const liveVersion=piece.liveVersion||'V1',requested=new URLSearchParams(location.search).get('version');
@@ -46,4 +46,4 @@ try{
 mountPieceFiles('can-tower','can-tower',document.getElementById('towerGallery'),{photosOnly:true});
 window.addEventListener('pagehide',()=>cancelAnimationFrame(frame));
 
-fetch(new URL('../pieces/pieces.json',import.meta.url),{cache:'no-store'}).then(r=>r.json()).then(records=>{const piece=records.find(p=>p.id==='can-tower');document.querySelector('h1').textContent=piece.name;document.querySelector('article').textContent=piece.documentation||'';}).catch(console.error);
+fetch(new URL('../pieces/pieces.json',import.meta.url),{cache:'no-cache'}).then(r=>r.json()).then(records=>{const piece=records.find(p=>p.id==='can-tower');document.querySelector('h1').textContent=piece.name;document.querySelector('article').textContent=piece.documentation||'';}).catch(console.error);

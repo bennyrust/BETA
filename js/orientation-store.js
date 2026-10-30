@@ -3,7 +3,7 @@ import { previewOrientations } from './preview-config.js';
 export const orientations = { ...previewOrientations, Room: [0, 0, 0] };
 const url = new URL('../pieces/preview-orientations.json', import.meta.url);
 export async function refreshOrientations() {
-  const response = await fetch(url, { cache: 'no-store' });
+  const response = await fetch(url, { cache: 'no-cache' });
   if (!response.ok) throw new Error(`Preview orientations could not load (${response.status})`);
   const values = await response.json();
   for (const [name, rotation] of Object.entries(values)) {

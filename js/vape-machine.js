@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 // A model added to this repository becomes the demo without duplicating its asset.
 const host=document.getElementById('machineDemo'),status=document.getElementById('demoStatus');
 try {
- const response=await fetch('./files.json',{cache:'no-store'});
+ const response=await fetch('./files.json',{cache:'no-cache'});
  if(!response.ok)throw Error('Demo repository unavailable');
  const files=await response.json(),file=files.find(f=>/\.glb$/i.test(f.file));
  if(file){

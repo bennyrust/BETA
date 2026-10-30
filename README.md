@@ -16,7 +16,7 @@ From this directory, run `npm run serve` (requires Python 3), then open http://l
 - `js/config.js`: model paths, authored room transforms, image placement, selection list.
 - `js/bootstrap.js`, `js/errors.js`: startup and asset failure reporting, independent of Three.js.
 - `js/app.js`: lifecycle and interaction coordination.
-- `js/assets.js`: sequential GLB/image loading and registration. Failures are reported and do not stop later assets.
+- `js/assets.js`: one-model-ahead downloads with sequential GLB/image decoding and registration. Failures are reported and do not stop later assets.
 - `js/cameras.js`: orbit overview, bounded room camera, framing and input state.
 - `js/lighting.js`: existing authored light rig and lamp positioning.
 - `js/rendering.js`: shared color-correct rendering pipeline with an optional hover outline.
@@ -60,7 +60,7 @@ Manual smoke checks: load the full scene; switch cameras; click and drag objects
 
 The refactor fixes stale click targets, menus opening on drag, duplicate orientation correction, videos not updating in static previews, late-loaded video objects missing attachments, camera controls acting behind dialogs, cumulative body-orbit movement, empty-scene framing, and completion framing before images arrive. Missing assets remain visible in the page and console. Deprecated rendering/texture settings were updated without changing the pinned Three.js release.
 
-Authored model positions and lighting values are preserved, including objects positioned outside the room. Assets are unchanged. The original source videos exceed 2 GB each; BETA contains compressed full-duration versions and resized images/model textures. Source downloads are ZIP archives. See MEDIA-COMPRESSION.json for actual sizes. Safari/iOS performance still needs a device smoke test. Production hosting should support HTTP byte-range requests for video. The included local server supports video byte ranges and disables caching to make source edits visible after reload; it is for local preview only.
+Authored model positions and lighting values are preserved, including objects positioned outside the room. Assets are unchanged. The original source videos exceed 2 GB each; BETA contains compressed full-duration versions and resized images/model textures. Source downloads are ZIP archives. See MEDIA-COMPRESSION.json for actual sizes. Safari/iOS performance still needs a device smoke test. Production hosting should support HTTP byte-range requests for video. The included local server supports video byte ranges and uses ETag/Last-Modified revalidation to reuse unchanged bytes while keeping source edits visible; it is for local preview only.
 
 The original standalone page is saved outside this deployable directory at `../.backups/index.before-refactor.html`.
 
@@ -89,3 +89,11 @@ Back up the entire `pieces` folder along with `pieces/pieces.json`. Renaming a p
 Each `pieces/<piece-id>/` folder contains its branch page (`index.html`), models, videos, images, source variants, uploads, and `files.json` library manifest. Both the room scene and branch page load the same assets directly from that folder. Uploads save there too.
 
 Shared editable metadata lives in `pieces/pieces.json`; saved preview rotations live in `pieces/preview-orientations.json`. Back up the entire `pieces` folder. Existing branch-page URLs remain unchanged. There is no separate content directory.
+
+## Caching
+
+Run the latest `scripts/serve.py` to enable validated caching of static files, including GLBs, images, modules and video ranges. Static responses use `public, no-cache`: browsers may retain the bytes but must validate before reuse. Unchanged files return 304 with no body. API responses and errors remain `no-store`. Catalog polling uses `no-cache` so worksheet edits remain immediately observable without repeated catalog downloads. Restart an already-running server after changing server code.
+
+The public host is https://bennyrust.github.io/BETA/. Its inspected responses already use GitHub’s edge CDN, `max-age=600`, ETags and byte ranges. The Python header changes affect local previews only; GitHub Pages does not run that server. A CDN does not accelerate localhost. Keep HTML, scripts and editable JSON revalidated. Use long-lived immutable caching only for content-hashed asset URLs; existing filenames are editable and must not be marked immutable. Enable provider Brotli/gzip for text and preserve Content-Length, ETag and byte-range support for media. Do not cache editor API responses. Test cold and warm loading, changed-file invalidation and video seeking at the chosen host before release. The BETA cursor exception is documented in CURSOR-BETA-EXCEPTION.md.
+
+The room prefetches one GLB ahead while decoding the current model. This overlaps network latency with CPU work without concurrent GPU uploads or downloading the entire scene into memory. Asset URLs remain stable so navigation and nested laptop rooms can reuse the browser/CDN cache. No service worker or cache-busting timestamp is introduced.

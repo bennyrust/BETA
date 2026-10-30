@@ -40,3 +40,26 @@ export function fitDistance(size, verticalFov, aspect, margin = 1.15) {
 export function isClick(start, end, threshold = 5) {
   return Math.hypot(end.x - start.x, end.y - start.y) <= threshold;
 }
+
+// Fetch one asset ahead while keeping decoding/GPU uploads strictly sequential.
+// At most the current asset and the next asset are retained in memory.
+export async function loadWithPrefetch(items, fetchItem, load, { onLoaded, onError, signal } = {}) {
+  const fetchSafely = item => Promise.resolve().then(() => {
+    if (signal?.aborted) throw new DOMException('Aborted', 'AbortError');
+    return fetchItem(item);
+  }).then(value => ({ value }), error => ({ error }));
+  let pending = items.length ? fetchSafely(items[0]) : null;
+  for (let i = 0; i < items.length; i++) {
+    if (signal?.aborted) break;
+    const fetched = await pending;
+    if (signal?.aborted) break;
+    pending = i + 1 < items.length ? fetchSafely(items[i + 1]) : null;
+    try {
+      if (fetched.error) throw fetched.error;
+      const value = await load(items[i], fetched.value);
+      await onLoaded?.(items[i], value);
+    } catch (error) {
+      if (!signal?.aborted) onError?.(items[i], error);
+    }
+  }
+}

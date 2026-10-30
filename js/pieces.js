@@ -16,7 +16,7 @@ export function createPieceCatalog(records) {
 }
 
 export async function loadPieceCatalog() {
-  const response = await fetch(new URL('../pieces/pieces.json', import.meta.url), { cache: 'no-store' });
+  const response = await fetch(new URL('../pieces/pieces.json', import.meta.url), { cache: 'no-cache' });
   if (!response.ok) throw new Error(`Could not load piece catalog (${response.status})`);
   return createPieceCatalog(await response.json());
 }

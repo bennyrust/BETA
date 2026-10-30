@@ -1,4 +1,4 @@
-"""Local preview server with video byte ranges and uncached source files."""
+"""Local preview server with validated caching and video byte ranges."""
 import argparse
 import os
 import json
@@ -6,11 +6,12 @@ import math
 import threading
 import time
 import uuid
-from urllib.parse import unquote
+from urllib.parse import unquote, urlsplit
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
-from datetime import date
+from datetime import date, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 import re
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -214,7 +215,8 @@ class Handler(SimpleHTTPRequestHandler):
         super().__init__(*args, directory=str(ROOT), **kwargs)
 
     def end_headers(self):
-        self.send_header('Cache-Control', 'no-store')
+        # Static files can be stored, but edits must be checked before reuse.
+        self.send_header('Cache-Control', 'public, no-cache' if getattr(self, 'static_response', False) else 'no-store')
         if self.path.startswith('/pieces/') and Path(self.path).suffix.lower() not in {'.html', '.css', '.json', '.md', ''}:
             self.send_header('X-Content-Type-Options', 'nosniff')
             self.send_header('Content-Security-Policy', "sandbox; default-src 'none'")
@@ -287,28 +289,79 @@ class Handler(SimpleHTTPRequestHandler):
 
     def send_head(self):
         self.byte_range = None
+        self.static_response = False
         path = self.translate_path(self.path)
-        if not self.headers.get('Range') or not os.path.isfile(path):
+        if os.path.isdir(path):
+            if not urlsplit(self.path).path.endswith('/'):
+                return super().send_head()
+            path = next((os.path.join(path, name) for name in ('index.html', 'index.htm')
+                         if os.path.isfile(os.path.join(path, name))), path)
+        if not os.path.isfile(path):
             return super().send_head()
-        source = open(path, 'rb')
-        size = os.fstat(source.fileno()).st_size
         try:
-            start, end = parse_range(self.headers['Range'], size)
-        except ValueError:
+            source = open(path, 'rb')
+        except OSError:
+            return self.send_error(404, 'File not found')
+        stat = os.fstat(source.fileno())
+        size = stat.st_size
+        etag = f'"{stat.st_mtime_ns:x}-{stat.st_ctime_ns:x}-{stat.st_ino:x}-{size:x}"'
+        modified = self.date_time_string(stat.st_mtime)
+        self.static_response = True
+
+        def validators():
+            self.send_header('ETag', etag)
+            self.send_header('Last-Modified', modified)
+            self.send_header('Accept-Ranges', 'bytes')
+
+        def date_matches(value):
+            try:
+                timestamp = parsedate_to_datetime(value)
+                if timestamp.tzinfo is None:
+                    timestamp = timestamp.replace(tzinfo=timezone.utc)
+                return int(stat.st_mtime) <= timestamp.timestamp()
+            except (ValueError, TypeError, OverflowError):
+                return False
+
+        incoming = self.headers.get('If-None-Match')
+        unchanged = (incoming is not None and any(tag.strip().removeprefix('W/') in (etag, '*')
+                     for tag in incoming.split(',')))
+        if incoming is None and self.headers.get('If-Modified-Since'):
+            unchanged = date_matches(self.headers['If-Modified-Since'])
+        if unchanged:
             source.close()
-            self.send_response(416)
-            self.send_header('Content-Range', f'bytes */{size}')
-            self.send_header('Content-Length', '0')
+            self.send_response(304)
+            validators()
             self.end_headers()
             return None
-        self.send_response(206)
+
+        requested = self.headers.get('Range') if self.command == 'GET' else None
+        if_range = self.headers.get('If-Range')
+        if requested and if_range:
+            matches = if_range == etag if if_range.startswith(('"', 'W/')) else date_matches(if_range)
+            if not matches:
+                requested = None
+        if requested:
+            try:
+                start, end = parse_range(requested, size)
+            except ValueError:
+                source.close()
+                self.static_response = False
+                self.send_response(416)
+                self.send_header('Content-Range', f'bytes */{size}')
+                self.send_header('Content-Length', '0')
+                self.end_headers()
+                return None
+            self.send_response(206)
+            self.send_header('Content-Range', f'bytes {start}-{end}/{size}')
+            self.send_header('Content-Length', str(end - start + 1))
+            source.seek(start)
+            self.byte_range = (start, end)
+        else:
+            self.send_response(200)
+            self.send_header('Content-Length', str(size))
         self.send_header('Content-Type', self.guess_type(path))
-        self.send_header('Accept-Ranges', 'bytes')
-        self.send_header('Content-Range', f'bytes {start}-{end}/{size}')
-        self.send_header('Content-Length', str(end - start + 1))
+        validators()
         self.end_headers()
-        source.seek(start)
-        self.byte_range = (start, end)
         return source
 
     def copyfile(self, source, output):

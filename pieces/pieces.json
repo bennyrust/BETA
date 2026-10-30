@@ -250,7 +250,8 @@
     "sources": "",
     "createdAt": "2025-03-31",
     "status": "Draft",
-    "sceneName": "Window"
+    "sceneName": "Window",
+    "branchComplete": true
   },
   {
     "id": "gold-tv",
