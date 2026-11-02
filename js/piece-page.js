@@ -1,5 +1,5 @@
 import { mountPieceFiles } from './piece-files.js';
-import { loadPieceCatalog, formatCreationDate } from './pieces.js';
+import { loadPieceCatalog, contentRefreshMs, formatCreationDate } from './pieces.js';
 const route = decodeURIComponent(location.pathname.split('/').filter(Boolean).filter(part => part !== 'index.html').pop());
 let filesMounted = false;
 async function update() {
@@ -37,4 +37,4 @@ async function refresh() {
   } finally { pending = false; }
 }
 refresh();
-setInterval(() => { if (!document.hidden) refresh(); }, 1500);
+setInterval(() => { if (!document.hidden) refresh(); }, contentRefreshMs);

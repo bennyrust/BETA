@@ -1,4 +1,5 @@
-import {purchase,cost} from './economy.js';
+import {runtimeAsset} from './runtime-assets.js';
+import {purchase,watchCost} from './economy.js';
 import {notify,inventoryOpen} from './economy-ui.js';
 let buying=false;
 import { varyVape } from './vape-variation.js';
@@ -6,7 +7,7 @@ import * as THREE from 'three';
 import { wrapIndex, loopOffset } from './selector-math.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { mountPieceFiles } from './piece-files.js';
-import { loadPieceCatalog } from './pieces.js';
+import { loadPieceCatalog, contentRefreshMs } from './pieces.js';
 const stage=document.getElementById('selectorStage'),title=document.getElementById('flavorTitle'),description=document.getElementById('flavorDescription'),status=document.getElementById('selectorStatus');
 const renderer=new THREE.WebGLRenderer({antialias:false,alpha:true});renderer.setPixelRatio(1);renderer.outputColorSpace=THREE.SRGBColorSpace;stage.append(renderer.domElement);
 const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(35,1,.01,100);camera.position.set(0,.1,6.5);camera.lookAt(0,0,0);
@@ -47,7 +48,7 @@ try{
  const loader=new GLTFLoader();
  for(const [i,piece] of records.entries()){
   status.textContent=`Loading collection ${i+1} / ${records.length}`;
-  const {scene:asset}=await loader.loadAsync(new URL('../'+piece.assets[0],import.meta.url).href);
+  const {scene:asset}=await loader.loadAsync(runtimeAsset(new URL('../'+piece.assets[0],import.meta.url).href));
   varyVape(asset,piece.assets[0]);
   // Preserve the GLB's authored transforms. Normalize via wrapper groups only.
   const box=new THREE.Box3().setFromObject(asset),size=box.getSize(new THREE.Vector3()),center=box.getCenter(new THREE.Vector3());
@@ -61,8 +62,11 @@ window.addEventListener('pagehide',()=>cancelAnimationFrame(frame));
 mountPieceFiles('vapes','vapes',document.getElementById('vapeLibrary'));
 
 let refreshing=false;
-setInterval(async()=>{if(document.hidden||!ready||refreshing)return;refreshing=true;try{const latest=[...new Set((await loadPieceCatalog()).values())];for(const record of records){const update=latest.find(p=>p.id===record.id);if(update)Object.assign(record,update);}select(target);}catch(error){console.warn('Definitions could not refresh',error);}finally{refreshing=false;}},1500);
+let definitionsSnapshot=JSON.stringify(records);
+const definitionsTimer=setInterval(async()=>{if(document.hidden||!ready||refreshing)return;refreshing=true;try{const latest=[...new Set((await loadPieceCatalog()).values())];for(const record of records){const update=latest.find(p=>p.id===record.id);if(update)Object.assign(record,update);}const snapshot=JSON.stringify(records);if(snapshot!==definitionsSnapshot){definitionsSnapshot=snapshot;select(target);}}catch(error){console.warn('Definitions could not refresh',error);}finally{refreshing=false;}},contentRefreshMs);
 
 const buyButton=document.getElementById('buyVape');
-cost('vape').then(n=>buyButton.textContent=`Buy · ${n} coins · A`).catch(e=>notify(e.message));
+watchCost('vape',n=>document.querySelector('.buyPrice').textContent=`${n} coins`,e=>notify(e.message));
 buyButton.addEventListener('click',async e=>{e.preventDefault();if(!ready||buying)return;buying=true;try{const piece=records[wrap(target)];await purchase('vape',piece.id);notify(`${piece.name} added to inventory`);}catch(error){notify(error.message);}finally{buying=false;}});
+
+window.addEventListener('pagehide',()=>clearInterval(definitionsTimer));

@@ -1,3 +1,4 @@
+import {runtimeAsset} from './runtime-assets.js';
 import { varyVape } from './vape-variation.js';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -55,7 +56,7 @@ export function createAssets({ root, resources, signal, onModel, invalidate, onP
   }
 
   async function loadImage(config) {
-    const texture = await textures.loadAsync(config.file);
+    const texture = await textures.loadAsync(runtimeAsset(config.file));
     texture.colorSpace = THREE.SRGBColorSpace;
     texture.generateMipmaps = false;
     texture.minFilter = texture.magFilter = THREE.LinearFilter;
@@ -77,7 +78,7 @@ export function createAssets({ root, resources, signal, onModel, invalidate, onP
       let completed = 0, failed = 0;
       await loadWithPrefetch(queue, async config => {
         if (!config.file.endsWith('.glb')) return null;
-        const response = await fetch(config.file, { signal });
+        const response = await fetch(runtimeAsset(config.file), { signal });
         if (!response.ok) throw new Error(`HTTP ${response.status}: ${config.file}`);
         return response.arrayBuffer();
       }, (config, bytes) => config.file.endsWith('.glb') ? loadModel(config, bytes) : loadImage(config), {

@@ -305,7 +305,7 @@
   },
   {
     "id": "side-table",
-    "name": "Autokrafts",
+    "name": "AUTOKRAFTS",
     "aliases": [],
     "assets": [
       "pieces/side-table/sidetable-2048.glb",
@@ -319,7 +319,8 @@
     "createdAt": "2025-04-17",
     "notes": "on piece page, use date of creation for each .ai file to date the individual pieces ",
     "status": "Draft",
-    "sceneName": "Side Table"
+    "sceneName": "Side Table",
+    "pageId": "Autokrafts"
   },
   {
     "id": "gun",
@@ -392,7 +393,7 @@
   },
   {
     "id": "cheese",
-    "name": "Plate of Cheese",
+    "name": "AUTOKRAFTS",
     "sceneName": "Cheese",
     "aliases": [],
     "assets": [

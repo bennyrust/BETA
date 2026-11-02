@@ -8,7 +8,7 @@ import { createResourceOwner } from './resources.js';
 import { createMedia } from './media.js';
 import { createMenu } from './menu.js';
 import { reportError } from './errors.js';
-import { loadPieceCatalog } from './pieces.js';
+import { loadPieceCatalog, contentRefreshMs } from './pieces.js';
 import { refreshOrientations, watchOrientations } from './orientation-store.js';
 
 export async function start() {
@@ -34,7 +34,7 @@ export async function start() {
       }
     } catch (error) { console.warn('Piece content refresh failed:', error); }
     finally { contentPending = false; }
-  }, 1500);
+  }, contentRefreshMs);
   signal.addEventListener('abort', () => clearInterval(contentTimer), { once: true });
 
   const scene = new THREE.Scene();

@@ -1,0 +1,23 @@
+[
+  {
+    "source": "pieces/window/CSGO.mp4",
+    "runtime": "pieces/window/CSGO.mp4",
+    "sourceBytes": 2349921219,
+    "runtimeBytes": 5978695,
+    "publishedSourceBytes": 5978695
+  },
+  {
+    "source": "pieces/white-tv/TV Dinner.mp4",
+    "runtime": "pieces/white-tv/TV Dinner.mp4",
+    "sourceBytes": 2462478859,
+    "runtimeBytes": 21013609,
+    "publishedSourceBytes": 21013609
+  },
+  {
+    "source": "pieces/nyan-cat/nyan_cat.mp4",
+    "runtime": "pieces/nyan-cat/nyan_cat.mp4",
+    "sourceBytes": 512855,
+    "runtimeBytes": 143986,
+    "publishedSourceBytes": 143986
+  }
+]

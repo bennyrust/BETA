@@ -1,3 +1,5 @@
+import {runtimeAsset} from './runtime-assets.js';
+import {trumpScreenFit} from './trump-screen-fit.js';
 import * as THREE from 'three';
 import { reportError } from './errors.js';
 
@@ -41,6 +43,9 @@ export function createMedia({ resources, invalidate, signal }) {
       const ray = new THREE.Raycaster();
       const direction = new THREE.Vector3(0, -1, 0).transformDirection(model.matrixWorld);
       const point = new THREE.Vector3();
+      if(trumpScreenFit.length===positions.array.length){
+        positions.array.set(trumpScreenFit);positions.needsUpdate=true;
+      }else{
       for (let i = 0; i < positions.count; i++) {
         point.set(positions.getX(i) - 0.0087, 0.35, -positions.getY(i) + 0.0007);
         ray.set(model.localToWorld(point.clone()), direction);
@@ -48,6 +53,7 @@ export function createMedia({ resources, invalidate, signal }) {
         if (hit) point.copy(model.worldToLocal(hit.point)).y += 0.001;
         else point.y = 0.26;
         positions.setXYZ(i, point.x, point.y, point.z);
+      }
       }
       geometry.computeVertexNormals();
       geometry.computeBoundingSphere();
@@ -144,7 +150,7 @@ export function createMedia({ resources, invalidate, signal }) {
       if (document.hidden) { entry.resume = true; video.pause(); }
     }, { signal });
     // Start fetching at model spawn, independently of camera mode or preview clicks.
-    video.src = files[name];
+    video.src = runtimeAsset(files[name]);
     video.load();
     if (document.hidden) entry.resume = true;
     else play(name);
@@ -172,7 +178,8 @@ export function createMedia({ resources, invalidate, signal }) {
         video.addEventListener('loadeddata', loaded, { once: true });
         video.addEventListener('error', failed, { once: true });
         signal.addEventListener('abort', failed, { once: true });
-        timer = setTimeout(failed, 8000);
+        // The scene is interactive while video screens continue buffering.
+        timer = setTimeout(failed, 2000);
         if (video.error || signal.aborted) failed();
       })));
     },

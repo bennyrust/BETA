@@ -1,7 +1,8 @@
 export const TOYS=['luigi','crooks','tetsuya','rittenhouse'];
+export const BASE_PRICES=Object.freeze({toy:100,vape:75});
 export function price(kind,quote){
  if(!['toy','vape'].includes(kind)||!Number.isFinite(quote.close)||!Number.isFinite(quote.baseClose)||quote.close<=0||quote.baseClose<=0)throw Error('Prices unavailable');
- return Math.max(1,Math.round((kind==='toy'?100:75)*quote.close/quote.baseClose));
+ return Math.max(1,Math.round(BASE_PRICES[kind]*quote.close/quote.baseClose));
 }
 export function reward(game,score){
  if(!Number.isSafeInteger(score)||score<0||!['bowling','gallery'].includes(game)||score>(game==='bowling'?300:100000))throw Error('Invalid game result');

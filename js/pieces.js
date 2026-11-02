@@ -15,10 +15,18 @@ export function createPieceCatalog(records) {
   return catalog;
 }
 
+// Share simultaneous catalog requests and reuse the parsed response briefly.
+// Return a separate Map because room editors update their own lookup in place.
+let catalogPromise,catalogAt=0;
+export const contentRefreshMs=5000;
 export async function loadPieceCatalog() {
-  const response = await fetch(new URL('../pieces/pieces.json', import.meta.url), { cache: 'no-cache' });
-  if (!response.ok) throw new Error(`Could not load piece catalog (${response.status})`);
-  return createPieceCatalog(await response.json());
+  if(!catalogPromise||Date.now()-catalogAt>=contentRefreshMs){
+    catalogAt=Date.now();
+    catalogPromise=fetch(new URL('../pieces/pieces.json',import.meta.url),{cache:'no-cache'})
+      .then(response=>{if(!response.ok)throw new Error(`Could not load piece catalog (${response.status})`);return response.json();})
+      .then(createPieceCatalog).catch(error=>{catalogPromise=null;throw error;});
+  }
+  return new Map(await catalogPromise);
 }
 
 export function piecePageUrl(piece) {

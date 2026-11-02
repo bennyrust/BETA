@@ -216,7 +216,8 @@ class Handler(SimpleHTTPRequestHandler):
 
     def end_headers(self):
         # Static files can be stored, but edits must be checked before reuse.
-        self.send_header('Cache-Control', 'public, no-cache' if getattr(self, 'static_response', False) else 'no-store')
+        immutable = getattr(self, 'static_response', False) and bool(re.search(r'/optimized/(?:models|media)/[0-9a-f]{16}\.(?:glb|mp4)$', urlsplit(self.path).path))
+        self.send_header('Cache-Control', 'public, max-age=31536000, immutable' if immutable else 'public, no-cache' if getattr(self, 'static_response', False) else 'no-store')
         if self.path.startswith('/pieces/') and Path(self.path).suffix.lower() not in {'.html', '.css', '.json', '.md', ''}:
             self.send_header('X-Content-Type-Options', 'nosniff')
             self.send_header('Content-Security-Policy', "sandbox; default-src 'none'")

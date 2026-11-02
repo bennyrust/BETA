@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Inferno",
+    "images": [
+      {
+        "src": "backgrounds/inferno-1.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/inferno/asite1-2.jpg"
+      },
+      {
+        "src": "backgrounds/inferno-2.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/inferno/banana1-2.jpg"
+      },
+      {
+        "src": "backgrounds/inferno-3.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/inferno/bsite1-2.jpg"
+      },
+      {
+        "src": "backgrounds/inferno-4.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/inferno/mid1-2.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Dust II",
+    "images": [
+      {
+        "src": "backgrounds/dust2-1.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/dust2/small_screens/shot10b.jpg"
+      },
+      {
+        "src": "backgrounds/dust2-2.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/dust2/small_screens/shot13b.jpg"
+      },
+      {
+        "src": "backgrounds/dust2-3.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/dust2/small_screens/shot21b.jpg"
+      },
+      {
+        "src": "backgrounds/dust2-4.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/dust2/small_screens/shot22b.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Nuke",
+    "images": [
+      {
+        "src": "backgrounds/nuke-1.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/reintroducing_nuke/comparisons/small_upperbomb_011_new.jpg"
+      },
+      {
+        "src": "backgrounds/nuke-2.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/reintroducing_nuke/comparisons/small_lowerbomb_005_new.jpg"
+      },
+      {
+        "src": "backgrounds/nuke-3.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/reintroducing_nuke/comparisons/small_outside_019_new.jpg"
+      },
+      {
+        "src": "backgrounds/nuke-4.jpg",
+        "source": "https://cdn.fastly.steamstatic.com/apps/csgo/images/reintroducing_nuke/comparisons/small_outside_001_new.jpg"
+      }
+    ]
+  }
+]

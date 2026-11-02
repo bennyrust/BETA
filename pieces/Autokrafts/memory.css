@@ -1,0 +1,26 @@
+@font-face{font-family:W98;src:url('../../ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2')}*{box-sizing:border-box}body{margin:0;background:#183f34;color:#eee8ce;font:16px/1.5 W98,Arial,sans-serif}header{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:20px;gap:18px}header a{font:36px Georgia;color:inherit;text-decoration:none}h1{font:clamp(18px,3vw,30px) Georgia;margin:0;letter-spacing:.08em}header p{margin:4px 0 0;text-align:center;letter-spacing:.3em;font-size:12px}main{max-width:950px;padding:0 20px 140px;margin:auto}button,input,select{font:inherit}button{color:#252a20;background:#eae2bc;border:1px solid #b4a778;padding:10px 20px;cursor:pointer}button:hover{filter:brightness(1.1)}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #fff;outline-offset:4px}button:disabled{opacity:.5;cursor:default}form{padding:18px;border-block:1px solid #eee8ce44;display:flex;align-items:center;gap:18px;flex-wrap:wrap}label{display:flex;align-items:center;gap:8px}input{width:90px}select,input{padding:7px;color:#252a20;background:#eee8ce;border:1px solid #b4a778}#terms{flex:1 0 100%;margin:0;font-size:13px}.roundStats{display:flex;justify-content:space-between;padding:16px 0;gap:10px;font-size:13px}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;max-width:760px;margin:auto}.slice{position:relative;aspect-ratio:1;padding:0;border:0;border-radius:0;background:linear-gradient(125deg,#fbd476,#e9ad3d 58%,#f4c45c);box-shadow:2px 4px 7px #0004;overflow:hidden}.slice:after{content:"";position:absolute;inset:0;border:3px solid #fff6;background:linear-gradient(174deg,transparent 0 20%,#fff5 21%,transparent 25% 48%,#fff5 49%,transparent 53% 75%,#fff4 76%,transparent 80%);pointer-events:none}.slice img{display:block;width:100%;height:100%;object-fit:contain}.slice.revealed:after{display:none}.slice.matched{box-shadow:0 0 0 3px #e5d67f;opacity:.85}.slice:disabled{opacity:1}.slice .number{font:22px Georgia;color:#8a6426}.slice.matched:disabled{opacity:.85}#status{display:block;text-align:center;margin:20px 0;font-size:18px}.rules{font-size:12px;max-width:700px;margin:20px auto;color:#d3d1ba}form[hidden]{display:none}@media(max-width:600px){header{padding:12px;gap:12px}#balance{font-size:12px}h1{font-size:17px}main{padding:0 12px 140px}form{padding:12px 0;gap:12px}.cards{gap:10px}.roundStats{font-size:11px;flex-wrap:wrap}label{font-size:13px}select{max-width:210px}}
+
+.flash-page main.flash-player{background:#183f34;color:#eee8ce;display:flex;flex-direction:column;gap:0}
+.flash-player .cards{grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;width:100%;max-width:850px;flex:none}
+.flash-player form{padding:8px 0 12px;gap:10px;font-size:13px}.flash-player #terms{font-size:11px}.flash-player form button{padding:7px 14px}
+.flash-player .roundStats{padding:10px 0}.flash-player #status{font-size:15px;margin:14px 0 6px}.flash-player .rules{font-size:10px;margin:8px auto}
+@media(max-width:900px){.flash-player .cards{grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.flash-page main.flash-player{min-height:650px}.flash-player form label{flex-wrap:wrap}}
+@media(max-width:600px){.flash-player .cards{grid-template-columns:repeat(3,minmax(0,1fr))}.flash-player #status{font-size:14px}.flash-player .rules{font-size:11px}}
+
+/* Photographic slices on the supplied felt, without designed card frames. */
+.flash-page main.flash-player{background:#12391b url('./assets/poker-felt.png') center/cover no-repeat}
+.flash-player .slice{background:transparent;border:0;border-radius:0;box-shadow:none;overflow:visible;filter:none}
+.flash-player .slice:after{display:none}
+.flash-player .slice img{filter:drop-shadow(2px 4px 3px #0005)}
+.flash-player .slice:hover:not(:disabled){filter:brightness(1.07)}
+.flash-player .slice.matched{box-shadow:none;opacity:.82}
+.flash-player .slice.matched img{filter:drop-shadow(0 0 3px #e5d67f66)}
+.flash-player form{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px 18px}
+.flash-player form[hidden]{display:none}
+.flash-player .wagerField{grid-column:1;grid-row:1}
+.flash-player #start{grid-column:2;grid-row:1;justify-self:end;white-space:nowrap}
+.flash-player .modeField{grid-column:1/-1;grid-row:2}
+.flash-player #terms{grid-column:1/-1;grid-row:3}
+@media(max-width:600px){.flash-player form{gap:10px}.flash-player .wagerField{gap:5px;flex-wrap:nowrap}.flash-player input{width:62px}.flash-player #start{font-size:12px;padding:8px}.flash-player .modeField{flex-wrap:nowrap}.flash-player #terms{font-size:10px}}
+/* Let text and controls fit naturally as the player narrows. */
+.flash-page main.flash-player{aspect-ratio:auto;min-height:620px}

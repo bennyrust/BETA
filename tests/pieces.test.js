@@ -22,7 +22,7 @@ test('every room object resolves to an existing unique piece page', async () => 
     assert.match(html, /<title>[^<]+<\/title>/);
     if (piece.id === 'trump') assert.ok(html.includes('../../js/bowling.js'));
     if (piece.id === 'window') assert.ok(html.includes('src="game.js"'));
-    const customPage=['window','laptop','print','trump','consumption-log'].includes(piece.id);
+    const customPage=['window','laptop','print','trump','consumption-log','american-spirit','cheese','side-table'].includes(piece.id);
     if(customPage){assert.ok(html.includes('Back to the room'));continue;}
     assert.match(html, /<h1(?:\s[^>]*)?>/);
     assert.ok(html.includes('../../js/piece-page.js') || html.includes('../../js/vapes-gallery.js') || html.includes('../../js/totem-entry.js') || html.includes('../../js/buddyologies.js'));
@@ -78,3 +78,5 @@ test('all four figures share the Buddyologies opening page', () => {
  const urls=['Luigi','Crooks','Tetsuya','Rittenhouse'].map(name=>piecePageUrl(catalog.get(name)));
  assert.equal(new Set(urls).size,1);assert.ok(urls[0].endsWith('/pieces/Buddyologies/'));
 });
+
+test('the cheese plate and Autokrafts share the existing Memory page',()=>{const catalog=createPieceCatalog(records);const plate=catalog.get('Cheese'),table=catalog.get('Side Table');assert.equal(plate.name,'AUTOKRAFTS');assert.equal(table.name,'AUTOKRAFTS');assert.equal(piecePageUrl(plate),piecePageUrl(table));assert(piecePageUrl(plate).endsWith('/pieces/Autokrafts/'));});

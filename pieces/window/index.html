@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HYPERNORMALISATION — Outside My Bedroom Window</title><link rel="stylesheet" href="game.css"><script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.152.2/build/three.module.js","three/addons/":"https://unpkg.com/three@0.152.2/examples/jsm/"}}</script></head>
-<body>
-<header><a class="back" href="../../index.html?view=player" aria-label="Back to the room">&lt;</a><div><h1>HYPERNORMALISATION</h1><p>OUTSIDE MY BEDROOM WINDOW</p></div><button id="pause" disabled>Pause</button></header>
-<main>
-<section class="hud" aria-label="Game statistics"><div>ROUND <strong id="round">0 / 10</strong></div><div>SCORE <strong id="score">0</strong></div><div>ACCURACY <strong id="accuracy">—</strong></div><div>HITS <strong id="hits">0</strong></div><div>ESCAPED <strong id="escaped">0</strong></div></section>
-<section id="range" aria-label="Shooting gallery"><div class="slots" id="slots"></div><div id="message"><h2 id="messageTitle">READY?</h2><p id="messageText">Shoot both target types: T / terrorist and CT / counter-terrorist. Click when they stand upright. Faster hits earn more points; missed shots lower accuracy and escaped targets cost points.</p><button id="start">Start game</button></div><output id="feedback" aria-live="polite"></output></section>
-<footer><span>CLICK TO SHOOT · P TO PAUSE</span><span>10 RANDOM ROUNDS · SPEED × ACCURACY</span></footer>
-<p class="help">Final score = hit points × accuracy, after a 100-point penalty per escaped target.</p>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Outside My Bedroom Window</title><link rel="stylesheet" href="game.css"><script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.152.2/build/three.module.js","three/addons/":"https://unpkg.com/three@0.152.2/examples/jsm/"}}</script></head>
+<body class="shooting-gallery">
+<header><a class="back" href="../../index.html?view=player" aria-label="Back to the room">&lt;</a><div><h1>OUTSIDE MY BEDROOM WINDOW</h1></div><button id="pause" disabled>Pause</button></header>
+<main class="gallery-layout">
+<aside class="ad-space ad-left" aria-label="Left advertisement placeholder"><span>Advertisement</span></aside>
+<div class="game-column">
+
+<section id="range" aria-label="Shooting gallery"><section class="hud" aria-label="Game statistics"><div>ROUND <strong id="round">0 / 10</strong></div><div>SCORE <strong id="score">0</strong></div><div>ACCURACY <strong id="accuracy">—</strong></div><div>HITS <strong id="hits">0</strong></div><div>ESCAPED <strong id="escaped">0</strong></div></section><div class="scenery" aria-hidden="true"><div class="cloud cloud-one"></div><div class="cloud cloud-two"></div><div class="hills"></div><div class="ground"></div><div class="tree tree-left"></div><div class="tree tree-right"></div></div><div class="slots" id="slots"></div><div id="message"><h2 id="messageTitle">READY?</h2><p id="messageText">Shoot both target types: T / terrorist and CT / counter-terrorist. They pop up across the landscape and move at changing speeds. Click when they stand upright. Faster hits earn more points; missed shots lower accuracy and escaped targets cost points.</p><button id="start">Start game</button></div><output id="feedback" aria-live="polite"></output></section>
+<aside class="ad-space ad-bottom" aria-label="Bottom advertisement placeholder"><span>Advertisement</span></aside>
+</div>
+<aside class="ad-space ad-right" aria-label="Right advertisement placeholder"><span>Advertisement</span></aside>
 </main><script type="module" src="game.js"></script></body></html>

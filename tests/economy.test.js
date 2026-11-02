@@ -5,3 +5,8 @@ test('daily prices follow fixed S&P baseline',()=>{assert.equal(price('toy',{clo
 test('reward amount and session deduplication',()=>{const s=initialState();assert.equal(award(s,'game1','bowling',150),300);assert.equal(award(s,'game1','bowling',150),0);assert.equal(s.coins,300);assert.equal(reward('gallery',12550),125);assert.throws(()=>reward('bowling',301));});
 test('purchase deducts and grants exactly once',()=>{const s=initialState();s.coins=200;buy(s,'purchase1','luigi',100);buy(s,'purchase1','luigi',100);assert.equal(s.coins,100);assert.equal(s.items.luigi,1);});
 test('insufficient coins leave wallet and inventory unchanged',()=>{const s=initialState();const before=JSON.stringify(s);assert.throws(()=>buy(s,'purchase1','luigi',100));assert.equal(JSON.stringify(s),before);});
+
+test('both item types track market gains and losses from the fixed baseline',()=>{
+ for(const [ratio,toy,vape]of [[1,100,75],[1.2,120,90],[.8,80,60]]){const quote={close:7743.98*ratio,baseClose:7743.98};assert.equal(price('toy',quote),toy);assert.equal(price('vape',quote),vape);}
+ assert.equal(price('toy',{close:.01,baseClose:100}),1);
+});

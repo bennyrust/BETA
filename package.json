@@ -8,6 +8,7 @@
     "serve": "python3 scripts/serve.py",
     "check:publish": "node scripts/check-publish.mjs",
     "prepublishOnly": "npm run check:publish",
+    "check:runtime": "node scripts/check-runtime-assets.mjs",
     "check:pages-size": "node scripts/check-pages-size.mjs",
     "check:beta-files": "node scripts/check-beta-files.mjs"
   }

@@ -1,0 +1,4310 @@
+[
+  {
+    "name": "vapes",
+    "run": 1,
+    "cache": "cold",
+    "ready": true,
+    "readyMs": 667,
+    "idleTaskMs": 1.1210000000000386,
+    "idleScriptMs": 0,
+    "heapMB": 5.079143524169922,
+    "requests": 40,
+    "idleRequests": 0,
+    "transferMB": 29.74402904510498,
+    "longTasks": 1,
+    "longTaskMs": 82,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/loading.css",
+        "bytes": 2307,
+        "encoded": 2007,
+        "duration": 7.800000190734863
+      },
+      {
+        "name": "http://127.0.0.1:8001/vapes-gallery.css",
+        "bytes": 4653,
+        "encoded": 4353,
+        "duration": 8.600000143051147
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/ZeroesThree.otf",
+        "bytes": 30588,
+        "encoded": 30288,
+        "duration": 8.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vapes-gallery.js",
+        "bytes": 8556,
+        "encoded": 8256,
+        "duration": 8.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/loading.js",
+        "bytes": 4518,
+        "encoded": 4218,
+        "duration": 7.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/runtime-assets.js",
+        "bytes": 4509,
+        "encoded": 4209,
+        "duration": 3.3000001907348633
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 3051,
+        "encoded": 2751,
+        "duration": 3
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 10880,
+        "encoded": 10580,
+        "duration": 4.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vape-variation.js",
+        "bytes": 2096,
+        "encoded": 1796,
+        "duration": 5.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/selector-math.js",
+        "bytes": 492,
+        "encoded": 192,
+        "duration": 4.799999952316284
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/GLTFLoader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 97.09999990463257
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/build/three.module.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 186
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 2295,
+        "encoded": 1995,
+        "duration": 7.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/piece-files.js",
+        "bytes": 4211,
+        "encoded": 3911,
+        "duration": 7.1000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/api/loading-text",
+        "bytes": 38665,
+        "encoded": 38365,
+        "duration": 3.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 1318,
+        "encoded": 1018,
+        "duration": 5.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 1645,
+        "encoded": 1345,
+        "duration": 5.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/photo-preview.js",
+        "bytes": 1680,
+        "encoded": 1380,
+        "duration": 4.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Normal%20Select.cur",
+        "bytes": 626,
+        "encoded": 326,
+        "duration": 3.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/nameplate.svg",
+        "bytes": 534,
+        "encoded": 234,
+        "duration": 8.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Link%20Select.cur",
+        "bytes": 626,
+        "encoded": 326,
+        "duration": 8.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/reference.jpg",
+        "bytes": 79442,
+        "encoded": 79142,
+        "duration": 8.599999904632568
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/BufferGeometryUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 59
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 6664,
+        "encoded": 6364,
+        "duration": 2.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 15756,
+        "encoded": 15456,
+        "duration": 3.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 2960,
+        "encoded": 2660,
+        "duration": 13.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/4436278c805cd0c6.glb",
+        "bytes": 2586056,
+        "encoded": 2585756,
+        "duration": 5.699999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/20bc9749993ccb69.glb",
+        "bytes": 2569512,
+        "encoded": 2569212,
+        "duration": 14.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ceff06346e816193.glb",
+        "bytes": 2579624,
+        "encoded": 2579324,
+        "duration": 11
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/3343b8bbb3b37f32.glb",
+        "bytes": 2587756,
+        "encoded": 2587456,
+        "duration": 11.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/92e78a9ee703db99.glb",
+        "bytes": 2581504,
+        "encoded": 2581204,
+        "duration": 11.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/1ffa80dc9be86c74.glb",
+        "bytes": 2580016,
+        "encoded": 2579716,
+        "duration": 12.600000143051147
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/89b49b2769fbc66e.glb",
+        "bytes": 2581028,
+        "encoded": 2580728,
+        "duration": 14.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9705b88126c66172.glb",
+        "bytes": 2579300,
+        "encoded": 2579000,
+        "duration": 17.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/58f08a0722fc8dd8.glb",
+        "bytes": 2584872,
+        "encoded": 2584572,
+        "duration": 12.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/69ea5d700feabeca.glb",
+        "bytes": 2577392,
+        "encoded": 2577092,
+        "duration": 14
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a1505f30baaa97c7.glb",
+        "bytes": 2570128,
+        "encoded": 2569828,
+        "duration": 12.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/c9d00c62538e1df6.glb",
+        "bytes": 2581204,
+        "encoded": 2580904,
+        "duration": 13.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/vapes/files.json",
+        "bytes": 1984,
+        "encoded": 1684,
+        "duration": 9.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/data/market.json",
+        "bytes": 427,
+        "encoded": 127,
+        "duration": 9.399999856948853
+      }
+    ]
+  },
+  {
+    "name": "vapes",
+    "run": 1,
+    "cache": "warm",
+    "ready": true,
+    "readyMs": 355,
+    "idleTaskMs": 4.674000000000012,
+    "idleScriptMs": 0,
+    "heapMB": 4.6032562255859375,
+    "requests": 40,
+    "idleRequests": 0,
+    "transferMB": 0.043740272521972656,
+    "longTasks": 1,
+    "longTaskMs": 70,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/loading.css",
+        "bytes": 300,
+        "encoded": 2007,
+        "duration": 3.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/vapes-gallery.css",
+        "bytes": 300,
+        "encoded": 4353,
+        "duration": 4.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/ZeroesThree.otf",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/loading.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vapes-gallery.js",
+        "bytes": 300,
+        "encoded": 8256,
+        "duration": 5.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Normal%20Select.cur",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/nameplate.svg",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.3000001907348633
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Link%20Select.cur",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/reference.jpg",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/api/loading-text",
+        "bytes": 38665,
+        "encoded": 38365,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 300,
+        "encoded": 2751,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 300,
+        "encoded": 10580,
+        "duration": 3.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/runtime-assets.js",
+        "bytes": 300,
+        "encoded": 4209,
+        "duration": 4.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vape-variation.js",
+        "bytes": 300,
+        "encoded": 1796,
+        "duration": 4.699999809265137
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/build/three.module.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/GLTFLoader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/selector-math.js",
+        "bytes": 300,
+        "encoded": 192,
+        "duration": 4.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/piece-files.js",
+        "bytes": 300,
+        "encoded": 3911,
+        "duration": 5.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 300,
+        "encoded": 1995,
+        "duration": 6.200000047683716
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/BufferGeometryUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 300,
+        "encoded": 1018,
+        "duration": 4.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 300,
+        "encoded": 1345,
+        "duration": 5.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/photo-preview.js",
+        "bytes": 300,
+        "encoded": 1380,
+        "duration": 3.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 300,
+        "encoded": 6364,
+        "duration": 1.7000000476837158
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 300,
+        "encoded": 15456,
+        "duration": 1.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/4436278c805cd0c6.glb",
+        "bytes": 0,
+        "encoded": 2585756,
+        "duration": 1.5999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/20bc9749993ccb69.glb",
+        "bytes": 0,
+        "encoded": 2569212,
+        "duration": 1.2999999523162842
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ceff06346e816193.glb",
+        "bytes": 0,
+        "encoded": 2579324,
+        "duration": 1.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/3343b8bbb3b37f32.glb",
+        "bytes": 0,
+        "encoded": 2587456,
+        "duration": 1
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/92e78a9ee703db99.glb",
+        "bytes": 0,
+        "encoded": 2581204,
+        "duration": 1.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/1ffa80dc9be86c74.glb",
+        "bytes": 0,
+        "encoded": 2579716,
+        "duration": 1.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/89b49b2769fbc66e.glb",
+        "bytes": 0,
+        "encoded": 2580728,
+        "duration": 1.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9705b88126c66172.glb",
+        "bytes": 0,
+        "encoded": 2579000,
+        "duration": 1.7000000476837158
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/58f08a0722fc8dd8.glb",
+        "bytes": 0,
+        "encoded": 2584572,
+        "duration": 1.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/69ea5d700feabeca.glb",
+        "bytes": 0,
+        "encoded": 2577092,
+        "duration": 1.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a1505f30baaa97c7.glb",
+        "bytes": 0,
+        "encoded": 2569828,
+        "duration": 2
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/c9d00c62538e1df6.glb",
+        "bytes": 0,
+        "encoded": 2580904,
+        "duration": 1.2999999523162842
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/vapes/files.json",
+        "bytes": 300,
+        "encoded": 1684,
+        "duration": 2.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/data/market.json",
+        "bytes": 300,
+        "encoded": 127,
+        "duration": 2.299999952316284
+      }
+    ]
+  },
+  {
+    "name": "gallery",
+    "run": 1,
+    "cache": "cold",
+    "ready": true,
+    "readyMs": 180,
+    "idleTaskMs": 85.54899999999999,
+    "idleScriptMs": 25.421999999999997,
+    "heapMB": 2.7965927124023438,
+    "requests": 18,
+    "idleRequests": 0,
+    "transferMB": 1.0149650573730469,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game.css",
+        "bytes": 8215,
+        "encoded": 7915,
+        "duration": 5.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game.js",
+        "bytes": 5468,
+        "encoded": 5168,
+        "duration": 5.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds.js",
+        "bytes": 1820,
+        "encoded": 1520,
+        "duration": 3.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 3051,
+        "encoded": 2751,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 10880,
+        "encoded": 10580,
+        "duration": 4.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game-core.js",
+        "bytes": 4091,
+        "encoded": 3791,
+        "duration": 4.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Game%20Crosshair.svg",
+        "bytes": 605,
+        "encoded": 305,
+        "duration": 4.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 46684,
+        "encoded": 46384,
+        "duration": 11
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 1318,
+        "encoded": 1018,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 2295,
+        "encoded": 1995,
+        "duration": 3.6999998092651367
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 1645,
+        "encoded": 1345,
+        "duration": 3.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 6664,
+        "encoded": 6364,
+        "duration": 2.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 15756,
+        "encoded": 15456,
+        "duration": 2.8000001907348633
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds.json",
+        "bytes": 2478,
+        "encoded": 2178,
+        "duration": 3.1999998092651367
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 2960,
+        "encoded": 2660,
+        "duration": 5.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds/nuke-1.jpg",
+        "bytes": 217708,
+        "encoded": 217408,
+        "duration": 3.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds/inferno-3.jpg",
+        "bytes": 479282,
+        "encoded": 478982,
+        "duration": 4.800000190734863
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/Game%20Assets/Terrorist.png",
+        "bytes": 253348,
+        "encoded": 253048,
+        "duration": 4.800000190734863
+      }
+    ]
+  },
+  {
+    "name": "gallery",
+    "run": 1,
+    "cache": "warm",
+    "ready": true,
+    "readyMs": 68,
+    "idleTaskMs": 98.62700000000001,
+    "idleScriptMs": 27.525,
+    "heapMB": 4.672637939453125,
+    "requests": 19,
+    "idleRequests": 1,
+    "transferMB": 0.9299545288085938,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game-core.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Game%20Crosshair.svg",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.1999998092651367
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 300,
+        "encoded": 15456,
+        "duration": 2.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds.json",
+        "bytes": 300,
+        "encoded": 2178,
+        "duration": 2.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 1.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds/dust2-3.jpg",
+        "bytes": 227220,
+        "encoded": 226920,
+        "duration": 4.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds/inferno-2.jpg",
+        "bytes": 465639,
+        "encoded": 465339,
+        "duration": 5.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/Game%20Assets/Terrorist.png",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/Game%20Assets/Counter%20Terrorist.png",
+        "bytes": 277469,
+        "encoded": 277169,
+        "duration": 5.5
+      }
+    ]
+  },
+  {
+    "name": "memory",
+    "run": 1,
+    "cache": "cold",
+    "ready": true,
+    "readyMs": 82,
+    "idleTaskMs": 1.6159999999999994,
+    "idleScriptMs": 0,
+    "heapMB": 1.9180145263671875,
+    "requests": 19,
+    "idleRequests": 0,
+    "transferMB": 0.7632312774658203,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory.css",
+        "bytes": 3645,
+        "encoded": 3345,
+        "duration": 7.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/flash-player.css",
+        "bytes": 1902,
+        "encoded": 1602,
+        "duration": 6.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory.js",
+        "bytes": 3611,
+        "encoded": 3311,
+        "duration": 6.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 3051,
+        "encoded": 2751,
+        "duration": 3.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 10880,
+        "encoded": 10580,
+        "duration": 6.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory-core.js",
+        "bytes": 1993,
+        "encoded": 1693,
+        "duration": 6.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 1318,
+        "encoded": 1018,
+        "duration": 3.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 1645,
+        "encoded": 1345,
+        "duration": 7.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 2295,
+        "encoded": 1995,
+        "duration": 3.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 6664,
+        "encoded": 6364,
+        "duration": 5.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 15756,
+        "encoded": 15456,
+        "duration": 6.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/gaddafi-slice.webp",
+        "bytes": 113222,
+        "encoded": 112922,
+        "duration": 3.3000001907348633
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/netanyahu-slice.webp",
+        "bytes": 115270,
+        "encoded": 114970,
+        "duration": 7.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/trump-slice.webp",
+        "bytes": 123072,
+        "encoded": 122772,
+        "duration": 5.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/putin-slice.webp",
+        "bytes": 120830,
+        "encoded": 120530,
+        "duration": 7.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/berlusconi-slice.webp",
+        "bytes": 111836,
+        "encoded": 111536,
+        "duration": 9.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/erdogan-slice.webp",
+        "bytes": 113672,
+        "encoded": 113372,
+        "duration": 9
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 46684,
+        "encoded": 46384,
+        "duration": 12.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 2960,
+        "encoded": 2660,
+        "duration": 5.599999904632568
+      }
+    ]
+  },
+  {
+    "name": "memory",
+    "run": 1,
+    "cache": "warm",
+    "ready": true,
+    "readyMs": 51,
+    "idleTaskMs": 1.5829999999999975,
+    "idleScriptMs": 0,
+    "heapMB": 3.0474395751953125,
+    "requests": 19,
+    "idleRequests": 0,
+    "transferMB": 0.005435943603515625,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/flash-player.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory-core.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.1000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 300,
+        "encoded": 15456,
+        "duration": 3.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/gaddafi-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/netanyahu-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/trump-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/putin-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 6.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/berlusconi-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 6.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/erdogan-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 7.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.6000001430511475
+      }
+    ]
+  },
+  {
+    "name": "pin",
+    "run": 1,
+    "cache": "cold",
+    "ready": true,
+    "readyMs": 48,
+    "idleTaskMs": 2.0809999999999995,
+    "idleScriptMs": 0,
+    "heapMB": 1.6993408203125,
+    "requests": 5,
+    "idleRequests": 0,
+    "transferMB": 0.9205951690673828,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/game.css",
+        "bytes": 3604,
+        "encoded": 3304,
+        "duration": 6.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/flash-player.css",
+        "bytes": 1902,
+        "encoded": 1602,
+        "duration": 5.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/game.js",
+        "bytes": 3807,
+        "encoded": 3507,
+        "duration": 5.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/reference.jpg",
+        "bytes": 909317,
+        "encoded": 909017,
+        "duration": 10.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 46684,
+        "encoded": 46384,
+        "duration": 2.9000000953674316
+      }
+    ]
+  },
+  {
+    "name": "pin",
+    "run": 1,
+    "cache": "warm",
+    "ready": true,
+    "readyMs": 34,
+    "idleTaskMs": 1.353,
+    "idleScriptMs": 0,
+    "heapMB": 2.6673583984375,
+    "requests": 5,
+    "idleRequests": 0,
+    "transferMB": 0.001430511474609375,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/flash-player.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/game.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.199999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/reference.jpg",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/game.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 1.7000000476837158
+      }
+    ]
+  },
+  {
+    "name": "vapes",
+    "run": 2,
+    "cache": "cold",
+    "ready": true,
+    "readyMs": 651,
+    "idleTaskMs": 1.1150000000000326,
+    "idleScriptMs": 0,
+    "heapMB": 5.079170227050781,
+    "requests": 40,
+    "idleRequests": 0,
+    "transferMB": 29.74402904510498,
+    "longTasks": 1,
+    "longTaskMs": 80,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/loading.css",
+        "bytes": 2307,
+        "encoded": 2007,
+        "duration": 5.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/vapes-gallery.css",
+        "bytes": 4653,
+        "encoded": 4353,
+        "duration": 9
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/ZeroesThree.otf",
+        "bytes": 30588,
+        "encoded": 30288,
+        "duration": 8.399999856948853
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/loading.js",
+        "bytes": 4518,
+        "encoded": 4218,
+        "duration": 7.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vapes-gallery.js",
+        "bytes": 8556,
+        "encoded": 8256,
+        "duration": 8.600000143051147
+      },
+      {
+        "name": "http://127.0.0.1:8001/api/loading-text",
+        "bytes": 38665,
+        "encoded": 38365,
+        "duration": 5.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/runtime-assets.js",
+        "bytes": 4509,
+        "encoded": 4209,
+        "duration": 6.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 3051,
+        "encoded": 2751,
+        "duration": 7.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 10880,
+        "encoded": 10580,
+        "duration": 8.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vape-variation.js",
+        "bytes": 2096,
+        "encoded": 1796,
+        "duration": 7.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/selector-math.js",
+        "bytes": 492,
+        "encoded": 192,
+        "duration": 9.700000047683716
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/build/three.module.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 182.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/piece-files.js",
+        "bytes": 4211,
+        "encoded": 3911,
+        "duration": 10.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 2295,
+        "encoded": 1995,
+        "duration": 10.799999952316284
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/GLTFLoader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 117.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Normal%20Select.cur",
+        "bytes": 626,
+        "encoded": 326,
+        "duration": 7.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/nameplate.svg",
+        "bytes": 534,
+        "encoded": 234,
+        "duration": 7.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Link%20Select.cur",
+        "bytes": 626,
+        "encoded": 326,
+        "duration": 7.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/reference.jpg",
+        "bytes": 79442,
+        "encoded": 79142,
+        "duration": 7.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 1318,
+        "encoded": 1018,
+        "duration": 2.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 1645,
+        "encoded": 1345,
+        "duration": 3
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/photo-preview.js",
+        "bytes": 1680,
+        "encoded": 1380,
+        "duration": 3.0999999046325684
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/BufferGeometryUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 77.79999995231628
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 6664,
+        "encoded": 6364,
+        "duration": 2.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 15756,
+        "encoded": 15456,
+        "duration": 2.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 2960,
+        "encoded": 2660,
+        "duration": 8.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/4436278c805cd0c6.glb",
+        "bytes": 2586056,
+        "encoded": 2585756,
+        "duration": 13.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/20bc9749993ccb69.glb",
+        "bytes": 2569512,
+        "encoded": 2569212,
+        "duration": 14.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ceff06346e816193.glb",
+        "bytes": 2579624,
+        "encoded": 2579324,
+        "duration": 12.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/3343b8bbb3b37f32.glb",
+        "bytes": 2587756,
+        "encoded": 2587456,
+        "duration": 11.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/92e78a9ee703db99.glb",
+        "bytes": 2581504,
+        "encoded": 2581204,
+        "duration": 8.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/1ffa80dc9be86c74.glb",
+        "bytes": 2580016,
+        "encoded": 2579716,
+        "duration": 10.800000190734863
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/89b49b2769fbc66e.glb",
+        "bytes": 2581028,
+        "encoded": 2580728,
+        "duration": 13
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9705b88126c66172.glb",
+        "bytes": 2579300,
+        "encoded": 2579000,
+        "duration": 11.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/58f08a0722fc8dd8.glb",
+        "bytes": 2584872,
+        "encoded": 2584572,
+        "duration": 6.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/69ea5d700feabeca.glb",
+        "bytes": 2577392,
+        "encoded": 2577092,
+        "duration": 5.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a1505f30baaa97c7.glb",
+        "bytes": 2570128,
+        "encoded": 2569828,
+        "duration": 9.899999856948853
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/c9d00c62538e1df6.glb",
+        "bytes": 2581204,
+        "encoded": 2580904,
+        "duration": 8.100000143051147
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/vapes/files.json",
+        "bytes": 1984,
+        "encoded": 1684,
+        "duration": 3.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/data/market.json",
+        "bytes": 427,
+        "encoded": 127,
+        "duration": 3
+      }
+    ]
+  },
+  {
+    "name": "vapes",
+    "run": 2,
+    "cache": "warm",
+    "ready": true,
+    "readyMs": 356,
+    "idleTaskMs": 1.6280000000000183,
+    "idleScriptMs": 0,
+    "heapMB": 7.413265228271484,
+    "requests": 40,
+    "idleRequests": 0,
+    "transferMB": 0.043740272521972656,
+    "longTasks": 1,
+    "longTaskMs": 71,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/loading.css",
+        "bytes": 300,
+        "encoded": 2007,
+        "duration": 3.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/ZeroesThree.otf",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/vapes-gallery.css",
+        "bytes": 300,
+        "encoded": 4353,
+        "duration": 4.199999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/loading.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 8.399999856948853
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vapes-gallery.js",
+        "bytes": 300,
+        "encoded": 8256,
+        "duration": 4.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Normal%20Select.cur",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/nameplate.svg",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Link%20Select.cur",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/battlefront/reference.jpg",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/runtime-assets.js",
+        "bytes": 300,
+        "encoded": 4209,
+        "duration": 4.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 300,
+        "encoded": 2751,
+        "duration": 5.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 300,
+        "encoded": 10580,
+        "duration": 5.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vape-variation.js",
+        "bytes": 300,
+        "encoded": 1796,
+        "duration": 6.5
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/build/three.module.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/selector-math.js",
+        "bytes": 300,
+        "encoded": 192,
+        "duration": 6.400000095367432
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/GLTFLoader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/piece-files.js",
+        "bytes": 300,
+        "encoded": 3911,
+        "duration": 7.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 300,
+        "encoded": 1995,
+        "duration": 8.099999904632568
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/BufferGeometryUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/api/loading-text",
+        "bytes": 38665,
+        "encoded": 38365,
+        "duration": 5.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 300,
+        "encoded": 1018,
+        "duration": 4.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 300,
+        "encoded": 1345,
+        "duration": 4.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/photo-preview.js",
+        "bytes": 300,
+        "encoded": 1380,
+        "duration": 2
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 300,
+        "encoded": 6364,
+        "duration": 2
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 300,
+        "encoded": 15456,
+        "duration": 2.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/4436278c805cd0c6.glb",
+        "bytes": 0,
+        "encoded": 2585756,
+        "duration": 2.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/20bc9749993ccb69.glb",
+        "bytes": 0,
+        "encoded": 2569212,
+        "duration": 1.2000000476837158
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ceff06346e816193.glb",
+        "bytes": 0,
+        "encoded": 2579324,
+        "duration": 1.7000000476837158
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/3343b8bbb3b37f32.glb",
+        "bytes": 0,
+        "encoded": 2587456,
+        "duration": 1.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/92e78a9ee703db99.glb",
+        "bytes": 0,
+        "encoded": 2581204,
+        "duration": 2.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/1ffa80dc9be86c74.glb",
+        "bytes": 0,
+        "encoded": 2579716,
+        "duration": 1.3000001907348633
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/89b49b2769fbc66e.glb",
+        "bytes": 0,
+        "encoded": 2580728,
+        "duration": 1.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9705b88126c66172.glb",
+        "bytes": 0,
+        "encoded": 2579000,
+        "duration": 3.9000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/58f08a0722fc8dd8.glb",
+        "bytes": 0,
+        "encoded": 2584572,
+        "duration": 1
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/69ea5d700feabeca.glb",
+        "bytes": 0,
+        "encoded": 2577092,
+        "duration": 1.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a1505f30baaa97c7.glb",
+        "bytes": 0,
+        "encoded": 2569828,
+        "duration": 1
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/c9d00c62538e1df6.glb",
+        "bytes": 0,
+        "encoded": 2580904,
+        "duration": 1
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/vapes/files.json",
+        "bytes": 300,
+        "encoded": 1684,
+        "duration": 3.9000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/data/market.json",
+        "bytes": 300,
+        "encoded": 127,
+        "duration": 3.799999952316284
+      }
+    ]
+  },
+  {
+    "name": "gallery",
+    "run": 2,
+    "cache": "cold",
+    "ready": true,
+    "readyMs": 179,
+    "idleTaskMs": 93.36800000000001,
+    "idleScriptMs": 27.809,
+    "heapMB": 2.7877159118652344,
+    "requests": 18,
+    "idleRequests": 0,
+    "transferMB": 0.9967241287231445,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game.css",
+        "bytes": 8215,
+        "encoded": 7915,
+        "duration": 6.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game.js",
+        "bytes": 5468,
+        "encoded": 5168,
+        "duration": 6.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Game%20Crosshair.svg",
+        "bytes": 605,
+        "encoded": 305,
+        "duration": 2.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 46684,
+        "encoded": 46384,
+        "duration": 14
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 3051,
+        "encoded": 2751,
+        "duration": 3.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds.js",
+        "bytes": 1820,
+        "encoded": 1520,
+        "duration": 4.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 10880,
+        "encoded": 10580,
+        "duration": 5.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game-core.js",
+        "bytes": 4091,
+        "encoded": 3791,
+        "duration": 6.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 1645,
+        "encoded": 1345,
+        "duration": 7.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 1318,
+        "encoded": 1018,
+        "duration": 8.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 2295,
+        "encoded": 1995,
+        "duration": 6.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 6664,
+        "encoded": 6364,
+        "duration": 2.9000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 15756,
+        "encoded": 15456,
+        "duration": 2.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds.json",
+        "bytes": 2478,
+        "encoded": 2178,
+        "duration": 2.6999998092651367
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 2960,
+        "encoded": 2660,
+        "duration": 5.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds/nuke-3.jpg",
+        "bytes": 212224,
+        "encoded": 211924,
+        "duration": 3.1000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds/inferno-2.jpg",
+        "bytes": 465639,
+        "encoded": 465339,
+        "duration": 5.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/Game%20Assets/Terrorist.png",
+        "bytes": 253348,
+        "encoded": 253048,
+        "duration": 5.200000047683716
+      }
+    ]
+  },
+  {
+    "name": "gallery",
+    "run": 2,
+    "cache": "warm",
+    "ready": true,
+    "readyMs": 85,
+    "idleTaskMs": 91.64299999999999,
+    "idleScriptMs": 27.000000000000004,
+    "heapMB": 4.655803680419922,
+    "requests": 18,
+    "idleRequests": 0,
+    "transferMB": 1.109044075012207,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.1999998092651367
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/game-core.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Game%20Crosshair.svg",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5.199999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.5999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.3000001907348633
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 300,
+        "encoded": 15456,
+        "duration": 2.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds.json",
+        "bytes": 300,
+        "encoded": 2178,
+        "duration": 2.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 1.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds/dust2-4.jpg",
+        "bytes": 401666,
+        "encoded": 401366,
+        "duration": 4.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/backgrounds/inferno-3.jpg",
+        "bytes": 479282,
+        "encoded": 478982,
+        "duration": 8.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/window/Game%20Assets/Counter%20Terrorist.png",
+        "bytes": 277469,
+        "encoded": 277169,
+        "duration": 3.799999952316284
+      }
+    ]
+  },
+  {
+    "name": "memory",
+    "run": 2,
+    "cache": "cold",
+    "ready": true,
+    "readyMs": 135,
+    "idleTaskMs": 2.121999999999999,
+    "idleScriptMs": 0,
+    "heapMB": 1.9174919128417969,
+    "requests": 19,
+    "idleRequests": 0,
+    "transferMB": 0.7632312774658203,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory.css",
+        "bytes": 3645,
+        "encoded": 3345,
+        "duration": 11.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/flash-player.css",
+        "bytes": 1902,
+        "encoded": 1602,
+        "duration": 5.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory.js",
+        "bytes": 3611,
+        "encoded": 3311,
+        "duration": 12
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 3051,
+        "encoded": 2751,
+        "duration": 2.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 10880,
+        "encoded": 10580,
+        "duration": 3.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory-core.js",
+        "bytes": 1993,
+        "encoded": 1693,
+        "duration": 3.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 46684,
+        "encoded": 46384,
+        "duration": 6.699999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 1318,
+        "encoded": 1018,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 1645,
+        "encoded": 1345,
+        "duration": 2.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 2295,
+        "encoded": 1995,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 6664,
+        "encoded": 6364,
+        "duration": 2.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 15756,
+        "encoded": 15456,
+        "duration": 3.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/netanyahu-slice.webp",
+        "bytes": 115270,
+        "encoded": 114970,
+        "duration": 5.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/trump-slice.webp",
+        "bytes": 123072,
+        "encoded": 122772,
+        "duration": 6
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/gaddafi-slice.webp",
+        "bytes": 113222,
+        "encoded": 112922,
+        "duration": 6.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/putin-slice.webp",
+        "bytes": 120830,
+        "encoded": 120530,
+        "duration": 17.399999856948853
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/berlusconi-slice.webp",
+        "bytes": 111836,
+        "encoded": 111536,
+        "duration": 17.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/erdogan-slice.webp",
+        "bytes": 113672,
+        "encoded": 113372,
+        "duration": 17.699999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 2960,
+        "encoded": 2660,
+        "duration": 11.900000095367432
+      }
+    ]
+  },
+  {
+    "name": "memory",
+    "run": 2,
+    "cache": "warm",
+    "ready": true,
+    "readyMs": 41,
+    "idleTaskMs": 1.628000000000001,
+    "idleScriptMs": 0,
+    "heapMB": 3.0471153259277344,
+    "requests": 19,
+    "idleRequests": 0,
+    "transferMB": 0.005435943603515625,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/flash-player.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.6999998092651367
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.9000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/memory-core.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.9000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 300,
+        "encoded": 15456,
+        "duration": 5
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/gaddafi-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/netanyahu-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 5.1000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/putin-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 6.699999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/berlusconi-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 7.199999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/trump-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 7.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/Autokrafts/cards/erdogan-slice.webp",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 6.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2
+      }
+    ]
+  },
+  {
+    "name": "pin",
+    "run": 2,
+    "cache": "cold",
+    "ready": true,
+    "readyMs": 84,
+    "idleTaskMs": 1.7119999999999913,
+    "idleScriptMs": 0,
+    "heapMB": 1.6993408203125,
+    "requests": 5,
+    "idleRequests": 0,
+    "transferMB": 0.9205951690673828,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/game.css",
+        "bytes": 3604,
+        "encoded": 3304,
+        "duration": 6.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/flash-player.css",
+        "bytes": 1902,
+        "encoded": 1602,
+        "duration": 5.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/reference.jpg",
+        "bytes": 909317,
+        "encoded": 909017,
+        "duration": 11.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/game.js",
+        "bytes": 3807,
+        "encoded": 3507,
+        "duration": 7.199999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 46684,
+        "encoded": 46384,
+        "duration": 10.699999809265137
+      }
+    ]
+  },
+  {
+    "name": "pin",
+    "run": 2,
+    "cache": "warm",
+    "ready": true,
+    "readyMs": 33,
+    "idleTaskMs": 1.3089999999999977,
+    "idleScriptMs": 0,
+    "heapMB": 2.6673583984375,
+    "requests": 5,
+    "idleRequests": 0,
+    "transferMB": 0.001430511474609375,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/game.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.9000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/flash-player.css",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.3000001907348633
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/reference.jpg",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/american-spirit/game.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 4.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 1.6000001430511475
+      }
+    ]
+  },
+  {
+    "name": "room",
+    "run": 1,
+    "cache": "cold",
+    "ready": true,
+    "readyMs": 1710,
+    "idleTaskMs": 215.66700000000006,
+    "idleScriptMs": 172.319,
+    "heapMB": 8.896095275878906,
+    "requests": 83,
+    "idleRequests": 0,
+    "transferMB": 107.55884456634521,
+    "longTasks": 3,
+    "longTaskMs": 180,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/styles.css",
+        "bytes": 4082,
+        "encoded": 3782,
+        "duration": 21.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/loading.css",
+        "bytes": 2307,
+        "encoded": 2007,
+        "duration": 22.399999856948853
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/loading.js",
+        "bytes": 4518,
+        "encoded": 4218,
+        "duration": 26.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/bootstrap.js",
+        "bytes": 587,
+        "encoded": 287,
+        "duration": 27.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 10880,
+        "encoded": 10580,
+        "duration": 25.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Normal%20Select.cur",
+        "bytes": 626,
+        "encoded": 326,
+        "duration": 5.1000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/api/loading-text",
+        "bytes": 38665,
+        "encoded": 38365,
+        "duration": 3.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 2295,
+        "encoded": 1995,
+        "duration": 2.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 3051,
+        "encoded": 2751,
+        "duration": 4.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 1318,
+        "encoded": 1018,
+        "duration": 8.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/errors.js",
+        "bytes": 930,
+        "encoded": 630,
+        "duration": 9
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 1645,
+        "encoded": 1345,
+        "duration": 5
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Link%20Select.cur",
+        "bytes": 626,
+        "encoded": 326,
+        "duration": 4.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/app.js",
+        "bytes": 9116,
+        "encoded": 8816,
+        "duration": 2
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 6664,
+        "encoded": 6364,
+        "duration": 4.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 15756,
+        "encoded": 15456,
+        "duration": 4.1000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/data/market.json",
+        "bytes": 427,
+        "encoded": 127,
+        "duration": 4.1000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/rendering.js",
+        "bytes": 3153,
+        "encoded": 2853,
+        "duration": 9.899999856948853
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/core.js",
+        "bytes": 2682,
+        "encoded": 2382,
+        "duration": 10.199999809265137
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/build/three.module.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 168.89999985694885
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/cameras.js",
+        "bytes": 4466,
+        "encoded": 4166,
+        "duration": 11
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/lighting.js",
+        "bytes": 5700,
+        "encoded": 5400,
+        "duration": 11.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/assets.js",
+        "bytes": 4335,
+        "encoded": 4035,
+        "duration": 11.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/resources.js",
+        "bytes": 1918,
+        "encoded": 1618,
+        "duration": 12.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/media.js",
+        "bytes": 10244,
+        "encoded": 9944,
+        "duration": 14.100000143051147
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/menu.js",
+        "bytes": 10680,
+        "encoded": 10380,
+        "duration": 14.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/orientation-store.js",
+        "bytes": 1708,
+        "encoded": 1408,
+        "duration": 37.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 2960,
+        "encoded": 2660,
+        "duration": 10.900000095367432
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/RenderPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 39.89999985694885
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/ShaderPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 47.59999990463257
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/EffectComposer.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 48
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/shaders/GammaCorrectionShader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 44.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/config.js",
+        "bytes": 6377,
+        "encoded": 6077,
+        "duration": 4
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/OutlinePass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 42.59999990463257
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/controls/OrbitControls.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 70.89999985694885
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/runtime-assets.js",
+        "bytes": 4725,
+        "encoded": 4425,
+        "duration": 4.200000047683716
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/lights/RectAreaLightUniformsLib.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 156.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vape-variation.js",
+        "bytes": 2096,
+        "encoded": 1796,
+        "duration": 5.200000047683716
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/GLTFLoader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 50.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/favicon.ico",
+        "bytes": 769,
+        "encoded": 469,
+        "duration": 6.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/trump-screen-fit.js",
+        "bytes": 52300,
+        "encoded": 52000,
+        "duration": 7.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/post-text.js",
+        "bytes": 754,
+        "encoded": 454,
+        "duration": 7.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/preview.js",
+        "bytes": 1164,
+        "encoded": 864,
+        "duration": 10.100000143051147
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/SkeletonUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 68.29999995231628
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/preview-config.js",
+        "bytes": 2460,
+        "encoded": 2160,
+        "duration": 6.6000001430511475
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/Pass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 50.40000009536743
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/shaders/CopyShader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 48.09999990463257
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/MaskPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 43.200000047683716
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/BufferGeometryUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 43.10000014305115
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/preview-orientations.json",
+        "bytes": 2331,
+        "encoded": 2031,
+        "duration": 2.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/98212a4e95148ba6.glb",
+        "bytes": 1546024,
+        "encoded": 1545724,
+        "duration": 10.199999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/00ac1773df99cecb.glb",
+        "bytes": 2407460,
+        "encoded": 2407160,
+        "duration": 11.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a310d2ac939deb85.glb",
+        "bytes": 3321400,
+        "encoded": 3321100,
+        "duration": 40.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/white-tv/loading-frame.png",
+        "bytes": 484844,
+        "encoded": 484544,
+        "duration": 11.100000143051147
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/4436278c805cd0c6.glb",
+        "bytes": 2586056,
+        "encoded": 2585756,
+        "duration": 12
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a1505f30baaa97c7.glb",
+        "bytes": 2570128,
+        "encoded": 2569828,
+        "duration": 15.399999856948853
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ceff06346e816193.glb",
+        "bytes": 2579624,
+        "encoded": 2579324,
+        "duration": 53.10000014305115
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/3343b8bbb3b37f32.glb",
+        "bytes": 2587756,
+        "encoded": 2587456,
+        "duration": 16.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a45a7288478501a5.glb",
+        "bytes": 1612448,
+        "encoded": 1612148,
+        "duration": 8.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/d4cd8252c355bcea.glb",
+        "bytes": 11196480,
+        "encoded": 11196180,
+        "duration": 85.29999995231628
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9a1c35c75e8a1d3a.glb",
+        "bytes": 704348,
+        "encoded": 704048,
+        "duration": 5.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/66cd8b15460d9a6e.glb",
+        "bytes": 1070744,
+        "encoded": 1070444,
+        "duration": 9.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/0befd9f091380173.glb",
+        "bytes": 1034044,
+        "encoded": 1033744,
+        "duration": 9.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/26520e811dcb817b.glb",
+        "bytes": 924200,
+        "encoded": 923900,
+        "duration": 6.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/aad73318ef2f4fa8.glb",
+        "bytes": 733824,
+        "encoded": 733524,
+        "duration": 7.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/e3481e392c364a5a.glb",
+        "bytes": 1212176,
+        "encoded": 1211876,
+        "duration": 7.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/c3519d12fc90653b.glb",
+        "bytes": 695260,
+        "encoded": 694960,
+        "duration": 8.399999856948853
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/de42eb051388fc29.glb",
+        "bytes": 854492,
+        "encoded": 854192,
+        "duration": 5.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/1cb440f842ebe281.glb",
+        "bytes": 1303616,
+        "encoded": 1303316,
+        "duration": 7.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9ddc6d9abd4d5dac.glb",
+        "bytes": 1109312,
+        "encoded": 1109012,
+        "duration": 7.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ce9669fe89f885be.glb",
+        "bytes": 1518700,
+        "encoded": 1518400,
+        "duration": 9.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/b241f5c43ce4b478.glb",
+        "bytes": 2777024,
+        "encoded": 2776724,
+        "duration": 18.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/8875bf31ae5cb98e.glb",
+        "bytes": 1617512,
+        "encoded": 1617212,
+        "duration": 9.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/8d446f9cb554e015.glb",
+        "bytes": 18255348,
+        "encoded": 18255048,
+        "duration": 51.89999985694885
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a2f68abf1669b5b5.glb",
+        "bytes": 611940,
+        "encoded": 611640,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a3e9e0326237062a.glb",
+        "bytes": 915856,
+        "encoded": 915556,
+        "duration": 8.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/media/2395dd3e64852731.mp4",
+        "bytes": 144286,
+        "encoded": 143986,
+        "duration": 6.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/fae4b773826b54ea.glb",
+        "bytes": 706620,
+        "encoded": 706320,
+        "duration": 7.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/73d446a0c0f89e26.glb",
+        "bytes": 22986020,
+        "encoded": 22985720,
+        "duration": 61.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9ab1bfdec67435ba.glb",
+        "bytes": 21413372,
+        "encoded": 21413072,
+        "duration": 63
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/88ba5805be661007.webp",
+        "bytes": 101156,
+        "encoded": 100856,
+        "duration": 3.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/3df91a5cb44a0d43.webp",
+        "bytes": 851752,
+        "encoded": 851452,
+        "duration": 6.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/55595b8a60985dd5.webp",
+        "bytes": 125486,
+        "encoded": 125186,
+        "duration": 5.799999952316284
+      }
+    ]
+  },
+  {
+    "name": "room",
+    "run": 1,
+    "cache": "warm",
+    "ready": true,
+    "readyMs": 1216,
+    "idleTaskMs": 219.98300000000003,
+    "idleScriptMs": 176.543,
+    "heapMB": 7.157749176025391,
+    "requests": 82,
+    "idleRequests": 0,
+    "transferMB": 70.61535930633545,
+    "longTasks": 2,
+    "longTaskMs": 152,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/styles.css",
+        "bytes": 300,
+        "encoded": 3782,
+        "duration": 3.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/loading.css",
+        "bytes": 300,
+        "encoded": 2007,
+        "duration": 3
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/bootstrap.js",
+        "bytes": 300,
+        "encoded": 287,
+        "duration": 4.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/loading.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 8.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 300,
+        "encoded": 10580,
+        "duration": 4.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/errors.js",
+        "bytes": 300,
+        "encoded": 630,
+        "duration": 2.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 300,
+        "encoded": 1995,
+        "duration": 3
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 300,
+        "encoded": 2751,
+        "duration": 3.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 300,
+        "encoded": 1018,
+        "duration": 3.9000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Normal%20Select.cur",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3.1000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/api/loading-text",
+        "bytes": 38665,
+        "encoded": 38365,
+        "duration": 2.8000001907348633
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/app.js",
+        "bytes": 300,
+        "encoded": 8816,
+        "duration": 2.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 300,
+        "encoded": 1345,
+        "duration": 3.700000047683716
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/build/three.module.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/core.js",
+        "bytes": 300,
+        "encoded": 2382,
+        "duration": 5.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/cameras.js",
+        "bytes": 300,
+        "encoded": 4166,
+        "duration": 4.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/rendering.js",
+        "bytes": 300,
+        "encoded": 2853,
+        "duration": 5.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/lighting.js",
+        "bytes": 300,
+        "encoded": 5400,
+        "duration": 6.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/assets.js",
+        "bytes": 300,
+        "encoded": 4035,
+        "duration": 8.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/resources.js",
+        "bytes": 300,
+        "encoded": 1618,
+        "duration": 8.899999856948853
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/media.js",
+        "bytes": 300,
+        "encoded": 9944,
+        "duration": 10.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/menu.js",
+        "bytes": 300,
+        "encoded": 10380,
+        "duration": 11.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/orientation-store.js",
+        "bytes": 300,
+        "encoded": 1408,
+        "duration": 10.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 300,
+        "encoded": 6364,
+        "duration": 8.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 300,
+        "encoded": 15456,
+        "duration": 9.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/data/market.json",
+        "bytes": 300,
+        "encoded": 127,
+        "duration": 10.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Link%20Select.cur",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 15.5
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/controls/OrbitControls.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/EffectComposer.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/RenderPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/ShaderPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/shaders/GammaCorrectionShader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/OutlinePass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/config.js",
+        "bytes": 300,
+        "encoded": 6077,
+        "duration": 7.599999904632568
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/shaders/CopyShader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/MaskPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/Pass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/lights/RectAreaLightUniformsLib.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/runtime-assets.js",
+        "bytes": 300,
+        "encoded": 4425,
+        "duration": 5.1000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vape-variation.js",
+        "bytes": 300,
+        "encoded": 1796,
+        "duration": 7
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/GLTFLoader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/BufferGeometryUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/trump-screen-fit.js",
+        "bytes": 300,
+        "encoded": 52000,
+        "duration": 5.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/preview-config.js",
+        "bytes": 300,
+        "encoded": 2160,
+        "duration": 5.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/post-text.js",
+        "bytes": 300,
+        "encoded": 454,
+        "duration": 5.900000095367432
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/SkeletonUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/preview.js",
+        "bytes": 300,
+        "encoded": 864,
+        "duration": 5.800000190734863
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 1.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/preview-orientations.json",
+        "bytes": 300,
+        "encoded": 2031,
+        "duration": 2.6999998092651367
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/98212a4e95148ba6.glb",
+        "bytes": 0,
+        "encoded": 1545724,
+        "duration": 2
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/00ac1773df99cecb.glb",
+        "bytes": 0,
+        "encoded": 2407160,
+        "duration": 8.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a310d2ac939deb85.glb",
+        "bytes": 0,
+        "encoded": 3321100,
+        "duration": 37
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/white-tv/loading-frame.png",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 3
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/4436278c805cd0c6.glb",
+        "bytes": 0,
+        "encoded": 2585756,
+        "duration": 7
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a1505f30baaa97c7.glb",
+        "bytes": 0,
+        "encoded": 2569828,
+        "duration": 5.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ceff06346e816193.glb",
+        "bytes": 0,
+        "encoded": 2579324,
+        "duration": 4.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/3343b8bbb3b37f32.glb",
+        "bytes": 0,
+        "encoded": 2587456,
+        "duration": 7
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a45a7288478501a5.glb",
+        "bytes": 0,
+        "encoded": 1612148,
+        "duration": 1.1000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/d4cd8252c355bcea.glb",
+        "bytes": 11196480,
+        "encoded": 11196180,
+        "duration": 53
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9a1c35c75e8a1d3a.glb",
+        "bytes": 0,
+        "encoded": 704048,
+        "duration": 0.7000000476837158
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/66cd8b15460d9a6e.glb",
+        "bytes": 0,
+        "encoded": 1070444,
+        "duration": 0.8000001907348633
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/0befd9f091380173.glb",
+        "bytes": 0,
+        "encoded": 1033744,
+        "duration": 0.7999999523162842
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/26520e811dcb817b.glb",
+        "bytes": 0,
+        "encoded": 923900,
+        "duration": 0.8000001907348633
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/aad73318ef2f4fa8.glb",
+        "bytes": 0,
+        "encoded": 733524,
+        "duration": 0.7000000476837158
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/e3481e392c364a5a.glb",
+        "bytes": 0,
+        "encoded": 1211876,
+        "duration": 0.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/c3519d12fc90653b.glb",
+        "bytes": 0,
+        "encoded": 694960,
+        "duration": 0.7000000476837158
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/de42eb051388fc29.glb",
+        "bytes": 0,
+        "encoded": 854192,
+        "duration": 0.7999999523162842
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/1cb440f842ebe281.glb",
+        "bytes": 0,
+        "encoded": 1303316,
+        "duration": 1
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9ddc6d9abd4d5dac.glb",
+        "bytes": 0,
+        "encoded": 1109012,
+        "duration": 0.7999999523162842
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ce9669fe89f885be.glb",
+        "bytes": 0,
+        "encoded": 1518400,
+        "duration": 1
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/b241f5c43ce4b478.glb",
+        "bytes": 0,
+        "encoded": 2776724,
+        "duration": 3.1999998092651367
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/8875bf31ae5cb98e.glb",
+        "bytes": 0,
+        "encoded": 1617212,
+        "duration": 1.2000000476837158
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/8d446f9cb554e015.glb",
+        "bytes": 18255348,
+        "encoded": 18255048,
+        "duration": 47.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a2f68abf1669b5b5.glb",
+        "bytes": 0,
+        "encoded": 611640,
+        "duration": 0.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a3e9e0326237062a.glb",
+        "bytes": 0,
+        "encoded": 915556,
+        "duration": 0.7999999523162842
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/media/2395dd3e64852731.mp4",
+        "bytes": 144286,
+        "encoded": 143986,
+        "duration": 2.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/fae4b773826b54ea.glb",
+        "bytes": 0,
+        "encoded": 706320,
+        "duration": 0.7999999523162842
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/73d446a0c0f89e26.glb",
+        "bytes": 22986020,
+        "encoded": 22985720,
+        "duration": 49.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9ab1bfdec67435ba.glb",
+        "bytes": 21413372,
+        "encoded": 21413072,
+        "duration": 93.60000014305115
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/88ba5805be661007.webp",
+        "bytes": 300,
+        "encoded": 100856,
+        "duration": 2
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/3df91a5cb44a0d43.webp",
+        "bytes": 300,
+        "encoded": 851452,
+        "duration": 2.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/55595b8a60985dd5.webp",
+        "bytes": 300,
+        "encoded": 125186,
+        "duration": 2.299999952316284
+      }
+    ]
+  },
+  {
+    "name": "room",
+    "run": 2,
+    "cache": "cold",
+    "ready": true,
+    "readyMs": 1464,
+    "idleTaskMs": 245.56599999999995,
+    "idleScriptMs": 198.639,
+    "heapMB": 8.97768783569336,
+    "requests": 82,
+    "idleRequests": 0,
+    "transferMB": 107.5581111907959,
+    "longTasks": 1,
+    "longTaskMs": 175,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/styles.css",
+        "bytes": 4082,
+        "encoded": 3782,
+        "duration": 9
+      },
+      {
+        "name": "http://127.0.0.1:8001/loading.css",
+        "bytes": 2307,
+        "encoded": 2007,
+        "duration": 8.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/loading.js",
+        "bytes": 4518,
+        "encoded": 4218,
+        "duration": 10.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/bootstrap.js",
+        "bytes": 587,
+        "encoded": 287,
+        "duration": 9.300000190734863
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 10880,
+        "encoded": 10580,
+        "duration": 9.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Normal%20Select.cur",
+        "bytes": 626,
+        "encoded": 326,
+        "duration": 6.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/errors.js",
+        "bytes": 930,
+        "encoded": 630,
+        "duration": 2.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 2295,
+        "encoded": 1995,
+        "duration": 4.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 1318,
+        "encoded": 1018,
+        "duration": 2.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 3051,
+        "encoded": 2751,
+        "duration": 3.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/api/loading-text",
+        "bytes": 38665,
+        "encoded": 38365,
+        "duration": 3.0999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/app.js",
+        "bytes": 9116,
+        "encoded": 8816,
+        "duration": 2.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 1645,
+        "encoded": 1345,
+        "duration": 2.799999952316284
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/build/three.module.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 222.29999995231628
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/core.js",
+        "bytes": 2682,
+        "encoded": 2382,
+        "duration": 3
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/rendering.js",
+        "bytes": 3153,
+        "encoded": 2853,
+        "duration": 3.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/cameras.js",
+        "bytes": 4466,
+        "encoded": 4166,
+        "duration": 4.199999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/assets.js",
+        "bytes": 4335,
+        "encoded": 4035,
+        "duration": 12.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/resources.js",
+        "bytes": 1918,
+        "encoded": 1618,
+        "duration": 13.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/lighting.js",
+        "bytes": 5700,
+        "encoded": 5400,
+        "duration": 14.099999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/media.js",
+        "bytes": 10244,
+        "encoded": 9944,
+        "duration": 14.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/menu.js",
+        "bytes": 10680,
+        "encoded": 10380,
+        "duration": 17.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/orientation-store.js",
+        "bytes": 1708,
+        "encoded": 1408,
+        "duration": 19.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 6664,
+        "encoded": 6364,
+        "duration": 13.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 15756,
+        "encoded": 15456,
+        "duration": 13.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/data/market.json",
+        "bytes": 427,
+        "encoded": 127,
+        "duration": 18.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Link%20Select.cur",
+        "bytes": 626,
+        "encoded": 326,
+        "duration": 20.299999952316284
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/EffectComposer.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 115.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/config.js",
+        "bytes": 6377,
+        "encoded": 6077,
+        "duration": 16.40000009536743
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/OutlinePass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 84.70000004768372
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/shaders/GammaCorrectionShader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 85.90000009536743
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/RenderPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 104.90000009536743
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/ShaderPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 143.40000009536743
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/controls/OrbitControls.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 97.20000004768372
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/runtime-assets.js",
+        "bytes": 4725,
+        "encoded": 4425,
+        "duration": 4.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vape-variation.js",
+        "bytes": 2096,
+        "encoded": 1796,
+        "duration": 8.299999952316284
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/GLTFLoader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 84
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/trump-screen-fit.js",
+        "bytes": 52300,
+        "encoded": 52000,
+        "duration": 9.800000190734863
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/lights/RectAreaLightUniformsLib.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 149
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/post-text.js",
+        "bytes": 754,
+        "encoded": 454,
+        "duration": 7.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/preview.js",
+        "bytes": 1164,
+        "encoded": 864,
+        "duration": 10.399999856948853
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/SkeletonUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 115.79999995231628
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/preview-config.js",
+        "bytes": 2460,
+        "encoded": 2160,
+        "duration": 11.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 2960,
+        "encoded": 2660,
+        "duration": 11.200000047683716
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/Pass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 70.90000009536743
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/shaders/CopyShader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 42.5
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/BufferGeometryUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 43.299999952316284
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/MaskPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 47.90000009536743
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/preview-orientations.json",
+        "bytes": 2331,
+        "encoded": 2031,
+        "duration": 2.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/98212a4e95148ba6.glb",
+        "bytes": 1546024,
+        "encoded": 1545724,
+        "duration": 12
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/00ac1773df99cecb.glb",
+        "bytes": 2407460,
+        "encoded": 2407160,
+        "duration": 10.600000143051147
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a310d2ac939deb85.glb",
+        "bytes": 3321400,
+        "encoded": 3321100,
+        "duration": 45.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/white-tv/loading-frame.png",
+        "bytes": 484844,
+        "encoded": 484544,
+        "duration": 12.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/4436278c805cd0c6.glb",
+        "bytes": 2586056,
+        "encoded": 2585756,
+        "duration": 11.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a1505f30baaa97c7.glb",
+        "bytes": 2570128,
+        "encoded": 2569828,
+        "duration": 13.699999809265137
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ceff06346e816193.glb",
+        "bytes": 2579624,
+        "encoded": 2579324,
+        "duration": 14.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/3343b8bbb3b37f32.glb",
+        "bytes": 2587756,
+        "encoded": 2587456,
+        "duration": 11.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a45a7288478501a5.glb",
+        "bytes": 1612448,
+        "encoded": 1612148,
+        "duration": 9.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/d4cd8252c355bcea.glb",
+        "bytes": 11196480,
+        "encoded": 11196180,
+        "duration": 19.40000009536743
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9a1c35c75e8a1d3a.glb",
+        "bytes": 704348,
+        "encoded": 704048,
+        "duration": 4.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/66cd8b15460d9a6e.glb",
+        "bytes": 1070744,
+        "encoded": 1070444,
+        "duration": 6.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/0befd9f091380173.glb",
+        "bytes": 1034044,
+        "encoded": 1033744,
+        "duration": 3.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/26520e811dcb817b.glb",
+        "bytes": 924200,
+        "encoded": 923900,
+        "duration": 6.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/aad73318ef2f4fa8.glb",
+        "bytes": 733824,
+        "encoded": 733524,
+        "duration": 5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/e3481e392c364a5a.glb",
+        "bytes": 1212176,
+        "encoded": 1211876,
+        "duration": 7.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/c3519d12fc90653b.glb",
+        "bytes": 695260,
+        "encoded": 694960,
+        "duration": 5.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/de42eb051388fc29.glb",
+        "bytes": 854492,
+        "encoded": 854192,
+        "duration": 6.400000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/1cb440f842ebe281.glb",
+        "bytes": 1303616,
+        "encoded": 1303316,
+        "duration": 8.600000143051147
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9ddc6d9abd4d5dac.glb",
+        "bytes": 1109312,
+        "encoded": 1109012,
+        "duration": 6.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ce9669fe89f885be.glb",
+        "bytes": 1518700,
+        "encoded": 1518400,
+        "duration": 9.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/b241f5c43ce4b478.glb",
+        "bytes": 2777024,
+        "encoded": 2776724,
+        "duration": 12.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/8875bf31ae5cb98e.glb",
+        "bytes": 1617512,
+        "encoded": 1617212,
+        "duration": 8.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/8d446f9cb554e015.glb",
+        "bytes": 18255348,
+        "encoded": 18255048,
+        "duration": 54.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a2f68abf1669b5b5.glb",
+        "bytes": 611940,
+        "encoded": 611640,
+        "duration": 3.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a3e9e0326237062a.glb",
+        "bytes": 915856,
+        "encoded": 915556,
+        "duration": 3.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/media/2395dd3e64852731.mp4",
+        "bytes": 144286,
+        "encoded": 143986,
+        "duration": 2.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/fae4b773826b54ea.glb",
+        "bytes": 706620,
+        "encoded": 706320,
+        "duration": 5.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/73d446a0c0f89e26.glb",
+        "bytes": 22986020,
+        "encoded": 22985720,
+        "duration": 40.89999985694885
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9ab1bfdec67435ba.glb",
+        "bytes": 21413372,
+        "encoded": 21413072,
+        "duration": 98.10000014305115
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/88ba5805be661007.webp",
+        "bytes": 101156,
+        "encoded": 100856,
+        "duration": 2.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/3df91a5cb44a0d43.webp",
+        "bytes": 851752,
+        "encoded": 851452,
+        "duration": 3.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/55595b8a60985dd5.webp",
+        "bytes": 125486,
+        "encoded": 125186,
+        "duration": 1.7000000476837158
+      }
+    ]
+  },
+  {
+    "name": "room",
+    "run": 2,
+    "cache": "warm",
+    "ready": true,
+    "readyMs": 1319,
+    "idleTaskMs": 206.8460000000001,
+    "idleScriptMs": 165.90400000000005,
+    "heapMB": 12.652198791503906,
+    "requests": 82,
+    "idleRequests": 0,
+    "transferMB": 70.61535930633545,
+    "longTasks": 2,
+    "longTaskMs": 211,
+    "errors": [],
+    "resources": [
+      {
+        "name": "http://127.0.0.1:8001/styles.css",
+        "bytes": 300,
+        "encoded": 3782,
+        "duration": 3.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/loading.css",
+        "bytes": 300,
+        "encoded": 2007,
+        "duration": 5.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/loading.js",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 7.599999904632568
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/bootstrap.js",
+        "bytes": 300,
+        "encoded": 287,
+        "duration": 5.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-ui.js",
+        "bytes": 300,
+        "encoded": 10580,
+        "duration": 5.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/errors.js",
+        "bytes": 300,
+        "encoded": 630,
+        "duration": 1.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Normal%20Select.cur",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2
+      },
+      {
+        "name": "http://127.0.0.1:8001/api/loading-text",
+        "bytes": 38665,
+        "encoded": 38365,
+        "duration": 2.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/pieces.js",
+        "bytes": 300,
+        "encoded": 1995,
+        "duration": 2.3999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy.js",
+        "bytes": 300,
+        "encoded": 2751,
+        "duration": 2.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/inventory-layout.js",
+        "bytes": 300,
+        "encoded": 1018,
+        "duration": 3.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/app.js",
+        "bytes": 300,
+        "encoded": 8816,
+        "duration": 3.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/economy-rules.js",
+        "bytes": 300,
+        "encoded": 1345,
+        "duration": 2.299999952316284
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/build/three.module.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/rendering.js",
+        "bytes": 300,
+        "encoded": 2853,
+        "duration": 16.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/core.js",
+        "bytes": 300,
+        "encoded": 2382,
+        "duration": 18.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/cameras.js",
+        "bytes": 300,
+        "encoded": 4166,
+        "duration": 11.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/assets.js",
+        "bytes": 300,
+        "encoded": 4035,
+        "duration": 28
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/lighting.js",
+        "bytes": 300,
+        "encoded": 5400,
+        "duration": 27.899999856948853
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/resources.js",
+        "bytes": 300,
+        "encoded": 1618,
+        "duration": 34.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/media.js",
+        "bytes": 300,
+        "encoded": 9944,
+        "duration": 40.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/menu.js",
+        "bytes": 300,
+        "encoded": 10380,
+        "duration": 41.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/orientation-store.js",
+        "bytes": 300,
+        "encoded": 1408,
+        "duration": 42.799999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/inventory.css",
+        "bytes": 300,
+        "encoded": 6364,
+        "duration": 37.10000014305115
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/pieces.json",
+        "bytes": 300,
+        "encoded": 15456,
+        "duration": 43.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/data/market.json",
+        "bytes": 300,
+        "encoded": 127,
+        "duration": 43.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/cursors/Link%20Select.cur",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 48.799999952316284
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/controls/OrbitControls.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/EffectComposer.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/RenderPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/ShaderPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/shaders/GammaCorrectionShader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/OutlinePass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/config.js",
+        "bytes": 300,
+        "encoded": 6077,
+        "duration": 37
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/shaders/CopyShader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/MaskPass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/postprocessing/Pass.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/runtime-assets.js",
+        "bytes": 300,
+        "encoded": 4425,
+        "duration": 26.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/vape-variation.js",
+        "bytes": 300,
+        "encoded": 1796,
+        "duration": 26.799999952316284
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/loaders/GLTFLoader.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/lights/RectAreaLightUniformsLib.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/BufferGeometryUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/ui/fonts/pixel-serif.ttf",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 12.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/trump-screen-fit.js",
+        "bytes": 300,
+        "encoded": 52000,
+        "duration": 11.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/post-text.js",
+        "bytes": 300,
+        "encoded": 454,
+        "duration": 10.5
+      },
+      {
+        "name": "https://unpkg.com/three@0.152.2/examples/jsm/utils/SkeletonUtils.js",
+        "bytes": 0,
+        "encoded": 0,
+        "duration": 0
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/preview.js",
+        "bytes": 300,
+        "encoded": 864,
+        "duration": 11.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/js/preview-config.js",
+        "bytes": 300,
+        "encoded": 2160,
+        "duration": 55.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/preview-orientations.json",
+        "bytes": 300,
+        "encoded": 2031,
+        "duration": 2.8999998569488525
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/98212a4e95148ba6.glb",
+        "bytes": 0,
+        "encoded": 1545724,
+        "duration": 0.9000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/00ac1773df99cecb.glb",
+        "bytes": 0,
+        "encoded": 2407160,
+        "duration": 9.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a310d2ac939deb85.glb",
+        "bytes": 0,
+        "encoded": 3321100,
+        "duration": 39.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/pieces/white-tv/loading-frame.png",
+        "bytes": 300,
+        "encoded": 0,
+        "duration": 2.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/4436278c805cd0c6.glb",
+        "bytes": 0,
+        "encoded": 2585756,
+        "duration": 5.900000095367432
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a1505f30baaa97c7.glb",
+        "bytes": 0,
+        "encoded": 2569828,
+        "duration": 4.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ceff06346e816193.glb",
+        "bytes": 0,
+        "encoded": 2579324,
+        "duration": 43.09999990463257
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/3343b8bbb3b37f32.glb",
+        "bytes": 0,
+        "encoded": 2587456,
+        "duration": 9.100000143051147
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a45a7288478501a5.glb",
+        "bytes": 0,
+        "encoded": 1612148,
+        "duration": 1.4000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/d4cd8252c355bcea.glb",
+        "bytes": 11196480,
+        "encoded": 11196180,
+        "duration": 59.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9a1c35c75e8a1d3a.glb",
+        "bytes": 0,
+        "encoded": 704048,
+        "duration": 0.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/66cd8b15460d9a6e.glb",
+        "bytes": 0,
+        "encoded": 1070444,
+        "duration": 0.5999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/0befd9f091380173.glb",
+        "bytes": 0,
+        "encoded": 1033744,
+        "duration": 0.7999999523162842
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/26520e811dcb817b.glb",
+        "bytes": 0,
+        "encoded": 923900,
+        "duration": 0.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/aad73318ef2f4fa8.glb",
+        "bytes": 0,
+        "encoded": 733524,
+        "duration": 0.40000009536743164
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/e3481e392c364a5a.glb",
+        "bytes": 0,
+        "encoded": 1211876,
+        "duration": 0.9000000953674316
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/c3519d12fc90653b.glb",
+        "bytes": 0,
+        "encoded": 694960,
+        "duration": 0.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/de42eb051388fc29.glb",
+        "bytes": 0,
+        "encoded": 854192,
+        "duration": 0.5999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/1cb440f842ebe281.glb",
+        "bytes": 0,
+        "encoded": 1303316,
+        "duration": 1
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9ddc6d9abd4d5dac.glb",
+        "bytes": 0,
+        "encoded": 1109012,
+        "duration": 1.2999999523162842
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/ce9669fe89f885be.glb",
+        "bytes": 0,
+        "encoded": 1518400,
+        "duration": 1
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/b241f5c43ce4b478.glb",
+        "bytes": 0,
+        "encoded": 2776724,
+        "duration": 32.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/8875bf31ae5cb98e.glb",
+        "bytes": 0,
+        "encoded": 1617212,
+        "duration": 3.700000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/8d446f9cb554e015.glb",
+        "bytes": 18255348,
+        "encoded": 18255048,
+        "duration": 56.39999985694885
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a2f68abf1669b5b5.glb",
+        "bytes": 0,
+        "encoded": 611640,
+        "duration": 0.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/a3e9e0326237062a.glb",
+        "bytes": 0,
+        "encoded": 915556,
+        "duration": 0.5999999046325684
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/media/2395dd3e64852731.mp4",
+        "bytes": 144286,
+        "encoded": 143986,
+        "duration": 2.200000047683716
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/fae4b773826b54ea.glb",
+        "bytes": 0,
+        "encoded": 706320,
+        "duration": 0.5
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/73d446a0c0f89e26.glb",
+        "bytes": 22986020,
+        "encoded": 22985720,
+        "duration": 55.59999990463257
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/models/9ab1bfdec67435ba.glb",
+        "bytes": 21413372,
+        "encoded": 21413072,
+        "duration": 60.299999952316284
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/88ba5805be661007.webp",
+        "bytes": 300,
+        "encoded": 100856,
+        "duration": 1.6000001430511475
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/3df91a5cb44a0d43.webp",
+        "bytes": 300,
+        "encoded": 851452,
+        "duration": 2
+      },
+      {
+        "name": "http://127.0.0.1:8001/optimized/images/55595b8a60985dd5.webp",
+        "bytes": 300,
+        "encoded": 125186,
+        "duration": 1.4000000953674316
+      }
+    ]
+  }
+]

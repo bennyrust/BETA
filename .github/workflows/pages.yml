@@ -24,8 +24,9 @@ jobs:
       - run: npm run check:beta-files
       - run: npm run check:publish
       - run: npm run check:pages-size
-      - run: npm test
+      - run: npm run check:runtime
       - run: npm run build:pages
+      - run: npm test
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

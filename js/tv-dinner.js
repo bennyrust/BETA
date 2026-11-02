@@ -1,3 +1,4 @@
+import {runtimeAsset} from './runtime-assets.js';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { sceneObjects } from './config.js';
@@ -43,7 +44,7 @@ function updateCamera(){
 }
 function resize(){const w=host.clientWidth,h=host.clientHeight;renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();updateCamera();invalidate();}
 new ResizeObserver(resize).observe(host);
-video.src=new URL('../pieces/white-tv/TV Dinner.mp4',import.meta.url).href;video.muted=false;video.volume=1;
+video.src=runtimeAsset(new URL('../pieces/white-tv/TV Dinner.mp4',import.meta.url).href);video.muted=false;video.volume=1;
 video.addEventListener('loadedmetadata',()=>{seek.max=video.duration||0;resize();});video.addEventListener('loadeddata',()=>{screen.visible=true;invalidate();});video.addEventListener('seeked',invalidate);
 video.addEventListener('timeupdate',()=>{seek.value=video.currentTime;});
 video.addEventListener('play',()=>{play.textContent='Pause';invalidate();});video.addEventListener('pause',()=>{play.textContent='Play with sound';invalidate();});
@@ -61,7 +62,7 @@ visibilityButton.onclick=()=>{pivot.visible=!pivot.visible;drag=null;visibilityB
 try{
  const loader=new GLTFLoader();const names=['White TV','GTA with Stand','Toilet'];
  for(const [index,name] of names.entries()){
-  status.textContent=`Loading ${name} (${index+1}/3)…`;const config=sceneObjects.find(c=>c.name===name);const {scene:model}=await loader.loadAsync(new URL('../'+config.file,import.meta.url).href);
+  status.textContent=`Loading ${name} (${index+1}/3)…`;const config=sceneObjects.find(c=>c.name===name);const {scene:model}=await loader.loadAsync(runtimeAsset(new URL('../'+config.file,import.meta.url).href));
   model.name=name;model.position.fromArray(config.position);model.rotation.fromArray([...config.rotation,'XYZ']);model.scale.setScalar(config.scale??1);arrangement.add(model);
  }
  const bounds=new THREE.Box3().setFromObject(arrangement);arrangement.position.sub(bounds.getCenter(new THREE.Vector3()));radius=bounds.getSize(new THREE.Vector3()).length()/2;ready=true;resize();status.hidden=true;

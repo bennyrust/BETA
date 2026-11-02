@@ -1,0 +1,56 @@
+{
+  "netanyahu": {
+    "source": "A110BB49-DF38-4E2A-AF98-8813DCB9114D_1_201_a.jpg",
+    "crop": [
+      287,
+      601,
+      1227,
+      1534
+    ]
+  },
+  "trump": {
+    "source": "A110BB49-DF38-4E2A-AF98-8813DCB9114D_1_201_a.jpg",
+    "crop": [
+      1512,
+      612,
+      2403,
+      1536
+    ]
+  },
+  "putin": {
+    "source": "A110BB49-DF38-4E2A-AF98-8813DCB9114D_1_201_a.jpg",
+    "crop": [
+      2675,
+      608,
+      3603,
+      1547
+    ]
+  },
+  "berlusconi": {
+    "source": "A110BB49-DF38-4E2A-AF98-8813DCB9114D_1_201_a.jpg",
+    "crop": [
+      321,
+      1872,
+      1233,
+      2796
+    ]
+  },
+  "erdogan": {
+    "source": "A110BB49-DF38-4E2A-AF98-8813DCB9114D_1_201_a.jpg",
+    "crop": [
+      1539,
+      1852,
+      2429,
+      2770
+    ]
+  },
+  "gaddafi": {
+    "source": "A110BB49-DF38-4E2A-AF98-8813DCB9114D_1_201_a.jpg",
+    "crop": [
+      2799,
+      1883,
+      3696,
+      2823
+    ]
+  }
+}

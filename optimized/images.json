@@ -1,0 +1,23 @@
+[
+  {
+    "source": "pieces/american-spirit/american spirit.png",
+    "runtime": "optimized/images/88ba5805be661007.webp",
+    "sourceBytes": 2204609,
+    "runtimeBytes": 100856,
+    "publishedSourceBytes": 50965
+  },
+  {
+    "source": "pieces/jd/JD.png",
+    "runtime": "optimized/images/3df91a5cb44a0d43.webp",
+    "sourceBytes": 42050071,
+    "runtimeBytes": 851452,
+    "publishedSourceBytes": 621454
+  },
+  {
+    "source": "pieces/trotsky/Trotsky.png",
+    "runtime": "optimized/images/55595b8a60985dd5.webp",
+    "sourceBytes": 697304,
+    "runtimeBytes": 125186,
+    "publishedSourceBytes": 65323
+  }
+]

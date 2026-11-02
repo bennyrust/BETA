@@ -68,4 +68,16 @@ class CacheTests(unittest.TestCase):
         self.assertEqual(self.request(headers={'If-None-Match':'W/'+headers['ETag']})[0],304)
         self.assertEqual(self.request(headers={'If-None-Match':'"stale"','If-Modified-Since':headers['Last-Modified']})[0],200)
 
+    def test_hashed_runtime_cache_policy(self):
+        directory=self.root/'optimized'/'models'
+        directory.mkdir(parents=True)
+        name='0123456789abcdef.glb'
+        (directory/name).write_bytes(b'model')
+        status,headers,body=self.request('/optimized/models/'+name)
+        self.assertEqual(status,200)
+        self.assertEqual(headers['Cache-Control'],'public, max-age=31536000, immutable')
+        status,headers,_=self.request('/optimized/models/ffffffffffffffff.glb')
+        self.assertEqual(status,404)
+        self.assertEqual(headers['Cache-Control'],'no-store')
+
 if __name__=='__main__':unittest.main()

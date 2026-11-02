@@ -1,0 +1,3 @@
+Felt: supplied attachment codex-clipboard-f27bf4ca-2ad6-48ec-88b5-8f403de8a93e.png, used directly.
+Portrait slices: unchanged photographic crops from A110BB49-DF38-4E2A-AF98-8813DCB9114D_1_201_a.jpg; source edges isolated via browser clip-path polygons in cards/slice-masks.js.
+Blank back: imagegen built-in edit of supplied codex-clipboard-57edb51f-48e5-4de2-964e-06a7c7311801.png. Prompt: extract the exact wrapped cheese slice onto transparent alpha, remove the white surrounding background and Published 2012 overlay, preserve cheese shape, texture, folds and lighting; no text, logos, designed border or illustration. The small formerly occluded area was reconstructed. Saved as cards/blank-cheese-cutout.png and framed by cards/blank-cheese.svg.

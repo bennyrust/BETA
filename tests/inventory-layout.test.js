@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {normalizeLayout,moveStack} from '../js/inventory-layout.js';
+test('legacy ownership migrates into 27 storage and 9 hotbar slots',()=>{const s={items:{luigi:2,crooks:1}};normalizeLayout(s);assert.equal(s.slots.length,36);assert.deepEqual(s.slots.slice(0,3),['luigi','crooks',null]);assert.equal(s.selectedHotbar,0);});
+test('dragging to hotbar and swapping never alters ownership or balance',()=>{const s={items:{luigi:2,crooks:1},coins:123};normalizeLayout(s);moveStack(s,0,27,'luigi');moveStack(s,1,27,'crooks');assert.equal(s.slots[1],'luigi');assert.equal(s.slots[27],'crooks');assert.deepEqual(s.items,{luigi:2,crooks:1});assert.equal(s.coins,123);moveStack(s,27,0,'crooks');assert.equal(s.slots[27],null);});
+test('new purchases preserve chosen slots and append missing items',()=>{const s={items:{luigi:2}};normalizeLayout(s);moveStack(s,0,35,'luigi');s.items.crooks=1;normalizeLayout(s);assert.equal(s.slots[35],'luigi');assert.equal(s.slots[0],'crooks');});
+test('stale drags reject instead of moving another tab’s item',()=>{const s={items:{luigi:1,crooks:1}};normalizeLayout(s);moveStack(s,0,1,'luigi');assert.throws(()=>moveStack(s,0,27,'luigi'));assert.equal(s.slots[0],'crooks');assert.throws(()=>moveStack(s,1,36,'luigi'));});
+test('repair removes duplicate and unowned entries without losing goods',()=>{const s={items:{luigi:1,crooks:2},slots:['luigi','luigi','unknown'],selectedHotbar:20};normalizeLayout(s);assert.equal(s.slots.filter(x=>x==='luigi').length,1);assert.equal(s.slots.filter(x=>x==='crooks').length,1);assert.equal(s.selectedHotbar,0);});

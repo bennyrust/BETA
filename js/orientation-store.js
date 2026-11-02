@@ -25,6 +25,6 @@ export function watchOrientations(signal) {
     try { await refreshOrientations(); }
     catch (error) { console.warn('Preview orientation refresh failed:', error); }
     finally { pending = false; }
-  }, 1500);
+  }, 5000);
   signal.addEventListener('abort', () => clearInterval(timer), { once: true });
 }

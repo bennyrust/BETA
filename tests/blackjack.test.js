@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {deck,total,natural,outcome,portraits} from '../pieces/Autokrafts/blackjack-core.js';
+const cards=(...ranks)=>ranks.map(rank=>({rank}));
+test('deck contains 52 unique rank/suit cards and all six portraits',()=>{const d=deck(()=>.3);assert.equal(d.length,52);assert.equal(new Set(d.map(c=>c.rank+c.suit)).size,52);assert.deepEqual(new Set(d.map(c=>c.portrait)),new Set(portraits));});
+test('aces adapt to prevent busting and faces are worth ten',()=>{assert.equal(total(cards(1,1,9)),21);assert.equal(total(cards(1,13,10)),21);assert.equal(total(cards(12,11)),20);assert.equal(total(cards(10,8,5)),23);});
+test('naturals beat drawn 21; equal naturals push; busts lose',()=>{assert(natural(cards(1,13)));assert(!natural(cards(7,7,7)));assert.equal(outcome(cards(1,13),cards(7,7,7)),'win');assert.equal(outcome(cards(7,7,7),cards(1,13)),'loss');assert.equal(outcome(cards(1,13),cards(1,10)),'push');assert.equal(outcome(cards(10,8),cards(10,6,9)),'win');assert.equal(outcome(cards(10,8,5),cards(10,6,9)),'loss');});

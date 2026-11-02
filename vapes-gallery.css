@@ -4,3 +4,11 @@
 .turnButton{text-decoration:none}
 
 .rotateButton{right:265px}.rotateButton:disabled{opacity:.4;cursor:default}
+
+/* Give each footer control its own space, including the live coin price. */
+.selectorFooter{left:96px;width:1088px;height:40px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.selectorFooter .backControl,.selectorFooter .turnButton,.selectorFooter .selectorControls{position:static;flex:none;white-space:nowrap}
+.selectorFooter .selectorControls{width:120px}
+.selectorFooter .rotateButton{margin-left:auto}
+#buyVape{gap:8px}
+.unitBody .buyPrice{font:inherit;letter-spacing:inherit;margin:8px 0 22px;color:#deded9}

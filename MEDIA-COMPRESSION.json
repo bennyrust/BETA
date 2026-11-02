@@ -35,23 +35,28 @@
     },
     "pieces/side-table/Toaster good-2048.glb": {
       "before": 2028720,
-      "after": 1216672
+      "after": 1216672,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/side-table/table.glb": {
       "before": 10552272,
-      "after": 1515624
+      "after": 1515624,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/side-table/Table-2048.glb": {
       "before": 11311448,
-      "after": 1515576
+      "after": 1515576,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/side-table/sidetable-2048.glb": {
       "before": 42070076,
-      "after": 22985720
+      "after": 22985720,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/room/Floor-2048.glb": {
       "before": 1680440,
-      "after": 1545724
+      "after": 1545724,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/trotsky/Trotsky.png": {
       "before": 697304,
@@ -60,11 +65,13 @@
     },
     "pieces/vapes/Breeze good.glb": {
       "before": 19927260,
-      "after": 2193472
+      "after": 2193472,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/Bourgeoisie vape.glb": {
       "before": 20319600,
-      "after": 2580904
+      "after": 2580904,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/Vapes.blend.zip": {
       "before": 21585026,
@@ -72,11 +79,13 @@
     },
     "pieces/vapes/Neoliberalism vape.glb": {
       "before": 20320552,
-      "after": 2580728
+      "after": 2580728,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/Orientalism vape.glb": {
       "before": 20321192,
-      "after": 2581204
+      "after": 2581204,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/Vapes.blend1.zip": {
       "before": 21583750,
@@ -88,7 +97,8 @@
     },
     "pieces/vapes/Ontology vape.glb": {
       "before": 20324428,
-      "after": 2585756
+      "after": 2585756,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/Breeze1 editable.blend1.zip": {
       "before": 19075154,
@@ -96,11 +106,13 @@
     },
     "pieces/vapes/Fascists vape.glb": {
       "before": 20324372,
-      "after": 2587456
+      "after": 2587456,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/Anti-Racism vape.glb": {
       "before": 20321192,
-      "after": 2584572
+      "after": 2584572,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/can-tower/DSC_6900LG.jpg": {
       "before": 7068291,
@@ -116,7 +128,8 @@
     },
     "pieces/can-tower/Coke cans-2048.glb": {
       "before": 1550212,
-      "after": 704048
+      "after": 704048,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/can-tower/IMG_1251.jpg": {
       "before": 3193899,
@@ -217,7 +230,8 @@
     },
     "pieces/luigi/Luigi good-2048.glb": {
       "before": 1546052,
-      "after": 923900
+      "after": 923900,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/luigi/Mangione_3part_print_FINAL.blend.zip": {
       "before": 78092468,
@@ -225,7 +239,8 @@
     },
     "pieces/cabinet/Cabinet good-2048.glb": {
       "before": 2968844,
-      "after": 2048028
+      "after": 2048028,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/mtg/mtg + fortnite.ai.zip": {
       "before": 21151415,
@@ -233,7 +248,8 @@
     },
     "pieces/mtg/Magic good-2048.glb": {
       "before": 1564656,
-      "after": 854192
+      "after": 854192,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/mtg/mtg + fortnite.png": {
       "before": 738300,
@@ -242,7 +258,8 @@
     },
     "pieces/rittenhouse/Kyle good-2048.glb": {
       "before": 1682212,
-      "after": 1033744
+      "after": 1033744,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/print/DSC_6841LG.jpg": {
       "before": 4728903,
@@ -274,7 +291,8 @@
     },
     "pieces/print/Print good-2048.glb": {
       "before": 2318776,
-      "after": 1303316
+      "after": 1303316,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/print/IMG_1275.jpg": {
       "before": 11002829,
@@ -282,7 +300,8 @@
     },
     "pieces/white-tv/TV Dinner.mp4": {
       "before": 2462478859,
-      "after": 21013609
+      "after": 21013609,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/print/DSC_6837LG.jpg": {
       "before": 6411852,
@@ -290,7 +309,8 @@
     },
     "pieces/nyan-cat/nyan_cat.mp4": {
       "before": 512855,
-      "after": 143986
+      "after": 143986,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/print/DSC_6835LG.jpg": {
       "before": 5628381,
@@ -298,15 +318,18 @@
     },
     "pieces/toilet/Toilet2-2048.glb": {
       "before": 6501036,
-      "after": 2776724
+      "after": 2776724,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/gold-tv/gold1-2048.glb": {
       "before": 2501284,
-      "after": 840252
+      "after": 840252,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/gold-tv/Gold2-2048.glb": {
       "before": 2341064,
-      "after": 611640
+      "after": 611640,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/self portraits/DSC_6824LG.jpg": {
       "before": 6539460,
@@ -330,11 +353,13 @@
     },
     "pieces/window/CSGO.mp4": {
       "before": 2349921219,
-      "after": 5978695
+      "after": 5978695,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/window/Window okay-2048.glb": {
       "before": 6636316,
-      "after": 3321100
+      "after": 3321100,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/gta-with-stand/711061CE-244F-49EC-A68D-90AEA4F84A38_1_105_c.jpg": {
       "before": 614634,
@@ -346,7 +371,8 @@
     },
     "pieces/gta-with-stand/GTA with Stand-2048.glb": {
       "before": 2946288,
-      "after": 915556
+      "after": 915556,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/gta-with-stand/IMG_8523.jpg": {
       "before": 5434263,
@@ -367,7 +393,8 @@
     },
     "pieces/Buddyologies/Buddyologies box.glb": {
       "before": 4424076,
-      "after": 420960
+      "after": 420960,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/Buddyologies/package_rescale copy.ai.zip": {
       "before": 41238070,
@@ -393,7 +420,8 @@
     },
     "pieces/laptop/Laptop better-2048.glb": {
       "before": 1535552,
-      "after": 694960
+      "after": 694960,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/jd/JD.png": {
       "before": 42050071,
@@ -402,11 +430,13 @@
     },
     "pieces/3dprinter/Good print table-2048.glb": {
       "before": 2180360,
-      "after": 1211876
+      "after": 1211876,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/trump/Trump-2048.glb": {
       "before": 20867496,
-      "after": 18255048
+      "after": 18255048,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/trump/dunce_var6 copy.STL.zip": {
       "before": 185040084,
@@ -578,11 +608,13 @@
     },
     "pieces/trashcan/Trashcan fine-2048.glb": {
       "before": 2826952,
-      "after": 1617212
+      "after": 1617212,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/fortnite/Fortnite good-2048.glb": {
       "before": 1468508,
-      "after": 733524
+      "after": 733524,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/fortnite/mtg + fortnite.ai.zip": {
       "before": 21151415,
@@ -2178,7 +2210,8 @@
     },
     "pieces/room/Floor 1-2048.glb": {
       "before": 1646360,
-      "after": 1511644
+      "after": 1511644,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/woke breezes.psd.zip": {
       "before": 6111190,
@@ -2186,11 +2219,13 @@
     },
     "pieces/vapes/Hauntology vape.glb": {
       "before": 20320892,
-      "after": 2579716
+      "after": 2579716,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/Breeze1 bad.glb": {
       "before": 9086448,
-      "after": 2191192
+      "after": 2191192,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/woke breezes 2.png": {
       "before": 1196583,
@@ -2199,23 +2234,28 @@
     },
     "pieces/vapes/Liberation vape.glb": {
       "before": 20316900,
-      "after": 2577092
+      "after": 2577092,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/Monarchism vape.glb": {
       "before": 20309444,
-      "after": 2569212
+      "after": 2569212,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/Post-Modernism vape.glb": {
       "before": 20318004,
-      "after": 2579000
+      "after": 2579000,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/American Empire vape.glb": {
       "before": 20310468,
-      "after": 2569828
+      "after": 2569828,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/vapes/Colonialism vape.glb": {
       "before": 20320000,
-      "after": 2579324
+      "after": 2579324,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/can-tower/DSC_6906LG.jpg": {
       "before": 6591454,
@@ -2271,7 +2311,8 @@
     },
     "pieces/cabinet/shelf-light-2048.glb": {
       "before": 14721308,
-      "after": 11196180
+      "after": 11196180,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/rittenhouse/Rittenhouse_3part_print_FINAL.blend.zip": {
       "before": 90547668,
@@ -2283,7 +2324,8 @@
     },
     "pieces/crooks/Crooks good-2048.glb": {
       "before": 1727452,
-      "after": 1070444
+      "after": 1070444,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/print/IMG_1280.jpg": {
       "before": 12500205,
@@ -2323,23 +2365,28 @@
     },
     "pieces/gta-with-stand/GTA TV (no stand)-2048.glb": {
       "before": 2353048,
-      "after": 706320
+      "after": 706320,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/tissues/Tissues good-2048.glb": {
       "before": 2438988,
-      "after": 1518400
+      "after": 1518400,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/tetsuya/Tetsuya good-2048.glb": {
       "before": 1801652,
-      "after": 1109012
+      "after": 1109012,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/coke/Can ok-2048.glb": {
       "before": 2024612,
-      "after": 1240632
+      "after": 1240632,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/Autokrafts/Cheese okay-2048.glb": {
       "before": 2535412,
-      "after": 1612148
+      "after": 1612148,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     },
     "pieces/consumption log/individual pages/page 64.png": {
       "before": 3796814,
@@ -5245,6 +5292,16 @@
       "before": 121951,
       "after": 25372,
       "palette_colors": 256
+    },
+    "pieces/white-tv/White TV-2048.glb": {
+      "before": 2407160,
+      "after": 2407160,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
+    },
+    "pieces/gun/gun-2048.glb": {
+      "before": 21413072,
+      "after": 21413072,
+      "publication": "Runtime media reused at original path to avoid duplicate downloads"
     }
   },
   "archives": {
@@ -5283,5 +5340,5 @@
     "pieces/crooks/Crooks_3part_print_FINAL.blend": "pieces/crooks/Crooks_3part_print_FINAL.blend.zip"
   },
   "errors": [],
-  "bytes_after": 899964280
+  "bytes_after": 924127732
 }

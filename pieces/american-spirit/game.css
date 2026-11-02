@@ -1,0 +1,22 @@
+@font-face{font-family:W98;src:url('../../ui/fonts/ms-w98-ui/MSW98UI-Regular.woff2')}*{box-sizing:border-box}body{margin:0;background:#ece9db;color:#24251e;font:16px/1.5 W98,Arial,sans-serif}header{max-width:1100px;margin:auto;padding:22px;display:flex;align-items:center;justify-content:space-between;gap:20px}header a{font:36px Georgia;color:inherit;text-decoration:none}h1{font:clamp(20px,3vw,32px) Georgia,serif;letter-spacing:.09em}button{font:inherit;color:inherit;background:#eeecdf;border:1px solid #777769;padding:10px 16px;cursor:pointer}button:hover,button:focus-visible{background:#fffdf1;outline:2px solid #75764c;outline-offset:2px}button:disabled{opacity:.4;cursor:default}main{max-width:1050px;padding:0 22px 40px;margin:auto;display:grid;grid-template-columns:1fr minmax(0,600px);gap:30px}.instructions{padding-top:45px}.instructions>p:first-child{letter-spacing:.17em;font-size:12px}h2{font:26px/1.2 Georgia,serif}.keys{font-size:12px;color:#66675a}output{display:block;margin-top:30px;font-size:20px}.board{border:1px solid #777769;background:#d6d1bb}svg{display:block;width:100%;touch-action:none}.tray{display:flex;gap:10px;padding:14px;justify-content:center;flex-wrap:wrap}.tray button{touch-action:none}.tray .selected{outline:2px solid #41452f;background:#fffdf1}.result{grid-column:1/-1;text-align:center}.result[hidden]{display:none}#moving{opacity:.8;pointer-events:none}#placed{pointer-events:none}@media(max-width:700px){main{grid-template-columns:1fr;gap:12px;padding:0 12px 30px}.instructions{padding:0}.instructions h2{margin:8px 0}.instructions p{margin:8px 0}output{margin:12px 0}.keys{display:none}header{padding:12px}header button{font-size:12px}h1{font-size:18px}}
+.photo-credit{grid-column:1/-1;font-size:11px;text-align:center;margin:0}.photo-credit a{color:#626354}#moving{opacity:.95}.board{align-self:start}
+
+.flash-page main.flash-player{grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:22px;background:#ece9db;height:auto}
+.flash-player .instructions{padding-top:8px}.flash-player .instructions h2{font-size:24px}.flash-player .instructions p{font-size:14px}.flash-player .instructions .keys{font-size:11px}
+.flash-player .board{height:100%;min-height:0;display:flex;flex-direction:column;align-items:center;border:0;background:transparent;overflow:hidden}
+.flash-player svg{height:calc(100% - 62px);width:auto;max-width:100%;min-height:0;flex:1;aspect-ratio:3/4}
+.flash-player .tray{padding:10px 0;gap:6px;flex:none;flex-wrap:nowrap}.flash-player .tray button{padding:8px;font-size:12px}
+.flash-player .result{position:absolute;bottom:64px;left:22px;width:34%;text-align:left}.flash-player .result h2{font-size:22px}.flash-player .result p{font-size:12px}
+.flash-player .photo-credit{position:absolute;bottom:8px;left:12px;right:12px;font-size:9px}
+@media(min-width:901px){.flash-page main.flash-player{height:calc(min(1100px,100vw - 236px) * .5625)}}
+@media(max-width:900px){.flash-page main.flash-player{min-height:620px;grid-template-columns:1fr;gap:12px}.flash-player .instructions h2{margin:8px 0}.flash-player .instructions p{margin:6px 0}.flash-player output{margin:10px 0}.flash-player .board{height:450px}.flash-player svg{height:390px;flex:none}.flash-player .result{position:static;width:auto}.flash-player .photo-credit{position:static}}
+
+/* Photographic pieces wait in the left-hand tray instead of text controls. */
+.flash-player .instructions .tray{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;gap:12px;height:230px;padding:12px 0;margin-top:18px}
+.flash-player .instructions .tray button{border:0;background:transparent;padding:4px;min-width:0;height:210px;cursor:grab;touch-action:none}
+.flash-player .instructions .tray button:active{cursor:grabbing}
+.flash-player .instructions .tray button:hover,.flash-player .instructions .tray .selected{background:transparent;outline:1px dashed #777769;outline-offset:3px}
+.flash-player .instructions .tray button:disabled{visibility:hidden}
+.flash-player .instructions .tray svg{width:100%;height:100%;max-width:100%;aspect-ratio:auto;pointer-events:none;filter:drop-shadow(2px 3px 2px #0003)}
+.flash-player .board>svg{height:100%;flex:1}
+@media(max-width:900px){.flash-player .instructions .tray{height:160px;margin-top:8px;max-width:500px}.flash-player .instructions .tray button{height:140px}.flash-player .board>svg{height:440px;flex:none}.flash-player .board{height:440px}}

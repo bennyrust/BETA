@@ -1,21 +1,9 @@
 <!doctype html>
-<html lang="en" data-site-loading data-loading-mode="content">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>American Spirit — 3D Room</title>
-  <link rel="stylesheet" href="../piece.css">
-  <link rel="stylesheet" href="../../loading.css">
-  <script defer src="../../js/loading.js"></script>
-</head>
-<body>
-  <main>
-    <nav aria-label="Room"><a href="../../index.html?view=player" aria-label="Back to the room" title="Back to the room" style="display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:32px;font-size:28px;line-height:1;text-decoration:none">&lt;</a></nav>
-    <h1>American Spirit</h1>
-    <time id="pieceDate" hidden></time>
-    <article aria-label="Piece documentation"></article>
-    
-  </main>
-<script type="module" src="../../js/piece-page.js"></script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Spirit</title><link rel="stylesheet" href="game.css"><link rel="stylesheet" href="../flash-player.css"></head>
+<body class="flash-page"><header><a href="../../index.html?view=player" aria-label="Back to the room">&lt;</a><h1>AMERICAN SPIRIT</h1><button id="reset">Start over</button></header>
+<div class="flash-layout"><aside class="flash-ad flash-ad-side" aria-label="Left advertisement placeholder">Advertisement</aside><div class="flash-column"><main class="flash-player"><section class="instructions"><p>PIN THE HOOD</p><h2>Place the missing pieces.</h2><output id="score" aria-live="polite">0 / 3 placed</output><div class="tray" aria-label="Pieces to pin"><button data-piece="hood">Hood / mask</button><button data-piece="robe">Robe</button><button data-piece="wires">Hand wires</button></div></section>
+<div class="board"><svg id="scene" viewBox="0 0 600 800" role="img" aria-label="Historical Abu Ghraib photograph with three photographic pieces to place.">
+<defs><clipPath id="photo-hood"><path d="M272 154L274 127L321 34L335 49L343 166L330 181L292 171Z"/></clipPath><clipPath id="photo-robe"><path d="M120 212L204 174L271 153L282 169L317 187L342 164L373 183L402 207L454 234L451 399L420 412L364 398L357 518L327 491L301 489L282 503L254 493L239 510L201 509L179 448L164 374L143 302Z"/></clipPath><clipPath id="photo-wires"><path d="M51 245L65 249L64 271L96 292L115 332L125 366L122 391L130 398L145 389L169 405L165 412L143 397L128 405L116 397L117 367L107 335L91 298L57 276Z M501 275L514 282L511 318L495 354L480 397L475 433L494 451L511 482L502 488L487 457L469 442L460 442L446 436L427 424L404 416L407 407L431 417L451 429L465 431L471 395L485 352L501 316Z"/></clipPath><mask id="missing"><rect width="600" height="800" fill="white"/><g fill="black"><path d="M272 154L274 127L321 34L335 49L343 166L330 181L292 171Z"/><path d="M120 212L204 174L271 153L282 169L317 187L342 164L373 183L402 207L454 234L451 399L420 412L364 398L357 518L327 491L301 489L282 503L254 493L239 510L201 509L179 448L164 374L143 302Z"/><path d="M51 245L65 249L64 271L96 292L115 332L125 366L122 391L130 398L145 389L169 405L165 412L143 397L128 405L116 397L117 367L107 335L91 298L57 276Z M501 275L514 282L511 318L495 354L480 397L475 433L494 451L511 482L502 488L487 457L469 442L460 442L446 436L427 424L404 416L407 407L431 417L451 429L465 431L471 395L485 352L501 316Z"/></g></mask></defs><rect width="600" height="800" fill="#c5bea9"/><g opacity=".15"><image href="reference.jpg" width="600" height="800" preserveAspectRatio="xMidYMid meet"/></g><g mask="url(#missing)"><image href="reference.jpg" width="600" height="800" preserveAspectRatio="xMidYMid meet"/></g><g id="placed"></g><g id="moving"></g></svg>
+</div>
+<section class="result" hidden><h2 id="resultTitle"></h2><p>Each piece is scored by its distance from the intended position.</p></section>
+<p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:AbuGhraibAbuse-standing-on-box.jpg" target="_blank" rel="noopener">Photograph: Abu Ghraib, 4 November 2003 · U.S. Army / CID · Wikimedia Commons</a></p></main><aside class="flash-ad flash-ad-bottom" aria-label="Bottom advertisement placeholder">Advertisement</aside></div><aside class="flash-ad flash-ad-side" aria-label="Right advertisement placeholder">Advertisement</aside></div><script type="module" src="game.js"></script></body></html>

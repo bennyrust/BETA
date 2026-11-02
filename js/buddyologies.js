@@ -1,4 +1,5 @@
-import {purchase,cost} from './economy.js';
+import {runtimeAsset} from './runtime-assets.js';
+import {purchase,watchCost} from './economy.js';
 import {notify,openInventory,inventoryOpen} from './economy-ui.js';
 let buying=false,purchasedToy;
 import { clone } from 'three/addons/utils/SkeletonUtils.js';
@@ -23,7 +24,7 @@ let figureRecords=[],menu,hoverToy=false;
 const menuController=new AbortController();
 let disposeCollection=()=>{};
 function updateCollection(){if(collectionDialog.open){disposeCollection();disposeCollection=renderCollection(figureRecords,figures,counts);}}
-collectionButton.textContent='Inventory';collectionButton.addEventListener('click',()=>{menu?.close();openInventory();});
+collectionButton.textContent='(I) Inventory';collectionButton.addEventListener('click',()=>{menu?.close();openInventory();});
 collectionDialog.addEventListener('close',()=>{disposeCollection();disposeCollection=()=>{};});
 document.getElementById('collectionClose').addEventListener('click',()=>collectionDialog.close());
 collectionDialog.addEventListener('click',e=>{if(e.target===collectionDialog){const r=collectionDialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)collectionDialog.close();}});
@@ -216,19 +217,19 @@ function animate(ms){if(stopped)return;const t=ms/1000;updateHover();box.positio
  rendering.sceneChanged();rendering.render(camera,popupOpen()?null:hoverToy?active:hover?box:null);menu?.render(false);canvas.dataset.state=state;raf=requestAnimationFrame(animate);
 }
 try{
- const asset=await new GLTFLoader().loadAsync(new URL('../pieces/Buddyologies/Buddyologies box.glb',import.meta.url).href);
+ const asset=await new GLTFLoader().loadAsync(runtimeAsset(new URL('../pieces/Buddyologies/Buddyologies box.glb',import.meta.url).href));
  box.add(asset.scene);hinge=asset.scene.getObjectByName('Lidhinge')||asset.scene.getObjectByName('Lid_hinge')||asset.scene.getObjectByName('Lid hinge');
  tab=asset.scene.getObjectByName('Fronttab')||asset.scene.getObjectByName('Front_tab')||asset.scene.getObjectByName('Front tab');
  lid=asset.scene.getObjectByName('Lidpanel')||asset.scene.getObjectByName('Lid_panel')||asset.scene.getObjectByName('Lid panel');
  if(!hinge||!tab||!lid)throw Error('Box lid or front tab missing');
  lidRest=[];lid.traverse(mesh=>{if(mesh.isMesh){mesh.geometry=mesh.geometry.clone();lidRest.push({mesh,rest:mesh.geometry.attributes.position.array.slice()});}});
  asset.scene.traverse(n=>{if(n.isMesh){n.castShadow=true;n.receiveShadow=true;for(const material of [n.material].flat())if(material.map)material.map.anisotropy=rendering.renderer.capabilities.getMaxAnisotropy();}});
- const shelf=(await new GLTFLoader().loadAsync(new URL('../pieces/cabinet/shelf-light-2048.glb',import.meta.url).href)).scene;
+ const shelf=(await new GLTFLoader().loadAsync(runtimeAsset(new URL('../pieces/cabinet/shelf-light-2048.glb',import.meta.url).href))).scene;
  // Express the main room in the cabinet's local coordinates, then apply
  // the same enlargement and offset used by this shelf view.
  const cabinetConfig=sceneObjects.find(object=>object.name==='Cabinet');
  const roomConfig=sceneObjects.find(object=>object.name==='Room');
- const room=(await new GLTFLoader().loadAsync(new URL('../'+roomConfig.file,import.meta.url).href)).scene;
+ const room=(await new GLTFLoader().loadAsync(runtimeAsset(new URL('../'+roomConfig.file,import.meta.url).href))).scene;
  room.position.fromArray(roomConfig.position);room.rotation.fromArray([...roomConfig.rotation,'XYZ']);room.scale.setScalar(roomConfig.scale);
  const cabinetTransform=new THREE.Matrix4().compose(
   new THREE.Vector3(...cabinetConfig.position),
@@ -265,9 +266,9 @@ try{
 
  const records=await(await fetch('../../pieces/pieces.json')).json();const loader=new GLTFLoader();figureRecords=records.filter(p=>figureIds.includes(p.id));
  await refreshOrientations();menu=createMenu({pieces:createPieceCatalog(records),signal:menuController.signal,invalidate:()=>{},onChange:()=>{hover=false;hoverToy=false;}});updateCollection();
- await Promise.all(['luigi','crooks','tetsuya','rittenhouse'].map(async id=>{const record=records.find(r=>r.id===id);const gltf=await loader.loadAsync(new URL('../'+record.assets[0],import.meta.url).href);const object=gltf.scene;object.name=record.sceneName||record.name;object.rotation.set(...previewOrientations[record.sceneName||record.name]);object.updateMatrixWorld(true);let bounds=new THREE.Box3().setFromObject(object,true);const size=bounds.getSize(new THREE.Vector3());object.scale.multiplyScalar(TOY_HEIGHT/size.y);object.updateMatrixWorld(true);bounds=new THREE.Box3().setFromObject(object,true);const center=bounds.getCenter(new THREE.Vector3());object.position.sub(new THREE.Vector3(center.x,bounds.min.y,center.z));object.traverse(n=>{if(n.isMesh){n.castShadow=true;n.receiveShadow=true;}});const pivot=new THREE.Group();pivot.add(object);pivot.userData.name=record.name;pivot.userData.id=id;pivot.userData.sceneName=record.sceneName||record.name;pivot.visible=false;scene.add(pivot);figures.push(pivot);}));
+ await Promise.all(['luigi','crooks','tetsuya','rittenhouse'].map(async id=>{const record=records.find(r=>r.id===id);const gltf=await loader.loadAsync(runtimeAsset(new URL('../'+record.assets[0],import.meta.url).href));const object=gltf.scene;object.name=record.sceneName||record.name;object.rotation.set(...previewOrientations[record.sceneName||record.name]);object.updateMatrixWorld(true);let bounds=new THREE.Box3().setFromObject(object,true);const size=bounds.getSize(new THREE.Vector3());object.scale.multiplyScalar(TOY_HEIGHT/size.y);object.updateMatrixWorld(true);bounds=new THREE.Box3().setFromObject(object,true);const center=bounds.getCenter(new THREE.Vector3());object.position.sub(new THREE.Vector3(center.x,bounds.min.y,center.z));object.traverse(n=>{if(n.isMesh){n.castShadow=true;n.receiveShadow=true;}});const pivot=new THREE.Group();pivot.add(object);pivot.userData.name=record.name;pivot.userData.id=id;pivot.userData.sceneName=record.sceneName||record.name;pivot.visible=false;scene.add(pivot);figures.push(pivot);}));
  state='idle';status.textContent='';window.siteLoading?.finish();raf=requestAnimationFrame(animate);
 }catch(error){console.error(error);status.textContent='Unable to load the box. Reload to try again.';window.siteLoading?.fail(status.textContent);}
 window.addEventListener('pagehide',()=>{stopped=true;cancelAnimationFrame(raf);disposeCollection();menuController.abort();menu?.dispose();rendering.dispose();});
 
-const priceButton=document.createElement('button');priceButton.className='boxPrice';priceButton.textContent='Buy blind box';document.body.append(priceButton);cost('toy').then(n=>priceButton.textContent=`Open blind box · ${n} coins · Space`).catch(e=>notify(e.message));priceButton.onclick=open;
+const priceButton=document.createElement('button');priceButton.className='boxPrice';priceButton.textContent='Buy blind box';document.body.append(priceButton);watchCost('toy',n=>priceButton.textContent=`Open blind box · ${n} coins · Space`,e=>notify(e.message));priceButton.onclick=open;

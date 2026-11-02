@@ -1,0 +1,1 @@
+CS:GO screenshots by Valve, cached from the official Inferno, Dust II and Reintroducing Nuke showcase pages. Individual source URLs are recorded in ../backgrounds.json. Artwork remains property of its respective owners.
